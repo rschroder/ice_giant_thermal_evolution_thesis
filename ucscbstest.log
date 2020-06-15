@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 JUN 2020 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 JUN 2020 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,10 +605,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Package epstopdf Info: Source file: <comparezfc_bw.eps>
-(epstopdf)                    date: 2020-06-13 21:30:28
+(epstopdf)                    date: 2020-06-14 23:05:24
 (epstopdf)                    size: 31206 bytes
 (epstopdf)             Output file: <comparezfc_bw-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-14 11:37:16
+(epstopdf)                    date: 2020-06-14 23:05:24
 (epstopdf)                    size: 15837 bytes
 (epstopdf)             Command: <repstopdf --outfile=comparezfc_bw-eps-converte
 d-to.pdf comparezfc_bw.eps>
