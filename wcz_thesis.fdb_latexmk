@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex wcz_thesis"] 1593846042 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1593847733
+["bibtex wcz_thesis"] 1593846042 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1593848744
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1242948958 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
   "magnetism.bib" 1592201124 93622 6d98e2080b675b0a437a7ecd6e35b07b ""
-  "wcz_thesis.aux" 1593847733 2998 379e84aa350dac28e29b818d5ab650b6 "pdflatex"
+  "wcz_thesis.aux" 1593848623 2998 379e84aa350dac28e29b818d5ab650b6 "pdflatex"
   (generated)
   "wcz_thesis.bbl"
   "wcz_thesis.blg"
-["pdflatex"] 1593847731 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1593847733
+["pdflatex"] 1593848621 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1593848744
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -174,16 +174,16 @@
   "rabbit-or-duck.jpg" 1592201124 27324 0b9ce7bdcf93b705d630debd86f1a72d ""
   "ucsct11.clo" 1592201124 18016 606282ce6ede0b76e96e80b7e990ee92 ""
   "ucscthesisbs.cls" 1592201124 44063 edae4ad1ea5924ebf0aac7d7232fb2de ""
-  "wcz_thesis.aux" 1593847733 2998 379e84aa350dac28e29b818d5ab650b6 "pdflatex"
+  "wcz_thesis.aux" 1593848623 2998 379e84aa350dac28e29b818d5ab650b6 "pdflatex"
   "wcz_thesis.bbl" 1593846042 49 0eba253fc001332e731e8aba3f23127b "bibtex wcz_thesis"
-  "wcz_thesis.lof" 1593847733 477 f932d044733e23dfc072d493e6d6531a "pdflatex"
-  "wcz_thesis.lot" 1593847733 611 be8b056c03bf0f0a64cfb919bf9dcf07 "pdflatex"
-  "wcz_thesis.tex" 1593847729 13195 2eecfa06badc9e45a775e19f33a95dc1 ""
-  "wcz_thesis.toc" 1593847733 770 c65561af8bd1a508b6c01cef514004d7 "pdflatex"
+  "wcz_thesis.lof" 1593848623 477 f932d044733e23dfc072d493e6d6531a "pdflatex"
+  "wcz_thesis.lot" 1593848623 611 be8b056c03bf0f0a64cfb919bf9dcf07 "pdflatex"
+  "wcz_thesis.tex" 1593848620 13186 1c6fb17004d2a54369a36116eca1b02c ""
+  "wcz_thesis.toc" 1593848623 770 c65561af8bd1a508b6c01cef514004d7 "pdflatex"
   (generated)
-  "wcz_thesis.aux"
-  "wcz_thesis.log"
+  "wcz_thesis.lof"
   "wcz_thesis.toc"
   "wcz_thesis.lot"
   "wcz_thesis.pdf"
-  "wcz_thesis.lof"
+  "wcz_thesis.log"
+  "wcz_thesis.aux"
