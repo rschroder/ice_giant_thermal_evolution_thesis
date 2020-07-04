@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  3 JUL 2020 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 JUL 2020 00:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,20 +526,20 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 (./wcz_thesis.aux)
 \openout1 = `wcz_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -568,7 +568,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 28.
+ on input line 31.
 
 [1
 
@@ -601,33 +601,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [7] [8]
  1.
-<fortney_nettelmann2010_UN_curves.png, id=38, 501.875pt x 403.5075pt>
+[1
+
+]
+<fortney_nettelmann2010_UN_curves.png, id=41, 501.875pt x 403.5075pt>
 File: fortney_nettelmann2010_UN_curves.png Graphic file (type png)
 <use fortney_nettelmann2010_UN_curves.png>
 Package pdftex.def Info: fortney_nettelmann2010_UN_curves.png  used on input li
-ne 99.
+ne 115.
 (pdftex.def)             Requested size: 289.07999pt x 232.43369pt.
-[1
-
-] [2 <./fortney_nettelmann2010_UN_curves.png>]
+ [2] [3 <./fortney_nettelmann2010_UN_curves.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 156.
- [3] [4]
+(Font)              <5> on input line 159.
+ [4] [5]
  2.
-<rabbit-or-duck.jpg, id=57, 500.87125pt x 396.48125pt>
+<rabbit-or-duck.jpg, id=61, 500.87125pt x 396.48125pt>
 File: rabbit-or-duck.jpg Graphic file (type jpg)
 <use rabbit-or-duck.jpg>
-Package pdftex.def Info: rabbit-or-duck.jpg  used on input line 230.
+Package pdftex.def Info: rabbit-or-duck.jpg  used on input line 233.
 (pdftex.def)             Requested size: 289.07999pt x 228.84006pt.
-[5
+[6
 
-] [6 <./rabbit-or-duck.jpg>]
+] [7 <./rabbit-or-duck.jpg>]
  3.
-[7
+[8
 
-] [8]
+] [9]
 Appendix A.
-(./wcz_thesis.bbl [9
+(./wcz_thesis.bbl [10
 
 ]
 
@@ -645,17 +646,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [10
+) [11
 
 ] (./wcz_thesis.aux) ) 
 Here is how much of TeX's memory you used:
  23250 strings out of 480608
  614413 string characters out of 5903631
- 1083099 words of memory out of 5000000
+ 1083097 words of memory out of 5000000
  38767 multiletter control sequences out of 15000+600000
  538658 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,100p,706b,1964s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,100p,1834b,1964s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-su
 per/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
@@ -669,10 +670,10 @@ r8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
 .pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
 fb>
-Output written on wcz_thesis.pdf (18 pages, 241466 bytes).
+Output written on wcz_thesis.pdf (19 pages, 243449 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
