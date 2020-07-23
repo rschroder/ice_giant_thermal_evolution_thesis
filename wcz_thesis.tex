@@ -9,7 +9,7 @@
 \bibliographystyle{apalike2}
 \usepackage{natbib}
 \usepackage{graphicx,epsf}% Include figure files
-\usepackage{pgfplots} %for doing graphics within latex!
+
 
 % The following declaration is for citations and bibliographies consistent with
 % Astrophysical Journal specifications.  It may be left out or replaced with
@@ -21,11 +21,11 @@
 \usepackage{pagecolor}
 \usepackage{lipsum}  
 
-\pagecolor{darkgray}
-\color{white}
+% \pagecolor{darkgray}
+% \color{white}
 
-% \pagecolor{white}
-% \color{black}
+\pagecolor{white}
+\color{black}
 
 
 \begin{document}
@@ -35,7 +35,7 @@
 \title{Condensation-inhibited convection in the atmosphere of uranus and its impact on thermal evolution}
 \author{Robert Schroder}
 \degreeyear{2020}
-\degreemonth{27 November}
+\degreemonth{November}
 \degree{BACHELOR OF SCIENCE}
 \field{ASTROPHYSICS}%
 % Declare up to five committee members.  The text will be reproduced directly
@@ -45,7 +45,11 @@
 % If it is wrong, you will get extra or missing lines on the signature page.
 %
 \chair{Professor Bruce Schumm}
-\technicaladvisor{Christopher Mankovich}
+\thesisadvisor{Christopher Mankovich}
+\technicaladvisor{Jonathan Fortney}
+\numberofmembers{3}
+
+
 
 
 \campus{Santa Cruz}
@@ -88,7 +92,7 @@ Stinkers
 %\part{First Part}
 
 \chapter{Introduction}
-As planets coalesce from their protoplanetary disk, they heat from the release of gravitational potential energy. Eventually, they stop collapsing when they reach hydrostatic equilibrium and begin cooling as they release the latent heat of formation through the top of their atmosphere. There are deviations from this evolutionary track, as when terrestrial planets undergo a greenhouse effect, or warm due to the formation of a secondary atmosphere created by outgassing of cooling molten material. Planets, both terrestrial and giant, may migrate closer to their parent star, increasing the amount of stellar radiation absorbed by the planet's atmosphere. In our solar system, the giant planets are far from the Sun and primarily of solar composition. As such, we are not concerned with those warming scenarios here. In this paper, we examine the thermal evolution of the planet Uranus. Uranus is closer to the Sun than its neighbor, Neptune, with which it shares similarities in mass and chemical composition. Strikingly, Uranus is cooler than its more distant counterpart. Much work has been done with model Uranus atmospheres. These models assume a thoroughly convective atmosphere along a dry adiabat and have been consistently at odds with observation of Uranus. They do not predict the under-luminous Uranus that we now observe. In this paper, we explore the impact of condensation-inhibited convection on the planet's thermal evolution to see if it offers a possible explanation for current observations. In section 1.1, we review prior work done on model atmospheres of solar system giant planets. In section 1.2, we review prior work done on the formation of water condensation zones in these hydrogen rich atmospheres. In chapter 2, we describe our model and present our results. In chapter 3, we discuss the ramifications of condensation inhibited convection for the thermal evolution of Uranus. Finally, in chapter 4, we summarize our findings.
+As planets coalesce from their protoplanetary disk, they heat from the release of gravitational potential energy. Eventually, they stop collapsing when they reach hydrostatic equilibrium and begin cooling as they release the latent heat of formation through the top of their atmosphere. There are deviations from this evolutionary track, as when terrestrial planets undergo a greenhouse effect, or warm due to the formation of a secondary atmosphere created by outgassing of cooling molten material. Planets, both terrestrial and giant, may migrate closer to their parent star, increasing the amount of stellar radiation absorbed by the planet's atmosphere. In our solar system, the giant planets are far from the Sun and primarily of solar composition. As such, we are not concerned with those warming scenarios here. In this paper, we examine the thermal evolution of the planet Uranus. Uranus is closer to the Sun than its neighbor, Neptune, with which it shares similarities in mass and chemical composition. Strikingly, Uranus is cooler than its more distant counterpart. Much work has been done with model Uranus atmospheres \citep{fortney_2011}. These models assume a thoroughly convective atmosphere along a dry adiabat and have been consistently at odds with observation of Uranus. They do not predict the under-luminous Uranus that we now observe. In this paper, we explore the impact of condensation-inhibited convection on the planet's thermal evolution to see if it offers a possible explanation for current observations. In section 1.1, we review prior work done on model atmospheres of solar system giant planets. In section 1.2, we review prior work done on the formation of water condensation zones in these hydrogen rich atmospheres. In chapter 2, we describe our model and present our results. In chapter 3, we discuss the ramifications of condensation inhibited convection for the thermal evolution of Uranus. Finally, in chapter 4, we summarize our findings.\citep{friedson_2017} \citep{leconte_2017}.
 
 
 
@@ -165,41 +169,6 @@ $^b$ A much shorter read than War and Peace.
 \end{quote}
 
 \end{table}
-
-\subsection{Graphics with pgfplots}
-
-\pgfmathdeclarefunction{gauss}{2}{%
-  \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
-}
-
-\begin{figure}\label{agraphic}
-\centering
-\begin{tikzpicture}
-\begin{axis}[
-  no markers, domain=0:10, samples=100,
-  axis lines*=left, xlabel=$x$, ylabel=$y$,
-  every axis y label/.style={at=(current axis.above origin),anchor=south},
-  every axis x label/.style={at=(current axis.right of origin),anchor=west},
-  height=5cm, width=12cm,
-  xtick={4,6.5}, ytick=\empty,
-  enlargelimits=false, clip=false, axis on top,
-  grid = major
-  ]
-  \addplot [fill=cyan!20, draw=none, domain=0:5.96] {gauss(6.5,1)} \closedcycle;
-  \addplot [very thick,cyan!50!black] {gauss(4,1)};
-  \addplot [very thick,cyan!50!black] {gauss(6.5,1)};
-\draw [yshift=-0.6cm, latex-latex](axis cs:4,0) -- node [fill=white] {$1.96\sigma$} (axis cs:5.96,0);
-\end{axis}
-\end{tikzpicture}
-\caption{This graphic was generated using the pdfplots package, which is a wrapper for a more fundamental LaTeX package called "tikz".  }
-\end{figure}
-
-In this subsection I show an example of how to create plots {\it within} LaTeX, using a package called "pgfplots".  I have verified that it works in Overleaf.  If you are compiling elsewhere and get an error that the package is unknown, you can either get it at 
-\begin{center}
-{\tt http://pgfplots.sourceforge.net/}
-\end{center}
-or else remove the reference to the package from the preamble of this document and remove the {\tt tikzpicture} block from this subsection.
-
 
 
 \chapter{Previous Work}
@@ -287,13 +256,9 @@ Ancillary material should be put in appendices.  The guidelines are not
 clear whether bibliography comes before or after the appendices, but they
 \emph{suggest} appendices come first.
 
-%\nocite{*}
 
-\bibliography{magnetism}
 
-%\begin{thebibliography}{999}
-%\bibitem{spa02}E. T. Sepp\"{al}\"{a}, A. M. Pulkkinen, and M. J. Alava,
-%Phys.\ Rev.\ B {\bf 66}, 144403 (2002).
-%\end{thebibliography}
+\bibliography{wcz_bib}
+
 
 \end{document}
