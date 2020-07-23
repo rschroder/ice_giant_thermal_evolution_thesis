@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex wcz_thesis"] 1595529879 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1595534562
+["bibtex wcz_thesis"] 1595529879 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1595534827
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1242948958 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
   "wcz_bib.bib" 1594069990 1003 4766c1fc8af9d5ea643b27d6644989ac ""
-  "wcz_thesis.aux" 1595534562 2867 68c38273935d7059043e62348e94fa1f "pdflatex"
+  "wcz_thesis.aux" 1595534827 2867 68c38273935d7059043e62348e94fa1f "pdflatex"
   (generated)
-  "wcz_thesis.bbl"
   "wcz_thesis.blg"
-["pdflatex"] 1595534561 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1595534562
+  "wcz_thesis.bbl"
+["pdflatex"] 1595534826 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1595534827
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -69,16 +69,16 @@
   "rabbit-or-duck.jpg" 1592201124 27324 0b9ce7bdcf93b705d630debd86f1a72d ""
   "ucsct11.clo" 1592201124 18016 606282ce6ede0b76e96e80b7e990ee92 ""
   "ucscthesisbs.cls" 1592201124 44063 edae4ad1ea5924ebf0aac7d7232fb2de ""
-  "wcz_thesis.aux" 1595534562 2867 68c38273935d7059043e62348e94fa1f "pdflatex"
+  "wcz_thesis.aux" 1595534827 2867 68c38273935d7059043e62348e94fa1f "pdflatex"
   "wcz_thesis.bbl" 1595529880 968 a4ef717d39806ea4b8a48ab0761d046b "bibtex wcz_thesis"
-  "wcz_thesis.lof" 1595534562 289 b8424ea3beb19a02ed6257d9be2b5757 "pdflatex"
-  "wcz_thesis.lot" 1595534562 611 be8b056c03bf0f0a64cfb919bf9dcf07 "pdflatex"
-  "wcz_thesis.tex" 1595534554 11656 a1e4fae1233dffb4b25379a162d835ce ""
-  "wcz_thesis.toc" 1595534562 695 d9b6573233349075a53bd76615339e4e "pdflatex"
+  "wcz_thesis.lof" 1595534827 289 b8424ea3beb19a02ed6257d9be2b5757 "pdflatex"
+  "wcz_thesis.lot" 1595534827 611 be8b056c03bf0f0a64cfb919bf9dcf07 "pdflatex"
+  "wcz_thesis.tex" 1595534826 11677 0191a4b7e321189f1b78b0103bb35e81 ""
+  "wcz_thesis.toc" 1595534827 695 d9b6573233349075a53bd76615339e4e "pdflatex"
   (generated)
-  "wcz_thesis.log"
   "wcz_thesis.lof"
+  "wcz_thesis.log"
+  "wcz_thesis.lot"
   "wcz_thesis.aux"
   "wcz_thesis.toc"
-  "wcz_thesis.lot"
   "wcz_thesis.pdf"
