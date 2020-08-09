@@ -3,44 +3,63 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: wcz_thesis.aux
 The style file: apalike2.bst
 Database file #1: wcz_bib.bib
-You've used 3 entries,
+Name 1 in "James B. Pollack, Allan S. Grossman, Ronald Moore, and Harold C. Graboske, Jr." has a comma at the end for entry pollack_1977
+while executing---line 1191 of file apalike2.bst
+Name 1 in "James B. Pollack, Allan S. Grossman, Ronald Moore, and Harold C. Graboske, Jr." has a comma at the end for entry pollack_1977
+while executing---line 1191 of file apalike2.bst
+Name 1 in "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" has a comma at the end for entry graboske_1975
+while executing---line 1191 of file apalike2.bst
+Too many commas in name 1 of "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" for entry graboske_1975
+while executing---line 1191 of file apalike2.bst
+Name 1 in "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" has a comma at the end for entry graboske_1975
+while executing---line 1191 of file apalike2.bst
+Too many commas in name 1 of "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" for entry graboske_1975
+while executing---line 1191 of file apalike2.bst
+Name 1 in "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" has a comma at the end for entry graboske_1975
+while executing---line 1266 of file apalike2.bst
+Too many commas in name 1 of "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" for entry graboske_1975
+while executing---line 1266 of file apalike2.bst
+Name 1 in "James B. Pollack, Allan S. Grossman, Ronald Moore, and Harold C. Graboske, Jr." has a comma at the end for entry pollack_1977
+while executing---line 1266 of file apalike2.bst
+You've used 7 entries,
             2229 wiz_defined-function locations,
-            531 strings with 4675 characters,
-and the built_in function-call counts, 1240 in all, are:
-= -- 114
-> -- 64
-< -- 1
-+ -- 22
-- -- 22
-* -- 110
-:= -- 229
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 26
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 42
-empty$ -- 79
-format.name$ -- 27
-if$ -- 234
+            553 strings with 5251 characters,
+and the built_in function-call counts, 2779 in all, are:
+= -- 270
+> -- 104
+< -- 6
++ -- 38
+- -- 34
+* -- 223
+:= -- 485
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 52
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 108
+empty$ -- 195
+format.name$ -- 47
+if$ -- 551
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 9
-pop$ -- 19
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 21
+pop$ -- 37
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 52
 quote$ -- 0
-skip$ -- 32
+skip$ -- 91
 stack$ -- 0
-substring$ -- 72
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 202
+swap$ -- 18
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 42
 warning$ -- 0
-while$ -- 9
+while$ -- 21
 width$ -- 0
-write$ -- 41
+write$ -- 92
+(There were 9 error messages)
