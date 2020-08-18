@@ -29,7 +29,12 @@ Guillot, T. (2019).
 \bibitem[Harold C.~Graboske \& Olness, 1975]{graboske_1975}
 Harold C.~Graboske, Jr., J. B. P. A. S.~G. \& Olness, R.~J. (1975).
 \newblock The structure and evolution of jupiter: The fluid contraction.
-\newblock {\em The Astrophysical Journal}, , 199, 265--281.
+\newblock {\em The Astrophysical Journal}, 199, 265--281.
+
+\bibitem[Hubbard, 1967]{hubbard_1967}
+Hubbard, W. (1967).
+\newblock Thermal structure of jupiter.
+\newblock {\em The Astrophysical Journal}, 152, 745--754.
 
 \bibitem[James B.~Pollack \& Harold C.~Graboske, 1977]{pollack_1977}
 James B.~Pollack, Allan S.~Grossman, R.~M. \& Harold C.~Graboske, J. (1977).
@@ -42,5 +47,10 @@ Leconte, J., Selsis, F., Hersant, F., \& Guillot, T. (2017).
   Stability against double-diffusive processes and thermal profiles for
   jupiter, saturn, uranus, and neptune.
 \newblock {\em Astronomy and Astrophysics}, A98, 598.
+
+\bibitem[Low, 1966]{low_1966}
+Low, F. (1966).
+\newblock Observations of venus, jupiter, and saturn at λ20 μ.
+\newblock {\em Astronomical Journal}, 71, 391.
 
 \end{thebibliography}
