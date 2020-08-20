@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[DeMarcus, 1958]{demarcus_1958}
+DeMarcus, W. (1958).
+\newblock The constitution of jupiter amd saturn.
+\newblock {\em Astronomical Journal}, 63, 2--27.
+
 \bibitem[Fortney et~al., 2011]{fortney_2011}
 Fortney, J.~J., Ikoma, M., Nettelmann, N., Guillot, T., \& Marley, M.~S.
   (2011).
@@ -31,10 +36,10 @@ Harold C.~Graboske, Jr., J. B. P. A. S.~G. \& Olness, R.~J. (1975).
 \newblock The structure and evolution of jupiter: The fluid contraction.
 \newblock {\em The Astrophysical Journal}, 199, 265--281.
 
-\bibitem[Hubbard, 1967]{hubbard_1967}
-Hubbard, W. (1967).
-\newblock Thermal structure of jupiter.
-\newblock {\em The Astrophysical Journal}, 152, 745--754.
+\bibitem[Hubbard, 1977]{hubbard_1977}
+Hubbard, W. (1977).
+\newblock The jovian surface condition and cooling rate.
+\newblock {\em Icarus}, , 30, 305--310.
 
 \bibitem[James B.~Pollack \& Harold C.~Graboske, 1977]{pollack_1977}
 James B.~Pollack, Allan S.~Grossman, R.~M. \& Harold C.~Graboske, J. (1977).
@@ -52,5 +57,11 @@ Leconte, J., Selsis, F., Hersant, F., \& Guillot, T. (2017).
 Low, F. (1966).
 \newblock Observations of venus, jupiter, and saturn at λ20 μ.
 \newblock {\em Astronomical Journal}, 71, 391.
+
+\bibitem[Wildt, 1947]{wildt_1947}
+Wildt, R. (1947).
+\newblock The constitution of the planets (council report on the progress of
+  astronomy).
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, , 107, 84.
 
 \end{thebibliography}
