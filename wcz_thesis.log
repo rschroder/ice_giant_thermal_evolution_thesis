@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  19 AUG 2020 21:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 SEP 2020 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,13 +208,13 @@ Package epstopdf Info: Source file: <figures/f10.eps>
 (epstopdf)                    size: 22064 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/f10-eps-converted-
 to.pdf figures/f10.eps>
-(epstopdf)             \includegraphics on input line 109.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 <figures/f10-eps-converted-to.pdf, id=36, 505.89pt x 361.35pt>
 File: figures/f10-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/f10-eps-converted-to.pdf>
 Package pdftex.def Info: figures/f10-eps-converted-to.pdf  used on input line 1
-09.
+06.
 (pdftex.def)             Requested size: 289.07999pt x 206.48993pt.
  [2 <./figures/f10-eps-converted-to.pdf>] [3]
  2.
@@ -222,22 +222,24 @@ Package pdftex.def Info: figures/f10-eps-converted-to.pdf  used on input line 1
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
- 132.
+ 131.
 (pdftex.def)             Requested size: 505.89pt x 551.5847pt.
-<figures/radiative_plots_1.png, id=47, 1895.1603pt x 1714.0035pt>
-File: figures/radiative_plots_1.png Graphic file (type png)
-<use figures/radiative_plots_1.png>
-Package pdftex.def Info: figures/radiative_plots_1.png  used on input line 140.
-
-(pdftex.def)             Requested size: 505.89pt x 457.53027pt.
+<figures/static_radiative_layer_plots_without_grid_points.png, id=47, 1300.1373
+pt x 1442.0274pt>
+File: figures/static_radiative_layer_plots_without_grid_points.png Graphic file
+ (type png)
+<use figures/static_radiative_layer_plots_without_grid_points.png>
+Package pdftex.def Info: figures/static_radiative_layer_plots_without_grid_poin
+ts.png  used on input line 141.
+(pdftex.def)             Requested size: 505.89pt x 561.09023pt.
 [4
 
 ]
 
 LaTeX Warning: Text page 5 contains only floats.
 
-[5 <./figures/convection_inhibited_2.png>] [6 <./figures/radiative_plots_1.png>
-]
+[5 <./figures/convection_inhibited_2.png>] [6 <./figures/static_radiative_layer
+_plots_without_grid_points.png>]
  3.
 [7
 
@@ -290,12 +292,12 @@ You may provide a definition with
 ) [10] (./wcz_thesis.aux) ) 
 Here is how much of TeX's memory you used:
  3119 strings out of 480608
- 52168 string characters out of 5903631
+ 52354 string characters out of 5903631
  472390 words of memory out of 5000000
  18978 multiletter control sequences out of 15000+600000
  538490 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,37p,875b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,6n,37p,889b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/
 cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
@@ -304,7 +306,7 @@ amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (18 pages, 4822268 bytes).
+Output written on wcz_thesis.pdf (18 pages, 3341139 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream

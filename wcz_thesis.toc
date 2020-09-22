@@ -8,5 +8,8 @@
 \contentsline {chapter}{\numberline {2}Model Uranus and Neptune with Condensation-inhibited Convection}{4}%
 \contentsline {section}{\numberline {2.1}Numerical Model}{4}%
 \contentsline {section}{\numberline {2.2}Results}{4}%
+\contentsline {subsection}{\numberline {2.2.1}Condensation-inhibited Convection}{4}%
+\contentsline {subsection}{\numberline {2.2.2}Radiative Layer}{4}%
+\contentsline {subsection}{\numberline {2.2.3}Thermal Evolution}{4}%
 \contentsline {chapter}{\numberline {3}Discussion and Conclusions}{7}%
 \contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{8}%

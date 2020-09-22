@@ -103,9 +103,9 @@ INPUT ./figures/f10-eps-converted-to.pdf
 INPUT figures/convection_inhibited_2.png
 INPUT ./figures/convection_inhibited_2.png
 INPUT ./figures/convection_inhibited_2.png
-INPUT figures/radiative_plots_1.png
-INPUT ./figures/radiative_plots_1.png
-INPUT ./figures/radiative_plots_1.png
+INPUT figures/static_radiative_layer_plots_without_grid_points.png
+INPUT ./figures/static_radiative_layer_plots_without_grid_points.png
+INPUT ./figures/static_radiative_layer_plots_without_grid_points.png
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT wcz_thesis.bbl
 INPUT wcz_thesis.bbl
