@@ -1,10 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[DeMarcus, 1958]{demarcus_1958}
-DeMarcus, W. (1958).
-\newblock The constitution of jupiter amd saturn.
-\newblock {\em Astronomical Journal}, 63, 2--27.
-
 \bibitem[Fortney et~al., 2011]{fortney_2011}
 Fortney, J.~J., Ikoma, M., Nettelmann, N., Guillot, T., \& Marley, M.~S.
   (2011).
@@ -25,26 +20,10 @@ Guillot, T. (1995).
   convection in giant planets.
 \newblock {\em Science}, (pp.\ 1697--1699).
 
-\bibitem[Guillot, 2019]{guillot_2019}
-Guillot, T. (2019).
-\newblock Uranus and neptune are key to understand planets with hydrogen
-  atmospheres.
-\newblock {\em arXiv.org}.
-
-\bibitem[Harold C.~Graboske \& Olness, 1975]{graboske_1975}
-Harold C.~Graboske, Jr., J. B. P. A. S.~G. \& Olness, R.~J. (1975).
-\newblock The structure and evolution of jupiter: The fluid contraction.
-\newblock {\em The Astrophysical Journal}, 199, 265--281.
-
-\bibitem[Hubbard, 1977]{hubbard_1977}
-Hubbard, W. (1977).
-\newblock The jovian surface condition and cooling rate.
-\newblock {\em Icarus}, , 30, 305--310.
-
-\bibitem[James B.~Pollack \& Harold C.~Graboske, 1977]{pollack_1977}
-James B.~Pollack, Allan S.~Grossman, R.~M. \& Harold C.~Graboske, J. (1977).
-\newblock A calculation of saturn's gravitational contraction history.
-\newblock {\em Icarus}, , 30, 111--128.
+\bibitem[L.~Scheibe, 2019]{scheibe_2019}
+L.~Scheibe, N~Nettelmann, R.~R. (2019).
+\newblock Thermal evolution of uranus and neptune: Adiabatic models.
+\newblock {\em Astronomy and Astrophysics}, A70, 632.
 
 \bibitem[Leconte et~al., 2017]{leconte_2017}
 Leconte, J., Selsis, F., Hersant, F., \& Guillot, T. (2017).
@@ -53,15 +32,15 @@ Leconte, J., Selsis, F., Hersant, F., \& Guillot, T. (2017).
   jupiter, saturn, uranus, and neptune.
 \newblock {\em Astronomy and Astrophysics}, A98, 598.
 
-\bibitem[Low, 1966]{low_1966}
-Low, F. (1966).
-\newblock Observations of venus, jupiter, and saturn at λ20 μ.
-\newblock {\em Astronomical Journal}, 71, 391.
+\bibitem[M.~Podolak, 1991]{podolak_1991}
+M.~Podolak, W.B.~Hubbard, D.~S. (1991).
+\newblock Models of uranus' interior and magnetic field.
+\newblock {\em Uranus, Editors: J.T. Bergstralh, E.D. Miner, M. Shapely
+  Matthews}, (pp.\~29).
 
-\bibitem[Wildt, 1947]{wildt_1947}
-Wildt, R. (1947).
-\newblock The constitution of the planets (council report on the progress of
-  astronomy).
-\newblock {\em Monthly Notices of the Royal Astronomical Society}, , 107, 84.
+\bibitem[W.B.~Hubbard, 1995]{hubbard_1995}
+W.B.~Hubbard, D.~S. (1995).
+\newblock The interior of neptune.
+\newblock {\em Neptune and Triton, Editor: D.P. Kruikshank}, (pp.\ 109).
 
 \end{thebibliography}

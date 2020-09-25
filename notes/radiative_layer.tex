@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\begin{document}
+
+\title{Notes on WCZ}
+\maketitle
+
+\section{Thermal evolution}
+Conservation of energy relates the instantaneous luminosity profile $L(m)$ to the rate of change of specific entropy $s$ in the planet:
+\begin{equation}
+  \frac{dL}{dm}=-T\frac{\delta s}{\delta t}.
+\end{equation}
+Integrating over the mass of the planet and solving for $\delta t$ yields
+\begin{equation}
+\delta t=-\frac{1}{L_{\rm int}}\int_0^M T\,\delta s\,dm
+\end{equation}
+where $L_{\rm int}$ is the intrinsic luminosity $4\pi R^2\sigma_{\rm SB}T_{\rm int}^4$.
+
+For our assumed ideal mixture of light elements (H/He) and heavy elements (H$_2$O) this entropy difference is simply
+\begin{equation}
+  \delta s = (1-Z)\delta s_{HHe} + Z\delta s_Z
+\end{equation}
+where in practice $\delta s_Z$ is computed in terms of the change in internal energy and density:
+\begin{equation}
+  T\,\delta s_Z = \delta u_Z + P\delta\left(\rho_Z^{-1}\right).
+\end{equation}
+
+\section{Temperature jump across the radiative layer}
+Letting $P_{\rm top}$ and $T_{\rm top}$ denote the pressure and temperature at the top of the stable (radiative) layer, the temperature within the radiative layer is given by
+\begin{align}
+T(P) &= T_{\rm top} + \int_{P_{\rm top}}^P\left(\frac{dT}{dP}\right)_{\rm rad}\,d P. \label{eq.t_of_p}
+\end{align}
+The radiative zone is thin under the relatively opaque conditions typical of water condensation zones in the ice giants (Leconte et al. 2017, Friedson \& Gonzales 2017). As a result our discretized model does not spatially resolve the radiative layer. Instead we treat the layer as a discontinuous increase in $T$ and water vapor mole fraction $x_{\rm vap}$. Here we derive the magnitude of the temperature jump in the limit of a thin radiative zone.
+
+Over a thin layer, the radiative temperature gradient
+\begin{align}
+  \left(\frac{dT}{dP}\right)_{\rm rad}=\frac{T}{P}\nabla_{\rm rad}
+  = \frac{T}{P}\times\frac{3}{16}\frac{\kappa_R P}{g}\frac{T_{\rm int}^4}{T^4}
+\end{align}
+is nearly constant. In this case the integral in (\ref{eq.t_of_p}) simplifies to
+\begin{align}
+T_{\rm base}\equiv T(P+\Delta P) &= T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\Delta P.\label{eq.t1}
+\end{align}
+
+Just as in the moist troposphere above, the local water vapor mole fraction $x_{\rm vap}$ follows the saturation value $x_{\rm vap}^{\rm sat}$ everywhere within the radiative layer, i.e.,
+\begin{align}
+x_{\rm vap}(P, T) &= x_{\rm vap}^{\rm sat}(P, T) = \frac{e_s(T)}{P}, \qquad P<P_{\rm base}.
+\end{align}
+We denote by $P_{\rm base}$ and $T_{\rm base}$ the pressure and temperature at the base of the radiative zone, which is set by the condition that $x_{\rm vap}$ has reached the deep value $x_{\rm vap}^{\rm deep}$:
+\begin{align}
+% x_{\rm vap}^{\rm sat}(P_{\rm top}, T_{\rm top}) &= \frac{e_s(T_{\rm top})}{P_{\rm top}} \\
+x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) &= \frac{e_s(T_{\rm base})}{P_{\rm base}}=x_{\rm vap}^{\rm deep} \\
+\implies \Delta P \equiv P_{\rm base}-P_{\rm top} &= \frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}.\label{eq.delta_p_xvap_deep}
+\end{align}
+(Here $e_s$ is the H$_2$O saturation vapor pressure, calculated from XXXX relation [describe what the method from thermodynamics.py actually does].)
+Deeper pressures $P>P_{\rm base}$ are sub-saturated and hence no further condensation of H$_2$O takes place.
+$\Delta P$ gives the extent, in pressure coordinates, of the radiative layer. Combining (\ref{eq.delta_p_xvap_deep}) and (\ref{eq.t_of_p}) yields  
+\begin{align}
+T_{\rm base} &= T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\left(\frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}\right)
+\end{align}
+which we numerically solve for $T_{\rm base}$. Deeper temperatures are then obtained by integrating the dry adiabat $\nabla_{\rm ad}$:
+\begin{align}
+T(P>P_{\rm base}) &= T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P. \label{eq.t_of_p_deep_dry}
+\end{align}
+
+
+\end{document}

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex wcz_thesis"] 1600155874 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1600748147
+["bibtex wcz_thesis"] 1601013705 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1601013710
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1242948958 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
-  "wcz_bib.bib" 1597820579 2983 73df563af4ff5330845a00aea05bfe8a ""
-  "wcz_thesis.aux" 1600748147 3495 a23e5802d4ce015cdc2130968e91c934 "pdflatex"
+  "wcz_bib.bib" 1601005031 3724 610f017ef7e7577a9a1050a73ee3546f ""
+  "wcz_thesis.aux" 1601013710 2687 338fe2fd79ea46c9fa58c3baad5edc0d "pdflatex"
   (generated)
   "wcz_thesis.blg"
   "wcz_thesis.bbl"
-["pdflatex"] 1600748142 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1600748147
+["pdflatex"] 1601013705 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1601013710
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -60,20 +60,20 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "figures/convection_inhibited_2.png" 1596146872 2457821 33d98b18176e44106a8d5162cb159397 ""
-  "figures/f10.eps" 1291927166 32988 6120250c5e1918e42ad6afcb12434c4d ""
   "figures/static_radiative_layer_plots_without_grid_points.png" 1599187663 2103315 0bf24bc5604f9342371cefcb57a029ca ""
+  "figures/uranus_with_wcz_structure.001.jpeg" 1601012930 220242 5e38c60f6bc7b441154d98a93911c806 ""
   "ucsct11.clo" 1592201124 18016 606282ce6ede0b76e96e80b7e990ee92 ""
   "ucscthesisbs.cls" 1592201124 44063 edae4ad1ea5924ebf0aac7d7232fb2de ""
-  "wcz_thesis.aux" 1600748147 3495 a23e5802d4ce015cdc2130968e91c934 "pdflatex"
-  "wcz_thesis.bbl" 1600155874 2568 33f7eebfc9dd7a87411635e9ae930443 "bibtex wcz_thesis"
-  "wcz_thesis.lof" 1600748147 378 b0106ebab866197b032d900e063d0e44 "pdflatex"
-  "wcz_thesis.lot" 1600748147 80 8ef3760424b18d5315040b0f3a94f59e "pdflatex"
-  "wcz_thesis.tex" 1600748141 6233 f6871f42c18f6b0b1e30a86ab3610615 ""
-  "wcz_thesis.toc" 1600748147 990 aafd66b6066268551f79e883f6021c3c "pdflatex"
+  "wcz_thesis.aux" 1601013710 2687 338fe2fd79ea46c9fa58c3baad5edc0d "pdflatex"
+  "wcz_thesis.bbl" 1601013705 1798 a89f5594475f8bd2bcb16ed63835f22e "bibtex wcz_thesis"
+  "wcz_thesis.lof" 1601013710 373 a3bb6c97298316fa6ada1bb5c917e458 "pdflatex"
+  "wcz_thesis.lot" 1601013710 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
+  "wcz_thesis.tex" 1601013694 4365 81dbdfc068a6cdd18a3795c67b815e8f ""
+  "wcz_thesis.toc" 1601013710 701 6e5bbc8885082ba8577d69e76d64e23d "pdflatex"
   (generated)
-  "wcz_thesis.toc"
-  "wcz_thesis.pdf"
   "wcz_thesis.lot"
   "wcz_thesis.lof"
   "wcz_thesis.log"
+  "wcz_thesis.pdf"
   "wcz_thesis.aux"
+  "wcz_thesis.toc"
