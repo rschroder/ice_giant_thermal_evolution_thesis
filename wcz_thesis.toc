@@ -4,9 +4,9 @@
 \contentsline {chapter}{Acknowledgements}{viii}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \contentsline {chapter}{\numberline {2}Methodology}{2}%
-\contentsline {chapter}{\numberline {3}Results}{4}%
-\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{4}%
-\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{4}%
-\contentsline {section}{\numberline {3.3}Thermal Evolution}{4}%
-\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{7}%
-\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{8}%
+\contentsline {chapter}{\numberline {3}Results}{5}%
+\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{5}%
+\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{5}%
+\contentsline {section}{\numberline {3.3}Thermal Evolution}{5}%
+\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{8}%
+\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{9}%

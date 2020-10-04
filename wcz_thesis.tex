@@ -20,12 +20,13 @@
 \usepackage{xcolor}
 \usepackage{pagecolor}
 \usepackage{lipsum}  
+\usepackage{subfig}
 
-\pagecolor{darkgray}
-\color{white}
+% \pagecolor{darkgray}
+% \color{white}
 
-% \pagecolor{white}
-% \color{black}
+\pagecolor{white}
+\color{black}
 
 
 \begin{document}
@@ -99,25 +100,69 @@ There have been various attempts to model the underluminous Uranus. [how much sh
 
 \chapter{Methodology}
 
-[List out the equations of state that we are using, and what model atmosphere]
+Include equations of state for interior structure, alpha, grad rad, etc..
+
+% Condensation is inhibited when $\alpha \lt 0$, where $\alpha$ is given by:
+
+\begin{equation}
+  \alpha = 1 + \xi (q_{s} L / R_{W} T_{0}) 
+\end{equation}
+
+\begin{equation}
+	T(P) = T_{\rm top} + \int_{P_{\rm top}}^P\left(\frac{dT}{dP}\right)_{\rm rad}\,d P
+\end{equation}
+
+\begin{equation}
+  \left(\frac{dT}{dP}\right)_{\rm rad}=\frac{T}{P}\nabla_{\rm rad} = \frac{T}{P}\times\frac{3}{16}\frac{\kappa_R P}{g}\frac{T_{\rm int}^4}{T^4}
+\end{equation}
+
+\begin{equation}
+	T_{\rm base}\equiv T(P+\Delta P) = T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\Delta P.
+\end{equation}
+
+\begin{equation}
+	x_{\rm vap}(P, T) = x_{\rm vap}^{\rm sat}(P, T) = \frac{e_s(T)}{P}, \qquad P<P_{\rm base}.
+\end{equation}
+
+\begin{equation}
+x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) = \frac{e_s(T_{\rm base})}{P_{\rm base}}=x_{\rm vap}^{\rm deep}
+\Longrightarrow \Delta P \equiv P_{\rm base}-P_{\rm top} = \frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}
+\end{equation}
+
+\begin{equation}
+	T_{\rm base} = T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\left(\frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}\right)
+\end{equation}
+
+\begin{equation}
+T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P. \label{eq.t_of_p_deep_dry}
+\end{equation}
 
 
 
-\begin{figure}[ht!]
- \centerline{
-  \includegraphics[width=7.0in]{figures/uranus_with_wcz_structure.001.jpeg}
- }
-\caption[Interior Structure]
-{Interior structure of Uranus with moist adiabatic layer}
-\label{fig:uranus}
+\begin{figure}%
+    \centering
+    \subfloat[\centering The interiror structure for dry adiabat. This can also represent the situation in which the water condensation zone has eroded and the interior becomes fully convective. ]{{\includegraphics[width=12cm]{figures/structure_schematic_images/structure_schematic_images.001} }}%
+    \qquad
+    \subfloat[\centering The interior structure when a condensation zone has formed, creating a potentially stable, radiative layer. This represents the cloud base. It's depth decreases with a decrease in $T_{10}$. ]{{\includegraphics[width=12cm]{figures/structure_schematic_images/structure_schematic_images.002} }}%
+    \caption{Interior structure model for Uranus}%
+    \label{fig:example}%
 \end{figure}
+
+% \begin{figure}[ht!]
+%  \centerline{
+%   \includegraphics[width=7.0in]{figures/uranus_with_wcz_structure.001.jpeg}
+%  }
+% \caption[Interior Structure]
+% {Model of interior structure of Uranus without condensation on the left and with condensation on the right. The dry adiabat model on the left can also represent the situation in which the water condensation zone has eroded and the interior becomes fully convective. The figure on the right shows the interior structure when a condensation zone has formed, creating a potentially stable, radiative layer. This represents the cloud base. It's depth decreases with a decrease in $T_{10}$.}
+% \label{fig:uranus}
+% \end{figure}
 
 
 
 \chapter{Results}
 
 \section{Condensation-inhibited Convection}
-
+Talk about Figure 3.1.
 \begin{figure}[ht!]
  \centerline{
   \includegraphics[width=7.0in]{figures/convection_inhibited_2.png}
@@ -127,8 +172,10 @@ There have been various attempts to model the underluminous Uranus. [how much sh
 \label{fig:uranus}
 \end{figure}
 
-\section{Formation of Radiative Layer}
 
+
+\section{Formation of Radiative Layer}
+Talk about Figure 3.2.
 \begin{figure}[ht!]
  \centerline{
   \includegraphics[width=7.0in]{figures/static_radiative_layer_plots_without_grid_points.png}
@@ -140,7 +187,7 @@ There have been various attempts to model the underluminous Uranus. [how much sh
 
 
 \section{Thermal Evolution}
-
+Talk about Figure 3.3.
 
 
 
