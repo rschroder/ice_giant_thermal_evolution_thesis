@@ -21,12 +21,13 @@
 \usepackage{pagecolor}
 \usepackage{lipsum}  
 \usepackage{subfig}
+\usepackage{amsmath}
 
-% \pagecolor{darkgray}
-% \color{white}
+\pagecolor{darkgray}
+\color{white}
 
-\pagecolor{white}
-\color{black}
+% \pagecolor{white}
+% \color{black}
 
 
 \begin{document}
@@ -100,13 +101,21 @@ There have been various attempts to model the underluminous Uranus. [how much sh
 
 \chapter{Methodology}
 
-Include equations of state for interior structure, alpha, grad rad, etc..
+Begin with discussion of interiror model when there is no condensation. The temperature-pressure profile follows a dry adiabat, given by $\nabla_{\rm ad}$:
 
-% Condensation is inhibited when $\alpha \lt 0$, where $\alpha$ is given by:
+\begin{equation}
+T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P
+\end{equation}
+
+Condensation is inhibited when $\alpha < 1$, where is $\alpha$ is given by:
 
 \begin{equation}
   \alpha = 1 + \xi (q_{s} L / R_{W} T_{0}) 
 \end{equation}
+
+If condensation is found to be inhibited, the pressure-temperature follows a moist adiabat. Need to add equations for that here. Also, need to look at when moist adiabat is calculated. I recall it being calculated down to 1200 bars, but this changed with inclusion of radiative layer.
+
+At pressure where $\alpha < 1$, the cloud base of the water condensation zone forms. This thin, stable radiative layer has a temperature that is governed by:
 
 \begin{equation}
 	T(P) = T_{\rm top} + \int_{P_{\rm top}}^P\left(\frac{dT}{dP}\right)_{\rm rad}\,d P
@@ -133,8 +142,10 @@ x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) = \frac{e_s(T_{\rm base})}{P_{
 	T_{\rm base} = T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\left(\frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}\right)
 \end{equation}
 
+Below the base of the radiative layer, the temperature-pressure profile again follows a dry adiabat, given by $\nabla_{\rm ad}$ (replace with reference to original equation:
+
 \begin{equation}
-T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P. \label{eq.t_of_p_deep_dry}
+T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P
 \end{equation}
 
 
