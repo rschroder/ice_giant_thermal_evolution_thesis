@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 OCT 2020 01:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 OCT 2020 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,61 +347,54 @@ Package caption Info: End \AtBeginDocument code.
  2.
 [2
 
-]
-<figures/structure_schematic_images/structure_schematic_images.001.jpeg, id=45,
+] [3]
+<figures/structure_schematic_images/structure_schematic_images.001.jpeg, id=48,
  1027.84pt x 770.88pt>
 File: figures/structure_schematic_images/structure_schematic_images.001.jpeg Gr
 aphic file (type jpg)
 <use figures/structure_schematic_images/structure_schematic_images.001.jpeg>
 Package pdftex.def Info: figures/structure_schematic_images/structure_schematic
-_images.001.jpeg  used on input line 155.
+_images.001.jpeg  used on input line 157.
 (pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
-<figures/structure_schematic_images/structure_schematic_images.002.jpeg, id=46,
+<figures/structure_schematic_images/structure_schematic_images.002.jpeg, id=49,
  1027.84pt x 770.88pt>
 File: figures/structure_schematic_images/structure_schematic_images.002.jpeg Gr
 aphic file (type jpg)
 <use figures/structure_schematic_images/structure_schematic_images.002.jpeg>
 Package pdftex.def Info: figures/structure_schematic_images/structure_schematic
-_images.002.jpeg  used on input line 157.
+_images.002.jpeg  used on input line 159.
 (pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
 
 
-LaTeX Warning: Float too large for page by 65.05148pt on input line 160.
+LaTeX Warning: Float too large for page by 65.05148pt on input line 162.
 
-[3] [4 <./figures/structure_schematic_images/structure_schematic_images.001.jpe
+[4] [5 <./figures/structure_schematic_images/structure_schematic_images.001.jpe
 g> <./figures/structure_schematic_images/structure_schematic_images.002.jpeg>]
  3.
-<figures/convection_inhibited_2.png, id=55, 1322.541pt x 1442.0274pt>
+<figures/convection_inhibited_2.png, id=59, 1322.541pt x 1442.0274pt>
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
- 180.
+ 182.
 (pdftex.def)             Requested size: 505.89pt x 551.5847pt.
-<figures/static_radiative_layer_plots_without_grid_points.png, id=57, 1300.1373
+<figures/static_radiative_layer_plots_without_grid_points.png, id=61, 1300.1373
 pt x 1442.0274pt>
 File: figures/static_radiative_layer_plots_without_grid_points.png Graphic file
  (type png)
 <use figures/static_radiative_layer_plots_without_grid_points.png>
 Package pdftex.def Info: figures/static_radiative_layer_plots_without_grid_poin
-ts.png  used on input line 193.
+ts.png  used on input line 195.
 (pdftex.def)             Requested size: 505.89pt x 561.09023pt.
-[5
+[6
 
-]
-
-LaTeX Warning: Text page 6 contains only floats.
-
-[6 <./figures/convection_inhibited_2.png>]
-
-LaTeX Warning: Text page 7 contains only floats.
-
-[7 <./figures/static_radiative_layer_plots_without_grid_points.png>]
+] [7 <./figures/convection_inhibited_2.png>] [8 <./figures/static_radiative_lay
+er_plots_without_grid_points.png>]
  4.
-[8
+[9
 
 ]
 Appendix A.
-(./wcz_thesis.bbl [9
+(./wcz_thesis.bbl [10
 
 ]
 
@@ -416,14 +409,14 @@ l.1 \begin{thebibliography}{}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[10
+[11
 
-]) [11] (./wcz_thesis.aux) ) 
+]) [12] (./wcz_thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 5100 strings out of 480608
- 85193 string characters out of 5903631
+ 5109 strings out of 480608
+ 85389 string characters out of 5903631
  474390 words of memory out of 5000000
- 20904 multiletter control sequences out of 15000+600000
+ 20913 multiletter control sequences out of 15000+600000
  540528 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,11n,49p,539b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -443,10 +436,10 @@ cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 .pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
 b>
-Output written on wcz_thesis.pdf (19 pages, 3788828 bytes).
+Output written on wcz_thesis.pdf (20 pages, 3792707 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

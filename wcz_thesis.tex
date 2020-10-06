@@ -96,26 +96,29 @@ I'd like to thank my attorney, Bob Loblaw
 \chapter{Introduction}
 Observations of Uranus show a planet that appears to be in thermal equilibrium with the Sun. Observation has also shown that Uranus is cooler than its more distant neighbor, Neptune. Meanwhile, thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature during the current epoch\citep{fortney_2011}, \citep{podolak_1991}, \citep{hubbard_1995}, \citep{scheibe_2019} [There are other papers by Nettelmann 2013, Linder 2019 that I haven't looked at yet]. 
 
-There have been various attempts to model the underluminous Uranus. [how much should i go into work done with different EOS's?] The formation of stable layers, trapping internal energy in the the interior of Uranus and Neptune was proposed by \citep{podolak_1991}. Work on the formation of stable condensation zones, inhibiting convection, have been investigated by \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}. 
+There have been various attempts to explain the underluminous Uranus. The formation of stable layers, trapping internal energy in the the interior of Uranus and Neptune was proposed by \citep{podolak_1991}. There has also been much work done investigating the formation of stable condensation zones that inhibit convection \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}. 
 
 
 \chapter{Methodology}
+When modeling the thermal evolution of gas and ice giants, it has long been recognized that model atmospheres constitute an outer boundary condition for interior structure models, providing key inputs that impact cooling times for interior structure models. Our work considers both the Graboske 1975 \citep{graboske_1975} and Fortney 20111 \citep{fortney_2011} model atmospheres. Unless otherwise stated, our results will utilize the Graboske model atmospheres. 
 
-Begin with discussion of interiror model when there is no condensation. The temperature-pressure profile follows a dry adiabat, given by $\nabla_{\rm ad}$:
+Below the atmosphere, our model of the interior structure is represented by three layers, seen schematically in Figure (2a) and (2b). There is an outer envelope, which is $H$ and $He$ dominated with trace amounts of $H_{2}O$. For the outer envelope, our implementation utilizes the MH13SCVH EOS \citep{miguel_2018}. The inner envelope is $H_{2}O$ dominated with uniform amounts of $H$ and $He$, using the MAZEVET EOS \citep{mazevet_2019}. The core is .....
+
+Previous interior models have assumed a dry adiabatic interiror. In this case, the temperature-pressure profile follows a dry adiabat, given by $\nabla_{\rm ad}$:
 
 \begin{equation}
 T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P
 \end{equation}
 
-Condensation is inhibited when $\alpha < 1$, where is $\alpha$ is given by:
+Our model adds a moist adiabatic layer to the outer envelope when conditions are suitable for the formation of a stable water condensation zone. Condensation is inhibited when $\alpha < 1$, where is $\alpha$ \citep{friedson_2017} is given by:
 
 \begin{equation}
   \alpha = 1 + \xi (q_{s} L / R_{W} T_{0}) 
 \end{equation}
 
-If condensation is found to be inhibited, the pressure-temperature follows a moist adiabat. Need to add equations for that here. Also, need to look at when moist adiabat is calculated. I recall it being calculated down to 1200 bars, but this changed with inclusion of radiative layer.
+If condensation is found to be inhibited, the pressure-temperature prfile follows a moist adiabat. Include equations for $q_{s}$, latent heat, xi, saturation vapor pressure, ... other equations that define the moist adiabat.
 
-At pressure where $\alpha < 1$, the cloud base of the water condensation zone forms. This thin, stable radiative layer has a temperature that is governed by:
+At pressure where $\alpha < 1$, the cloud base of the water condensation zone forms. This thin, stable radiative layer has a temperature profile that is governed by:
 
 \begin{equation}
 	T(P) = T_{\rm top} + \int_{P_{\rm top}}^P\left(\frac{dT}{dP}\right)_{\rm rad}\,d P
@@ -149,7 +152,6 @@ T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\righ
 \end{equation}
 
 
-
 \begin{figure}%
     \centering
     \subfloat[\centering The interiror structure for dry adiabat. This can also represent the situation in which the water condensation zone has eroded and the interior becomes fully convective. ]{{\includegraphics[width=12cm]{figures/structure_schematic_images/structure_schematic_images.001} }}%
@@ -179,8 +181,8 @@ Talk about Figure 3.1.
   \includegraphics[width=7.0in]{figures/convection_inhibited_2.png}
  }
 \caption[Inhibition of convection on Uranus]
-{Need to add text here}
-\label{fig:uranus}
+{add description re: moist adiabat, when/where convection is inhibited and where the radiative zone base is in these plots. explain differences}
+\label{fig:convection_inhibited}
 \end{figure}
 
 
@@ -192,8 +194,8 @@ Talk about Figure 3.2.
   \includegraphics[width=7.0in]{figures/static_radiative_layer_plots_without_grid_points.png}
  }
 \caption[Inhibition of convection on Neptune]
-{Need to add description here }
-\label{fig:neptune}
+{add description these plots. explain differences}
+\label{fig:radiative}
 \end{figure}
 
 
