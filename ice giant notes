@@ -1,0 +1,38 @@
+SLIDE 1
+- These plots show cooling curves using our model using an interior with no condensation....roughly in the same ballpark as previous work shown in Fortney 2011 and Scheibe 2019
+
+SLIDE 2
+- Briefly mention our moist adiabat model in contrast with dry adiabat
+	-This reverts to a dry adiabat when there is no condensation
+
+SLIDE 3
+- These plots were generated using a moist adiabatic model that does not yet handle the formation of a radiative zone ( z1 is the initial homogeneous abundance for the outer envelope) 
+
+- Shows that the outer envelope will be stabilized against convection with supercritical z1
+
+- The bottom of the radiative layer (cloud base) would be the top of each shaded region, which will be shown in next slide
+
+SLIDE 4
+- In these plots, the model now handles the creation of a radiative zone where convection is inhibited by condensation
+
+- Re: q_deep = 0.05, note the slight kinks in the PT graphs show the base of the condensation zone…but these not stable against convection because of subcritical z1 abundance
+
+- Visible are the radiative gradient temperature jumps for the plots where q_deep = 0.15 and 0.25 where we have a critical abundance
+
+- The onset of condensation-inhibited convection occurs just after t10 = 380K for both q_deep = 0.15 and 0.25
+
+SLIDE 5
+- Similar to previous plot but highlighting the difference between q_deep 0.05 and 0.25, of note:
+
+- Especially clear for current/recent t-10’s, this plot highlights that the deep interior looks like a hotter deep interior from earlier t-10’s, relative to the subcritical model
+
+SLIDE 6
+- Light blue and dashed red horizontal lines are observed T_eff for Neptune and Uranus, respectively. Vertical line is ~4.6 Gyr
+
+- Do we want all z1’s here, or just z=0.25 since abundance doesn’t seem to have a huge impact?
+
+SLIDE 7
+Need to add notes here.
+
+SLIDE 8
+Need to add notes here.

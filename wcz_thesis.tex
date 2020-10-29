@@ -95,25 +95,25 @@ I'd like to thank....
 %\part{First Part}
 
 \chapter{Introduction}
-Observations of Uranus show a planet that appears to be in thermal equilibrium with the Sun. Observation has also shown that Uranus is cooler than its more distant neighbor, Neptune. Thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature during the current epoch\citep{fortney_2011}, \citep{podolak_1991}, \citep{hubbard_1995}, \citep{scheibe_2019} [There are other papers by Nettelmann 2013, Linder 2019 that I haven't looked at yet]. 
+Observations of Uranus show a planet that appears to be in thermal equilibrium with the Sun. Observations have also shown that Uranus is cooler than its more distant neighbor, Neptune. Thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature during the current epoch\citep{fortney_2011}, \citep{podolak_1991}, \citep{hubbard_1995}, \citep{scheibe_2019} [There are other papers by Nettelmann 2013, Linder 2019 that I haven't looked at yet]. 
 
 There have been various attempts to explain the underluminous Uranus. The formation of stable layers, trapping internal energy in the the interior of Uranus and Neptune was proposed by \citep{podolak_1991}. There has also been much work done investigating the formation of stable condensation zones that inhibit convection \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}. 
 
 
-\chapter{Model}
+\chapter{Theory}
 
-\section{Theoretical Foundations for Fully Convective, Dry Interior}
-Underlying the model are mathematics and physics dating back to the first attempts to model the thermal evolution of giant planets \citep{hubbard_1977} and later attempts to model Uranus and Neptune \citep{hubbard_1977_2} and \citep{podolak_1991}. We begin with conservation of mass:
+\section{Background: Thermal Evolution with Dry Convection}
+Understanding the physics of solar system gas and ice giant planets, and attempts to model their thermal evolution date back to the mid to late twentieth century \citep{hubbard_1977}, \citep{hubbard_1977_2}, and \citep{podolak_1991}. Their interior structure is determined by the following equations. Conservation of mass:
 
 \begin{equation}
   \frac{dm}{dr} =4 \pi r^{2}\rho  
 \end{equation}
-where $dm$ is the mass contained within a sphere of radius $r$. $\rho(r)$ is the density at radius $r$. We also assume hydrostatic equilibrium, given by:
+where $dm$ is the mass contained within a sphere of radius $r$. $\rho(r)$ is the density at radius $r$. Hydrostatic equilibrium is assumed and described by:
 
 \begin{equation}
   \frac{dP}{dr} = -\frac{Gm\rho}{r^{2}}  
 \end{equation}
-where $P$ is the pressure and $G$ is the gravitational constant. For onservation of energy and the thermal evolution of the planet, we relate the intrinsic luminosity profile $L(m)$ to the rate of change of specific entropy $s$ in the planet as follows:
+where $P$ is the pressure and $G$ is the gravitational constant. NEED STATEMENT ON CONSERVATION OF ENERGY AND THERMAL EVOLUTION of the planet, we relate the intrinsic luminosity profile $L(m)$ to the rate of change of specific entropy $s$ in the planet as follows:
 
 \begin{equation}
   \frac{dL}{dm}=-T\frac{\delta s}{\delta t}.
@@ -129,7 +129,8 @@ where $L_{\rm int}$ is the intrinsic luminosity, given by:
   L_{\rm int} = 4\pi r^{2}\sigma_{\rm SB}T_{\rm int}^{4}
 \end{equation}
 
-Furthermore, for our base comparison model, we assume a standard three-layer structure for Uranus and Neptune as seen in Figure 2.1. At the center of the planet is a core made of ??. The inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$, using the MAZEVET EOS \citep{mazevet_2019}. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. Both  inner and outer envelopes are fully convective, with the pressure-temperature profile following a dry adiabat, given by $\nabla_{\rm ad}$:
+
+A common practice is to assume a three-layer interior structure (CITE), which we assume for our model as well, as seen in Figure 2.1. At the center of the planet is a core made of ??. The inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$, using the MAZEVET EOS \citep{mazevet_2019}. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. Both  inner and outer envelopes are fully convective, with the pressure-temperature profile following a dry adiabat, $\nabla_{\rm ad}$, given by :
 
 \begin{equation}
 T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P
@@ -148,7 +149,7 @@ T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\righ
 Finally, beyond the outer envelope is the atmosphere. When modeling the thermal evolution of gas and ice giants, it has long been recognized that model atmospheres constitute an outer boundary condition for interior structure models, providing key inputs that impact cooling times for interior structure models. Our work considers both \citep{graboske_1975} and \citep{fortney_2011} model atmospheres. Unless otherwise stated, our results will utilize the Fortney 2011 model atmospheres. 
 
 
-\section{Addition of a Moist Adiabat to the Outer Envelope with Condensation-inhibited Convection}
+\section{Inclusion of Moist Convection Within Outer Envelope}
 Our interior structure model departs from the standard model described above by adding a moist adiabatic layer to the outer envelope. In our case, this allows for the condensation of water. We do not account for other condensates such as $CH_{4}$ and $NH_{3}$.
 
 As seen in Figure (Y).   Within the outer envelope, we implement moist adiabatic layer, such that when conditions are suitable for condensation, we allow for the formation of a stable water condensation zone. ADD PHYSICS FOR CONDENSATION (Include equations for $q_{s}$, latent heat, xi, saturation vapor pressure, ... other equations that define the moist adiabat.)
