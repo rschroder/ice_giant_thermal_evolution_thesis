@@ -3,10 +3,12 @@
 \contentsline {chapter}{Dedication}{vii}%
 \contentsline {chapter}{Acknowledgements}{viii}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
-\contentsline {chapter}{\numberline {2}Methodology}{2}%
-\contentsline {chapter}{\numberline {3}Results}{6}%
-\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{6}%
-\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{6}%
-\contentsline {section}{\numberline {3.3}Thermal Evolution}{6}%
-\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{9}%
-\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{10}%
+\contentsline {chapter}{\numberline {2}Model}{2}%
+\contentsline {section}{\numberline {2.1}Theoretical Foundations for Fully Convective, Dry Interior}{2}%
+\contentsline {section}{\numberline {2.2}Addition of a Moist Adiabat to the Outer Envelope with Condensation-inhibited Convection}{4}%
+\contentsline {chapter}{\numberline {3}Results}{7}%
+\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{7}%
+\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{7}%
+\contentsline {section}{\numberline {3.3}Thermal Evolution}{7}%
+\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{10}%
+\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{11}%

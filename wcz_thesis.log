@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 OCT 2020 00:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 OCT 2020 20:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -256,20 +256,20 @@ LaTeX Info: Redefining \] on input line 2860.
 (./wcz_thesis.aux)
 \openout1 = `wcz_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -347,54 +347,49 @@ Package caption Info: End \AtBeginDocument code.
  2.
 [2
 
-] [3]
-<figures/structure_schematic_images/structure_schematic_images.001.jpeg, id=48,
- 1027.84pt x 770.88pt>
-File: figures/structure_schematic_images/structure_schematic_images.001.jpeg Gr
-aphic file (type jpg)
-<use figures/structure_schematic_images/structure_schematic_images.001.jpeg>
+]
+<figures/structure_schematic_images/structure_schematic_images.001.png, id=42, 
+1027.84pt x 770.88pt>
+File: figures/structure_schematic_images/structure_schematic_images.001.png Gra
+phic file (type png)
+<use figures/structure_schematic_images/structure_schematic_images.001.png>
 Package pdftex.def Info: figures/structure_schematic_images/structure_schematic
-_images.001.jpeg  used on input line 157.
-(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
-<figures/structure_schematic_images/structure_schematic_images.002.jpeg, id=49,
- 1027.84pt x 770.88pt>
-File: figures/structure_schematic_images/structure_schematic_images.002.jpeg Gr
-aphic file (type jpg)
-<use figures/structure_schematic_images/structure_schematic_images.002.jpeg>
-Package pdftex.def Info: figures/structure_schematic_images/structure_schematic
-_images.002.jpeg  used on input line 159.
-(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
-
-
-LaTeX Warning: Float too large for page by 65.05148pt on input line 162.
-
-[4] [5 <./figures/structure_schematic_images/structure_schematic_images.001.jpe
-g> <./figures/structure_schematic_images/structure_schematic_images.002.jpeg>]
+_images.001.png  used on input line 141.
+(pdftex.def)             Requested size: 433.62pt x 325.2142pt.
+ [3] [4 <./figures/structure_schematic_images/structure_schematic_images.001.pn
+g>]
+<figures/moist_adiabat_structure.png, id=54, 1927.2pt x 1084.05pt>
+File: figures/moist_adiabat_structure.png Graphic file (type png)
+<use figures/moist_adiabat_structure.png>
+Package pdftex.def Info: figures/moist_adiabat_structure.png  used on input lin
+e 159.
+(pdftex.def)             Requested size: 578.15999pt x 325.20097pt.
+ [5 <./figures/moist_adiabat_structure.png>] [6]
  3.
-<figures/convection_inhibited_2.png, id=59, 1322.541pt x 1442.0274pt>
+<figures/convection_inhibited_2.png, id=63, 1322.541pt x 1442.0274pt>
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
- 182.
+ 232.
 (pdftex.def)             Requested size: 505.89pt x 551.5847pt.
-<figures/static_radiative_layer_plots_without_grid_points.png, id=61, 1300.1373
+<figures/static_radiative_layer_plots_without_grid_points.png, id=64, 1300.1373
 pt x 1442.0274pt>
 File: figures/static_radiative_layer_plots_without_grid_points.png Graphic file
  (type png)
 <use figures/static_radiative_layer_plots_without_grid_points.png>
 Package pdftex.def Info: figures/static_radiative_layer_plots_without_grid_poin
-ts.png  used on input line 195.
+ts.png  used on input line 245.
 (pdftex.def)             Requested size: 505.89pt x 561.09023pt.
-[6
+[7
 
-] [7 <./figures/convection_inhibited_2.png>] [8 <./figures/static_radiative_lay
+] [8 <./figures/convection_inhibited_2.png>] [9 <./figures/static_radiative_lay
 er_plots_without_grid_points.png>]
  4.
-[9
+[10
 
 ]
 Appendix A.
-(./wcz_thesis.bbl [10
+(./wcz_thesis.bbl [11
 
 ]
 
@@ -409,17 +404,17 @@ l.1 \begin{thebibliography}{}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[11
+[12
 
-]) [12] (./wcz_thesis.aux) ) 
+]) [13] (./wcz_thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 5109 strings out of 480608
- 85389 string characters out of 5903631
- 474390 words of memory out of 5000000
- 20913 multiletter control sequences out of 15000+600000
- 540528 words of font info for 52 fonts, out of 8000000 for 9000
+ 5090 strings out of 480608
+ 84505 string characters out of 5903631
+ 473390 words of memory out of 5000000
+ 20904 multiletter control sequences out of 15000+600000
+ 539472 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,11n,49p,539b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,7n,48p,672b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips
 /cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
@@ -427,19 +422,17 @@ c/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
-b>
-Output written on wcz_thesis.pdf (20 pages, 3792707 bytes).
+fonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm12
+00.pfb>
+Output written on wcz_thesis.pdf (21 pages, 4094861 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
