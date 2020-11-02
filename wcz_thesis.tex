@@ -24,11 +24,11 @@
 \usepackage{amsmath}
 \usepackage[font=small,labelfont=bf]{caption}
 
-\pagecolor{darkgray}
-\color{white}
+% \pagecolor{darkgray}
+% \color{white}
 
-% \pagecolor{white}
-% \color{black}
+\pagecolor{white}
+\color{black}
 
 
 \begin{document}
@@ -99,11 +99,14 @@ Observations of Uranus show a planet that appears to be in thermal equilibrium w
 
 There have been various attempts to explain the underluminous Uranus. The formation of stable layers, trapping internal energy in the the interior of Uranus and Neptune was proposed by \citep{podolak_1991}. There has also been much work done investigating the formation of stable condensation zones that inhibit convection \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}. 
 
+The purpose of this paper is to examine....
+We use the model described in chapter 2.1 as our comparison...
+The specifics of our model is described in chapter 2.2.
 
-\chapter{Theory}
+\chapter{Model}
 
-\section{Background: Thermal Evolution with Dry Convection}
-Understanding the physics of solar system gas and ice giant planets, and attempts to model their thermal evolution date back to the mid to late twentieth century \citep{hubbard_1977}, \citep{hubbard_1977_2}, and \citep{podolak_1991}. Their interior structure is determined by the following equations. Conservation of mass:
+\section{Background: Interior Structure with Dry Convection}
+Understanding the physics of solar system gas and ice giant planets, and attempts to model their thermal evolution date back to the mid to late twentieth century \citep{hubbard_1977}, \citep{hubbard_1977_2}, and \citep{podolak_1991}. The description of the planetary interiror begins with the following equations. Conservation of mass:
 
 \begin{equation}
   \frac{dm}{dr} =4 \pi r^{2}\rho  
@@ -113,7 +116,9 @@ where $dm$ is the mass contained within a sphere of radius $r$. $\rho(r)$ is the
 \begin{equation}
   \frac{dP}{dr} = -\frac{Gm\rho}{r^{2}}  
 \end{equation}
-where $P$ is the pressure and $G$ is the gravitational constant. NEED STATEMENT ON CONSERVATION OF ENERGY AND THERMAL EVOLUTION of the planet, we relate the intrinsic luminosity profile $L(m)$ to the rate of change of specific entropy $s$ in the planet as follows:
+where $P$ is the pressure and $G$ is the gravitational constant. 
+
+[include thermal evolution and conservation of energy discussion here]
 
 \begin{equation}
   \frac{dL}{dm}=-T\frac{\delta s}{\delta t}.
@@ -129,11 +134,12 @@ where $L_{\rm int}$ is the intrinsic luminosity, given by:
   L_{\rm int} = 4\pi r^{2}\sigma_{\rm SB}T_{\rm int}^{4}
 \end{equation}
 
+A common practice is to assume a three-layer interior structure (CITE), which we assume for our model as well, as seen in Figure 2.1. At the center of the planet is a core made of ??. The inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$, using the MAZEVET EOS \citep{mazevet_2019}. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. 
 
-A common practice is to assume a three-layer interior structure (CITE), which we assume for our model as well, as seen in Figure 2.1. At the center of the planet is a core made of ??. The inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$, using the MAZEVET EOS \citep{mazevet_2019}. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. Both  inner and outer envelopes are fully convective, with the pressure-temperature profile following a dry adiabat, $\nabla_{\rm ad}$, given by :
+Historically, interior structure models have assumed that the interiors are composed of compressible gasses that are statically unstable and fully convective. In a dry-convective model such as this, a parcel of gas rises as its temperature increases while its pressure remains constant. This process happens without the addition or loss of heat from the parcel, a process referred to as adiabatic. Furthermore, while there may be a critical concentration for a condensible species, all this dry model does not allow for condensation. The temperature-pressure profile follows a dry adiabat gradient\citep{kippenhahn_2012}, given by :
 
 \begin{equation}
-T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P
+\nabla_{\rm ad} = \left( \frac{\partial \ln T}{\partial \ln P} \right)_{\rm s}
 \end{equation}
 
 \begin{figure}[ht!]
@@ -141,18 +147,16 @@ T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\righ
   \includegraphics[width=6.0in]{figures/structure_schematic_images/structure_schematic_images.001.png}
  }
 \caption[A Standard Interior Structure Model]
-{The structure for a fully convective, dry adiabatic interior.}
+{The structure for a fully convective, dry adiabatic interior. In this model, the inner and outer envelopes are assumed to be well mixed, fully convective, and following a dry adiabat. The core is composed of rock and ice. The inner envelope is water dominated, with with uniform concentrations of hydrogen, helium, and water; whereas, the outer envelope is hydrogen and helium dominated, with trace amounts of water. The 'atmosphere' exists above 10 bars.}
 \label{fig:standard_dry_interior}
 \end{figure}
 
-
 Finally, beyond the outer envelope is the atmosphere. When modeling the thermal evolution of gas and ice giants, it has long been recognized that model atmospheres constitute an outer boundary condition for interior structure models, providing key inputs that impact cooling times for interior structure models. Our work considers both \citep{graboske_1975} and \citep{fortney_2011} model atmospheres. Unless otherwise stated, our results will utilize the Fortney 2011 model atmospheres. 
 
-
 \section{Inclusion of Moist Convection Within Outer Envelope}
-Our interior structure model departs from the standard model described above by adding a moist adiabatic layer to the outer envelope. In our case, this allows for the condensation of water. We do not account for other condensates such as $CH_{4}$ and $NH_{3}$.
+Our interior structure model departs from the standard model described above by adding a moist adiabatic layer to the outer envelope that, under favorable conditions, allows for the condensation of $H_{2}O$. The condensation of water in the interiror of hydrogen dominated atmospheres has some notable differences with our experience of water condensation within our own planet's atmosphere \citep{leconte_2017} \citep{friedson_2017} \citep{guillot_2019} \citep{guillot_1995}. On Earth, $H_{2}O$ lighter than the background air, which is composed primarily of $N_{2}$. [discuss how this does not set up a large vertical gradient in mean molecular weight on earth, but does within a hydrogen-dominated atmosphere] 
 
-As seen in Figure (Y).   Within the outer envelope, we implement moist adiabatic layer, such that when conditions are suitable for condensation, we allow for the formation of a stable water condensation zone. ADD PHYSICS FOR CONDENSATION (Include equations for $q_{s}$, latent heat, xi, saturation vapor pressure, ... other equations that define the moist adiabat.)
+As seen in Figure (Y).  ....when conditions are suitable for condensation, we allow for the formation of a stable water condensation zone. [Include equations for $q_{s}$, latent heat, xi, saturation vapor pressure, ... other equations that define the moist adiabat.)
 
 \begin{figure}[ht!]
  \centerline{
@@ -199,9 +203,11 @@ x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) = \frac{e_s(T_{\rm base})}{P_{
 	T_{\rm base} = T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\left(\frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}\right)
 \end{equation}
 
-Below the base of the radiative layer, the temperature-pressure profile again follows a dry adiabat, given by Equation (2.1).
+Below the base of the radiative layer, the temperature-pressure profile again follows a dry adiabat, given by:
 
-
+\begin{equation}
+T(P>P_{\rm base}) = T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P
+\end{equation}
 
 % \begin{figure}%
 %     \centering

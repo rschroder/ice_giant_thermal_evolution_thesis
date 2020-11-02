@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 OCT 2020 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  1 NOV 2020 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,49 +347,48 @@ Package caption Info: End \AtBeginDocument code.
  2.
 [2
 
-]
-<figures/structure_schematic_images/structure_schematic_images.001.png, id=42, 
+] [3]
+<figures/structure_schematic_images/structure_schematic_images.001.png, id=47, 
 1027.84pt x 770.88pt>
 File: figures/structure_schematic_images/structure_schematic_images.001.png Gra
 phic file (type png)
 <use figures/structure_schematic_images/structure_schematic_images.001.png>
 Package pdftex.def Info: figures/structure_schematic_images/structure_schematic
-_images.001.png  used on input line 142.
+_images.001.png  used on input line 144.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
- [3] [4 <./figures/structure_schematic_images/structure_schematic_images.001.pn
-g>]
-<figures/moist_adiabat_structure.png, id=54, 1927.2pt x 1084.05pt>
+ [4 <./figures/structure_schematic_images/structure_schematic_images.001.png>]
+<figures/moist_adiabat_structure.png, id=53, 1927.2pt x 1084.05pt>
 File: figures/moist_adiabat_structure.png Graphic file (type png)
 <use figures/moist_adiabat_structure.png>
 Package pdftex.def Info: figures/moist_adiabat_structure.png  used on input lin
 e 160.
 (pdftex.def)             Requested size: 578.15999pt x 325.20097pt.
- [5 <./figures/moist_adiabat_structure.png>] [6]
+ [5] [6 <./figures/moist_adiabat_structure.png>] [7]
  3.
-<figures/convection_inhibited_2.png, id=63, 1322.541pt x 1442.0274pt>
+<figures/convection_inhibited_2.png, id=66, 1322.541pt x 1442.0274pt>
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
- 233.
+ 235.
 (pdftex.def)             Requested size: 505.89pt x 551.5847pt.
-<figures/static_radiative_layer_plots_without_grid_points.png, id=64, 1300.1373
+<figures/static_radiative_layer_plots_without_grid_points.png, id=67, 1300.1373
 pt x 1442.0274pt>
 File: figures/static_radiative_layer_plots_without_grid_points.png Graphic file
  (type png)
 <use figures/static_radiative_layer_plots_without_grid_points.png>
 Package pdftex.def Info: figures/static_radiative_layer_plots_without_grid_poin
-ts.png  used on input line 246.
+ts.png  used on input line 248.
 (pdftex.def)             Requested size: 505.89pt x 561.09023pt.
-[7
+[8
 
-] [8 <./figures/convection_inhibited_2.png>] [9 <./figures/static_radiative_lay
-er_plots_without_grid_points.png>]
+] [9 <./figures/convection_inhibited_2.png>] [10 <./figures/static_radiative_la
+yer_plots_without_grid_points.png>]
  4.
-[10
+[11
 
 ]
 Appendix A.
-(./wcz_thesis.bbl [11
+(./wcz_thesis.bbl [12
 
 ]
 
@@ -404,17 +403,17 @@ l.1 \begin{thebibliography}{}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[12
+[13
 
-]) [13] (./wcz_thesis.aux) ) 
+]) [14] (./wcz_thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 5090 strings out of 480608
- 84505 string characters out of 5903631
- 473390 words of memory out of 5000000
- 20904 multiletter control sequences out of 15000+600000
+ 5096 strings out of 480608
+ 84634 string characters out of 5903631
+ 472390 words of memory out of 5000000
+ 20910 multiletter control sequences out of 15000+600000
  539472 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,7n,48p,675b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,7n,48p,745b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips
 /cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
@@ -429,10 +428,10 @@ m/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm12
 00.pfb>
-Output written on wcz_thesis.pdf (21 pages, 4094789 bytes).
+Output written on wcz_thesis.pdf (22 pages, 4097184 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
