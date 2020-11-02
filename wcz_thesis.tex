@@ -24,11 +24,11 @@
 \usepackage{amsmath}
 \usepackage[font=small,labelfont=bf]{caption}
 
-% \pagecolor{darkgray}
-% \color{white}
+\pagecolor{darkgray}
+\color{white}
 
-\pagecolor{white}
-\color{black}
+% \pagecolor{white}
+% \color{black}
 
 
 \begin{document}
@@ -95,9 +95,9 @@ I'd like to thank....
 %\part{First Part}
 
 \chapter{Introduction}
-Observations of Uranus show a planet that appears to be in thermal equilibrium with the Sun. Observations have also shown that Uranus is cooler than its more distant neighbor, Neptune. Thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature during the current epoch\citep{fortney_2011}, \citep{podolak_1991}, \citep{hubbard_1995}, \citep{scheibe_2019} [There are other papers by Nettelmann 2013, Linder 2019 that I haven't looked at yet]. 
+Giant planets radiate away their latent heat of formation through the top of their atmosphere. If they cool to a point where the amount they radiate away is equal to the amount of radiation they receive from their parent star, they enter thermal equilibrium with their surroundings. At the present time, the giant planets in our solar system, Saturn, Jupiter, Uranus, and Neptune, all have effective temperatures greater than their equilibrium temperature, except for Uranus. Observations of Uranus show a planet that appears to be in thermal equilibrium with its parent star, a 'dead' planet with no intrinsic temperature, cooler than its more distant neighbor, Neptune. Thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature during the current epoch\citep{fortney_2011}, \citep{podolak_1991}, \citep{hubbard_1995}, \citep{scheibe_2019} [There are other papers by Nettelmann 2013, Linder 2019 that I haven't looked at yet]. 
 
-There have been various attempts to explain the underluminous Uranus. The formation of stable layers, trapping internal energy in the the interior of Uranus and Neptune was proposed by \citep{podolak_1991}. There has also been much work done investigating the formation of stable condensation zones that inhibit convection \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}. 
+There have been various attempts to explain the cool Uranus. [The remainder of this paragraph is poorly worded] One of the first explanations posited a stratified interior, possibly stable against convection, that would allow heat deep to be trapped within the the interior.\citep{podolak_1991}. Later work has investigated the formation of stable condensation zones, composed of water, methane, or ammonia, that would inhibit convection \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}. The presence of these condensation zones could trap heat deep within the interior, allowing the temperature in the envelope above the zone to cool more rapidly, lowering the planet's effective temperature.
 
 The purpose of this paper is to examine....
 We use the model described in chapter 2.1 as our comparison...
@@ -154,9 +154,16 @@ Historically, interior structure models have assumed that the interiors are comp
 Finally, beyond the outer envelope is the atmosphere. When modeling the thermal evolution of gas and ice giants, it has long been recognized that model atmospheres constitute an outer boundary condition for interior structure models, providing key inputs that impact cooling times for interior structure models. Our work considers both \citep{graboske_1975} and \citep{fortney_2011} model atmospheres. Unless otherwise stated, our results will utilize the Fortney 2011 model atmospheres. 
 
 \section{Inclusion of Moist Convection Within Outer Envelope}
-Our interior structure model departs from the standard model described above by adding a moist adiabatic layer to the outer envelope that, under favorable conditions, allows for the condensation of $H_{2}O$. The condensation of water in the interiror of hydrogen dominated atmospheres has some notable differences with our experience of water condensation within our own planet's atmosphere \citep{leconte_2017} \citep{friedson_2017} \citep{guillot_2019} \citep{guillot_1995}. On Earth, $H_{2}O$ lighter than the background air, which is composed primarily of $N_{2}$. [discuss how this does not set up a large vertical gradient in mean molecular weight on earth, but does within a hydrogen-dominated atmosphere] 
+Our interior structure model departs from the standard model described above by adding a moist adiabatic layer to the outer envelope that, under favorable conditions, allows for the condensation of $H_{2}O$. Gases condense at at sufficiently low temperatures or high pressures(cite pierrehumbert). Condensation of a gas is characterized by its saturation vapor pressure, $P_{\rm sat}$, given by: 
 
-As seen in Figure (Y).  ....when conditions are suitable for condensation, we allow for the formation of a stable water condensation zone. [Include equations for $q_{s}$, latent heat, xi, saturation vapor pressure, ... other equations that define the moist adiabat.)
+\begin{equation}
+  P_{\rm sat}(T) = P_{\rm sat}(T_{\rm 0})e^{-\frac{1}{R_{\rm gas}}\big(\frac{1}{T}-\frac{1}{T_{\rm 0}}\big)}
+\end{equation}
+
+where $R_{\rm gas}$ is the gas constant for the condensible species. When the partial pressure of a gas, $P_{\rm gas}$, is less than $P_{\rm sat}$, the parcel of gas is 'unsaturated'. When $P_{\rm gas} = P_{\rm sat}$, the gas is 'saturated'. And, when $P_{\rm gas} > P_{\rm sat}$, the parcel is 'supersaturated'. Each condensible species has its own saturation vapor pressure.
+
+The condensation of water in the interior of hydrogen-dominated atmospheres has some notable differences with our experience of water condensation within our own planet's atmosphere \citep{leconte_2017} \citep{friedson_2017} \citep{guillot_2019} \citep{guillot_1995}. On Earth, $H_{2}O$ lighter than the background air, which is composed primarily of $N_{2}$. So, while condensation of water in the interiror of ice giants does release heat through the latent heat of condensation, which in the presence of a heavier background gas would result in an instability, the situation is different when the background is hydrogen-helium dominated. In this case, a strong vertical gradient in mean molecular weight arises, creating a negative buoyancy. This may result in the formation of a layer that is stable against convection (citations). 
+
 
 \begin{figure}[ht!]
  \centerline{

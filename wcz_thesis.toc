@@ -3,12 +3,12 @@
 \contentsline {chapter}{Dedication}{vii}%
 \contentsline {chapter}{Acknowledgements}{viii}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
-\contentsline {chapter}{\numberline {2}Model}{2}%
-\contentsline {section}{\numberline {2.1}Background: Interior Structure with Dry Convection}{2}%
-\contentsline {section}{\numberline {2.2}Inclusion of Moist Convection Within Outer Envelope}{5}%
-\contentsline {chapter}{\numberline {3}Results}{8}%
-\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{8}%
-\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{8}%
-\contentsline {section}{\numberline {3.3}Thermal Evolution}{8}%
-\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{11}%
-\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{12}%
+\contentsline {chapter}{\numberline {2}Model}{3}%
+\contentsline {section}{\numberline {2.1}Background: Interior Structure with Dry Convection}{3}%
+\contentsline {section}{\numberline {2.2}Inclusion of Moist Convection Within Outer Envelope}{6}%
+\contentsline {chapter}{\numberline {3}Results}{9}%
+\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{9}%
+\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{9}%
+\contentsline {section}{\numberline {3.3}Thermal Evolution}{9}%
+\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{12}%
+\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{13}%
