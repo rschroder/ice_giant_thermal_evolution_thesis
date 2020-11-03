@@ -97,22 +97,22 @@ I'd like to thank....
 \chapter{Introduction}
 Giant planets radiate away their latent heat of formation through the top of their atmosphere. If they cool to a point where the amount they radiate away is equal to the amount of radiation they receive from their parent star, they enter thermal equilibrium with their surroundings. At the present time, the giant planets in our solar system: Saturn, Jupiter, Uranus, and Neptune, all have effective temperatures greater than their equilibrium temperature, except for Uranus. Observations of Uranus show a planet that appears to be in thermal equilibrium with its parent star, a 'dead' planet with no intrinsic temperature, cooler than its more distant neighbor, Neptune. Thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature at $4.6$ Gyr, the current age of the solar system.\citep{fortney_2011}, \citep{podolak_1991}, \citep{hubbard_1995}, \citep{scheibe_2019} [There are other papers by Nettelmann 2013, Linder 2019 that I haven't looked at yet]. 
 
-There have been various attempts to explain the cool Uranus. [The remainder of this paragraph is poorly worded] One of the first explanations posited a stratified interior, possibly stable against convection, that would allow heat deep to be trapped within the the interior.\citep{podolak_1991}. Later work has investigated the formation of stable condensation zones, composed of water, methane, or ammonia, that would inhibit convection \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}. The presence of these condensation zones could trap heat deep within the interior, allowing the temperature in the envelope above the zone to cool more rapidly, lowering the planet's effective temperature.
+There have been various attempts to explain the cool Uranus. Early investigations posited a stratified interior, possibly stable against convection, that would allow heat deep to be trapped within the the interior.\citep{podolak_1991}. Later work built on this idea, investigating the formation of stable condensation zones\citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}, and thermal boundary laters\citep{nettelmann_2016}, that would inhibit convection . The presence of these condensation zones could trap heat deep within the interior, allowing the temperature in the envelope above the zone to cool more rapidly, lowering the planet's effective temperature.
 
-In this paper, we investigate whether stable water condensation zones form within in the interiror of Uranus and Neptune, and present their impact on the thermal evolution of the these planets.
+In this paper, we investigate whether stable water condensation zones form within in the interiror of Uranus and Neptune, and present their potential impact on the thermal evolution of the these planets.
 ...
-We use the model described in chapter 2.1 as our comparison...
+We use the model described in chapter 2.1 as our baseline...
 The specifics of our model is described in chapter 2.2.
 
 \chapter{Model}
 
-\section{Background: Interior Structure with Dry Convection}
-Understanding the physics of solar system gas and ice giant planets, and attempts to model their thermal evolution date back to the mid to late twentieth century \citep{hubbard_1977}, \citep{hubbard_1977_2}, and \citep{podolak_1991}. The description of the planetary interiror begins with the following equations. Conservation of mass:
+\section{Baseline Structure with Dry Convection}
+The physics of the interior structure of the solar system gas and ice giants, and attempts to model their thermal evolution, date back to the mid to late twentieth century, with the first observation of Jupiter's instrinsic temperature by \cite{low_1966}, with subsequent investigations into the theory of giant planet structure and evolution\citep{hubbard_1977}, \citep{hubbard_1977_2}, \citep{podolak_1991}. We begin with a description of the physics of our baseline structure model, starting with the conservation of mass:
 
 \begin{equation}
   \frac{dm}{dr} =4 \pi r^{2}\rho  
 \end{equation}
-where $dm$ is the mass contained within a sphere of radius $r$. $\rho(r)$ is the density at radius $r$. Hydrostatic equilibrium is assumed and described by:
+where $dm$ is the mass contained within a sphere of radius $r$, and $\rho(r)$ is the density at radius $r$. Hydrostatic equilibrium is also assumed and described by:
 
 \begin{equation}
   \frac{dP}{dr} = -\frac{Gm\rho}{r^{2}}  
@@ -135,7 +135,7 @@ where $L_{\rm int}$ is the intrinsic luminosity, given by:
   L_{\rm int} = 4\pi r^{2}\sigma_{\rm SB}T_{\rm int}^{4}
 \end{equation}
 
-A common practice is to assume a three-layer interior structure (CITE), which we assume for our model as well, as seen in Figure 2.1. At the center of the planet is a core made of ??. The inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$, using the MAZEVET EOS \citep{mazevet_2019}. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. 
+We employ a three-layer interiror structure, seen schematically in Figure 2.1. At the center of the planet is a core made of rock and ice. Moving outward, the inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$. We use the MAZEVET equation of state (EOS) \citep{mazevet_2019} to define the structure of the inner envelope. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. 
 
 Historically, interior structure models have assumed that the interiors are composed of compressible gasses that are statically unstable and fully convective. In a dry-convective model such as this, a parcel of gas rises as its temperature increases while its pressure remains constant. This process happens without the addition or loss of heat from the parcel, a process referred to as adiabatic. Furthermore, while there may be a critical concentration for a condensible species, all this dry model does not allow for condensation. The temperature-pressure profile follows a dry adiabat gradient\citep{kippenhahn_2012}, given by :
 
@@ -278,7 +278,7 @@ Talk about Figure 3.3.
 \appendix
 \chapter{Some Ancillary Stuff}
 
-
+\newcommand{\newblock}{}
 \bibliography{wcz_bib}
 
 
