@@ -106,7 +106,7 @@ The specifics of our model is described in chapter 2.2.
 
 \chapter{Model}
 
-\section{Theory on the Structure of Giant Planets}
+\section{Historical Work}
 The physics of the interior structure of the solar system gas and ice giants, and attempts to model their thermal evolution, date back to the mid to late twentieth century, after the first observation of Jupiter's instrinsic temperature by \cite{low_1966}, with subsequent investigations into the theory of giant planet structure and evolution\citep{hubbard_1977}, \citep{hubbard_1977_2}, \citep{podolak_1991}. We begin with a description of the physics of our baseline structure model, starting with the conservation of mass:
 
 \begin{equation}
@@ -120,7 +120,7 @@ where $dm$ is the mass contained within a sphere of radius $r$, and $\rho(r)$ is
 where $P$ is the pressure and $G$ is the gravitational constant. 
 
 
-\section{Three-layer Model}
+\section{Three-layer Model with Dry Adiabat}
 We employ a three-layer interiror structure, seen schematically in Figure 2.1. At the center of the planet is a core made of rock and ice. Moving outward, the inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$. We use the MAZEVET equation of state (EOS) \citep{mazevet_2019} to define the structure of the inner envelope. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. 
 
 Historically, interior structure models have assumed that the interiors are composed of compressible gasses that are statically unstable and fully convective. In a dry-convective model such as this, a parcel of gas rises as its temperature increases while its pressure remains constant. This process happens without the addition or loss of heat from the parcel, a process referred to as adiabatic. Furthermore, while there may be a critical concentration for a condensible species, all this dry model does not allow for condensation. The temperature-pressure profile follows a dry adiabat gradient\citep{kippenhahn_2012}, given by :
@@ -140,7 +140,7 @@ Historically, interior structure models have assumed that the interiors are comp
 
 Finally, beyond the outer envelope is the atmosphere. When modeling the thermal evolution of gas and ice giants, it has long been recognized that model atmospheres constitute an outer boundary condition for interior structure models, providing key inputs that impact cooling times for interior structure models. Our work considers both \citep{graboske_1975} and \citep{fortney_2011} model atmospheres. Unless otherwise stated, our results will utilize the Fortney 2011 model atmospheres. 
 
-\section{Inclusion of Moist Convection Within Outer Envelope}
+\section{Inclusion of Moist Adiabat Within Outer Envelope}
 Our interior structure model departs from the standard model described above by adding a moist adiabatic layer to the outer envelope that, under favorable conditions, allows for the condensation of $H_{2}O$. Gases condense at at sufficiently low temperatures or high pressures(cite pierrehumbert). Condensation of a gas is characterized by its saturation vapor pressure, $P_{\rm sat}$, given by: 
 
 \begin{equation}
@@ -176,8 +176,8 @@ At pressure where $\alpha < 1$, the cloud base of the water condensation zone fo
 	T(P) = T_{\rm top} + \int_{P_{\rm top}}^P\left(\frac{dT}{dP}\right)_{\rm rad}\,d P
 \end{equation}
 
-\section{Temperature jump across the radiative layer}
-Letting $P_{\rm top}$ and $T_{\rm top}$ denote the pressure and temperature at the top of the stable (radiative) layer, the temperature within the radiative layer is given by
+\section{Temperature Jump Across the Water Condensation Zone}
+Letting $P_{\rm top}$ and $T_{\rm top}$ denote the pressure and temperature at the top of the stable water condensation(radiative) zone, the temperature within the radiative zone is given by
 \begin{align}
 T(P) &= T_{\rm top} + \int_{P_{\rm top}}^P\left(\frac{dT}{dP}\right)_{\rm rad}\,d P. \label{eq.t_of_p}
 \end{align}
@@ -231,7 +231,7 @@ T(P>P_{\rm base}) &= T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\rig
 % \label{fig:uranus}
 % \end{figure}
 
-\section{Thermal evolution}
+\section{Thermal Evolution of Model}
 Conservation of energy relates the instantaneous luminosity profile $L(m)$ to the rate of change of specific entropy $s$ in the planet:
 \begin{equation}
   \frac{dL}{dm}=-T\frac{\delta s}{\delta t}.
@@ -266,11 +266,11 @@ Talk about Figure 3.1.
 
 
 
-\section{Formation of Radiative Layer}
+\section{Formation of Radiative Zone}
 Talk about Figure.
-\begin{figure}[ht!]
+\begin{figure}[ht]
  \centerline{
-  \includegraphics[width=7.0in]{figures/static_radiative_layer_plots_without_grid_points.png}
+  \includegraphics[width=7.5in]{figures/thesis_static_radiative_layer_plots_without_grid_points.png}
  }
 \caption[Inhibition of convection on Uranus]
 {add description these plots. explain differences}
@@ -283,9 +283,9 @@ Talk about Figure.
 Talk about Figure.
 \begin{figure}%
     \centering
-    \subfloat[\centering label 1]{{\includegraphics[width=20cm]{figures/cooling/cooling.001.jpeg} }}%
+    \subfloat[\centering label 1]{{\includegraphics[width=15cm]{figures/cooling/cooling.001.jpeg} }}%
     \qquad
-    \subfloat[\centering label 2]{{\includegraphics[width=20cm]{figures/cooling/cooling.002.jpeg} }}%
+    \subfloat[\centering label 2]{{\includegraphics[width=15cm]{figures/cooling/cooling.002.jpeg} }}%
     \caption{2 Figures side by side}%
     \label{fig:example}%
 \end{figure}

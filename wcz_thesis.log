@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 NOV 2020 00:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 NOV 2020 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -364,52 +364,47 @@ File: figures/moist_adiabat_structure.png Graphic file (type png)
 Package pdftex.def Info: figures/moist_adiabat_structure.png  used on input lin
 e 158.
 (pdftex.def)             Requested size: 578.15999pt x 325.20097pt.
- [6] [7 <./figures/moist_adiabat_structure.png>] [8] [9] [10]
+ [6] [7 <./figures/moist_adiabat_structure.png>]
+Overfull \hbox (0.13297pt too wide) in paragraph at lines 179--179
+[]\OT1/cmr/bx/n/14.4 Temperature Jump Across the Wa-ter Con-den-sa-tion Zone 
+ []
+
+[8] [9] [10]
  3.
-<figures/convection_inhibited_2.png, id=77, 1322.541pt x 1442.0274pt>
+<figures/convection_inhibited_2.png, id=77, 1317.4821pt x 1442.5092pt>
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
  261.
-(pdftex.def)             Requested size: 505.89pt x 551.5847pt.
-<figures/static_radiative_layer_plots_without_grid_points.png, id=78, 1300.1373
-pt x 1442.0274pt>
-File: figures/static_radiative_layer_plots_without_grid_points.png Graphic file
- (type png)
-<use figures/static_radiative_layer_plots_without_grid_points.png>
-Package pdftex.def Info: figures/static_radiative_layer_plots_without_grid_poin
-ts.png  used on input line 274.
-(pdftex.def)             Requested size: 505.89pt x 561.09023pt.
+(pdftex.def)             Requested size: 505.89pt x 553.88203pt.
+<figures/thesis_static_radiative_layer_plots_without_grid_points.png, id=78, 12
+86.8878pt x 1442.5092pt>
+File: figures/thesis_static_radiative_layer_plots_without_grid_points.png Graph
+ic file (type png)
+<use figures/thesis_static_radiative_layer_plots_without_grid_points.png>
+Package pdftex.def Info: figures/thesis_static_radiative_layer_plots_without_gr
+id_points.png  used on input line 274.
+(pdftex.def)             Requested size: 542.025pt x 607.56659pt.
+
+LaTeX Warning: Float too large for page by 16.27159pt on input line 278.
+
 <figures/cooling/cooling.001.jpeg, id=79, 1927.2pt x 1084.05pt>
 File: figures/cooling/cooling.001.jpeg Graphic file (type jpg)
 <use figures/cooling/cooling.001.jpeg>
 Package pdftex.def Info: figures/cooling/cooling.001.jpeg  used on input line 2
 86.
-(pdftex.def)             Requested size: 569.05511pt x 320.08972pt.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
 <figures/cooling/cooling.002.jpeg, id=80, 1927.2pt x 1084.05pt>
 File: figures/cooling/cooling.002.jpeg Graphic file (type jpg)
 <use figures/cooling/cooling.002.jpeg>
 Package pdftex.def Info: figures/cooling/cooling.002.jpeg  used on input line 2
 88.
-(pdftex.def)             Requested size: 569.05511pt x 320.08972pt.
-
-Overfull \hbox (139.08511pt too wide) in paragraph at lines 286--289
- [][] 
- []
-
-
-Overfull \hbox (139.08511pt too wide) in paragraph at lines 286--289
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 101.88445pt on input line 291.
-
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
 [11
 
-] [12 <./figures/convection_inhibited_2.png>] [13 <./figures/static_radiative_l
-ayer_plots_without_grid_points.png>] [14 <./figures/cooling/cooling.001.jpeg> <
-./figures/cooling/cooling.002.jpeg>]
+] [12 <./figures/convection_inhibited_2.png>] [13 <./figures/thesis_static_radi
+ative_layer_plots_without_grid_points.png>] [14 <./figures/cooling/cooling.001.
+jpeg> <./figures/cooling/cooling.002.jpeg>]
  4.
 [15
 
@@ -422,7 +417,7 @@ Appendix A.
 ]) [18] (./wcz_thesis.aux) ) 
 Here is how much of TeX's memory you used:
  5127 strings out of 480608
- 85324 string characters out of 5903631
+ 85366 string characters out of 5903631
  475390 words of memory out of 5000000
  20935 multiletter control sequences out of 15000+600000
  540079 words of font info for 50 fonts, out of 8000000 for 9000
@@ -445,7 +440,7 @@ pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (26 pages, 4921933 bytes).
+Output written on wcz_thesis.pdf (26 pages, 11415882 bytes).
 PDF statistics:
  165 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams

@@ -128,9 +128,9 @@ INPUT ./figures/moist_adiabat_structure.png
 INPUT figures/convection_inhibited_2.png
 INPUT ./figures/convection_inhibited_2.png
 INPUT ./figures/convection_inhibited_2.png
-INPUT figures/static_radiative_layer_plots_without_grid_points.png
-INPUT ./figures/static_radiative_layer_plots_without_grid_points.png
-INPUT ./figures/static_radiative_layer_plots_without_grid_points.png
+INPUT figures/thesis_static_radiative_layer_plots_without_grid_points.png
+INPUT ./figures/thesis_static_radiative_layer_plots_without_grid_points.png
+INPUT ./figures/thesis_static_radiative_layer_plots_without_grid_points.png
 INPUT figures/cooling/cooling.001.jpeg
 INPUT ./figures/cooling/cooling.001.jpeg
 INPUT ./figures/cooling/cooling.001.jpeg

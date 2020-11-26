@@ -4,14 +4,14 @@
 \contentsline {chapter}{Acknowledgements}{viii}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \contentsline {chapter}{\numberline {2}Model}{3}%
-\contentsline {section}{\numberline {2.1}Theory on the Structure of Giant Planets}{3}%
-\contentsline {section}{\numberline {2.2}Three-layer Model}{4}%
-\contentsline {section}{\numberline {2.3}Inclusion of Moist Convection Within Outer Envelope}{6}%
-\contentsline {section}{\numberline {2.4}Temperature jump across the radiative layer}{8}%
-\contentsline {section}{\numberline {2.5}Thermal evolution}{9}%
+\contentsline {section}{\numberline {2.1}Historical Work}{3}%
+\contentsline {section}{\numberline {2.2}Three-layer Model with Dry Adiabat}{4}%
+\contentsline {section}{\numberline {2.3}Inclusion of Moist Adiabat Within Outer Envelope}{6}%
+\contentsline {section}{\numberline {2.4}Temperature Jump Across the Water Condensation Zone}{8}%
+\contentsline {section}{\numberline {2.5}Thermal Evolution of Model}{9}%
 \contentsline {chapter}{\numberline {3}Results}{11}%
 \contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{11}%
-\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{11}%
+\contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{11}%
 \contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{11}%
 \contentsline {chapter}{\numberline {4}Discussion and Conclusions}{15}%
 \contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{16}%
