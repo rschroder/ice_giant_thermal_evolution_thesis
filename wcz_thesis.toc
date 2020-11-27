@@ -13,5 +13,5 @@
 \contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{11}%
 \contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{11}%
 \contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{11}%
-\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{15}%
-\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{16}%
+\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{17}%
+\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{18}%
