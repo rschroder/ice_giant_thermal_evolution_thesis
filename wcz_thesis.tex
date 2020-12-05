@@ -9,6 +9,7 @@
 \bibliographystyle{apalike2}
 \usepackage{natbib}
 \usepackage{graphicx,epsf}% Include figure files
+\usepackage{spverbatim}
 
 
 % The following declaration is for citations and bibliographies consistent with
@@ -95,19 +96,25 @@ I'd like to thank....
 %\part{First Part}
 
 \chapter{Introduction}
-Giant planets radiate away their latent heat of formation through the top of their atmosphere. If they cool to a point where the amount they radiate away is equal to the amount of radiation they receive from their parent star, they enter thermal equilibrium with their surroundings. At the present time, the giant planets in our solar system: Saturn, Jupiter, and Neptune, all have effective temperatures greater than their equilibrium temperature, an intrinsice heat source, except for Uranus. Observations of Uranus show a planet that appears to be in thermal equilibrium with its parent star, a planet with no intrinsic temperature, cooler than its more distant neighbor, Neptune, a planet of similar mass and composition. Thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature at $4.6$ Gyr, the current age of the solar system.\citep{fortney_2011}, \citep{podolak_1991}, \citep{hubbard_1995}, \citep{scheibe_2019} [There are other papers by Nettelmann 2013, Linder 2019 that I haven't looked at yet]. 
 
-There have been various attempts to explain Uranus' cool temperature. Early investigations posited that a stratified interior, possibly stable against convection, would allow heat to be trapped deep within the the interior.\citep{podolak_1991}. Later work built on this idea, investigating the formation of stable condensation zones\citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}, and thermal boundary laters\citep{nettelmann_2016}, that would inhibit convection . It was speculated that the presence of these condensation zones could trap heat deep within the interior, allowing the envelope above to cool more rapidly, thereby lowering the planet's effective temperature.
+During the mid twentieth century, Frank Low observed that Jupiter was radiating away more energy than it received from the Sun \citep{hubbard_1968},\citep{low_1966}. Shortly after this observation, theoretical work began on investigating the physics of the interior structure of the solar system gas and ice giants \citep{hubbard_1977}, \citep{hubbard_1977_2}, \citep{podolak_1991}. 
 
-In this paper, we investigate whether stable water condensation zones form within in the interiror of Uranus and Neptune, and present their potential impact on the thermal evolution of the these planets.
-...
-We use the model described in chapter 2.1 as our baseline...
-The specifics of our model is described in chapter 2.2.
+% As giant planets radiate away their latent heat of formation through the top of their atmosphere, they cool to a point where the amount they radiate away is equal to the amount of radiation they receive from their parent star, they enter thermal equilibrium with their surroundings. 
+
+At the present time, most of the giant planets in our solar system: Saturn, Jupiter, and Neptune, all have effective temperatures greater than their equilibrium temperature. Uranus is the exception. Observations of Uranus show a planet that appears to be in thermal equilibrium with its parent star, a planet with no intrinsic temperature, cooler than its more distant neighbor, Neptune, a planet of similar mass and composition. Thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature at $4.6$ Gyr, the current age of the solar system.\citep{fortney_2011}, \citep{podolak_1991}, \citep{hubbard_1995}, \citep{scheibe_2019} [There are other papers by Nettelmann 2013, Linder 2019 that I haven't looked at yet]. 
+
+There have been various attempts to explain Uranus' cool temperature. Early investigations posited that a stratified interior(s), stable against convection, would allow heat to be trapped deep within the the interior \citep{podolak_1991}. Later work built on this idea, investigating the formation of stable condensation zones\citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}, and thermal boundary layers\citep{nettelmann_2016}, that would inhibit convection. It was speculated that the presence of these thermal boundary layers, or condensation zones, could trap heat deep within the interior, allowing the envelope above to cool more rapidly, thereby lowering the planet's effective temperature.
+
+\section{Condensation in Hydrogen Dominated Atmospheres}
+On Earth, moist air is lighter than dry air. For example, water vapor, the primary condensate in Earth's atmosphere is lighter (not by much) than the background air which is composed primarily of $N_{2}$. Thus, when $H_{2}O$ condenses out of the atmosphere, there is small vertical gradient in mean molecular weight. This small gradient does not impose a significant barrier to convection. In hydrogen dominated atmospheres such as Neptune and Uarnus, the background gas is now much lighter than the condensate. When $H_{2}O$ condenses out of the atmosphere a stong vertical gradient in mean molecular weaight can be established, resulting in a negative bouyancy for the parcel of gas, and hence creataing a situation where the zone is stable against convection\citep{guillot_1995}, \citep{friedson_2017}, \citep{leconte_2017}.
+
+In this paper, we investigate where and when, assuming a variety deep water concentrations, whether such stable water condensation zones could form within in the outer envelope, and present their potential impact on the thermal evolution of the these planets. We decsribe our model in Chapter 2. We present our results in Chapter 3. And, we discuss our results in Chapter 4.
+
 
 \chapter{Model}
 
-\section{Historical Work}
-The physics of the interior structure of the solar system gas and ice giants, and attempts to model their thermal evolution, date back to the mid to late twentieth century, after the first observation of Jupiter's instrinsic temperature by \cite{low_1966}, with subsequent investigations into the theory of giant planet structure and evolution\citep{hubbard_1977}, \citep{hubbard_1977_2}, \citep{podolak_1991}. We begin with a description of the physics of our baseline structure model, starting with the conservation of mass:
+\section{Three-layer Model with Dry Adiabat}
+We begin with a description of the physics of our baseline structure model, starting with the conservation of mass:
 
 \begin{equation}
   \frac{dm}{dr} =4 \pi r^{2}\rho  
@@ -119,15 +126,7 @@ where $dm$ is the mass contained within a sphere of radius $r$, and $\rho(r)$ is
 \end{equation}
 where $P$ is the pressure and $G$ is the gravitational constant. 
 
-
-\section{Three-layer Model with Dry Adiabat}
-We employ a three-layer interiror structure, seen schematically in Figure 2.1. At the center of the planet is a core made of rock and ice. Moving outward, the inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$. We use the MAZEVET equation of state (EOS) \citep{mazevet_2019} to define the structure of the inner envelope. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. 
-
-Historically, interior structure models have assumed that the interiors are composed of compressible gasses that are statically unstable and fully convective. In a dry-convective model such as this, a parcel of gas rises as its temperature increases while its pressure remains constant. This process happens without the addition or loss of heat from the parcel, a process referred to as adiabatic. Furthermore, while there may be a critical concentration for a condensible species, all this dry model does not allow for condensation. The temperature-pressure profile follows a dry adiabat gradient\citep{kippenhahn_2012}, given by :
-
-\begin{equation}
-\nabla_{\rm ad} = \left( \frac{\partial \ln T}{\partial \ln P} \right)_{\rm s}
-\end{equation}
+We employ a three-layer interior structure, seen schematically in Figure 2.1. At the center of the planet is a core made of rock and ice. Moving outward, the inner envelope is $H_{2}O$ dominated, with uniform concentrations of $H$, $He$, and $H_{\rm{2}}O$. We use the MAZEVET equation of state (EOS) \citep{mazevet_2019} to define the structure of the inner envelope. The outer envelope, below 10 bars, contains trace amounts of $H_{\rm{2}}O$, but is mostly $H$ and $He$, dominated, and utilizes the MH13SCVH EOS \citep{miguel_2018}. 
 
 \begin{figure}[ht!]
  \centerline{
@@ -138,19 +137,16 @@ Historically, interior structure models have assumed that the interiors are comp
 \label{fig:standard_dry_interior}
 \end{figure}
 
+Historically, interior structure models have assumed that the interiors are composed of compressible gasses that are statically unstable and fully convective. In a dry-convective model such as this, a parcel of gas rises as its temperature increases while its pressure remains constant. This process happens without the addition or loss of heat from the parcel, a process referred to as adiabatic. Furthermore, while there may be a critical concentration for a condensible species, this dry model does not allow for condensation. The temperature-pressure profile follows a dry adiabat gradient\citep{kippenhahn_2012}, given by:
+
+\begin{equation}
+\nabla_{\rm ad} = \left( \frac{\partial \ln T}{\partial \ln P} \right)_{\rm s}
+\end{equation}
+
 Finally, beyond the outer envelope is the atmosphere. When modeling the thermal evolution of gas and ice giants, it has long been recognized that model atmospheres constitute an outer boundary condition for interior structure models, providing key inputs that impact cooling times for interior structure models. Our work considers both \citep{graboske_1975} and \citep{fortney_2011} model atmospheres. Unless otherwise stated, our results will utilize the Fortney 2011 model atmospheres. 
 
 \section{Inclusion of Moist Adiabat Within Outer Envelope}
-Our interior structure model departs from the standard model described above by adding a moist adiabatic layer to the outer envelope that, under favorable conditions, allows for the condensation of $H_{2}O$. Gases condense at at sufficiently low temperatures or high pressures(cite pierrehumbert). Condensation of a gas is characterized by its saturation vapor pressure, $P_{\rm sat}$, given by: 
-
-\begin{equation}
-  P_{\rm sat}(T) = P_{\rm sat}(T_{\rm 0})e^{-\frac{1}{R_{\rm gas}}\big(\frac{1}{T}-\frac{1}{T_{\rm 0}}\big)}
-\end{equation}
-
-where $R_{\rm gas}$ is the gas constant for the condensible species. When the partial pressure of a gas, $P_{\rm gas}$, is less than $P_{\rm sat}$, the parcel of gas is 'unsaturated'. When $P_{\rm gas} = P_{\rm sat}$, the gas is 'saturated'. And, when $P_{\rm gas} > P_{\rm sat}$, the parcel is 'supersaturated'. Each condensible species has its own saturation vapor pressure.
-
-The condensation of water in the interior of hydrogen-dominated atmospheres has some notable differences with our experience of water condensation within our own planet's atmosphere \citep{leconte_2017} \citep{friedson_2017} \citep{guillot_2019} \citep{guillot_1995}. On Earth, $H_{2}O$ lighter than the background air, which is composed primarily of $N_{2}$. So, while condensation of water in the interiror of ice giants does release heat through the latent heat of condensation, which in the presence of a heavier background gas would result in an instability, the situation is different when the background is hydrogen-helium dominated. In this case, a strong vertical gradient in mean molecular weight arises, creating a negative buoyancy. This may result in the formation of a layer that is stable against convection (citations). 
-
+Our interior structure model modifies the baseline structure described above by adding a moist adiabatic layer to the outer envelope that, under favorable conditions, allows for the condensation of $H_{2}O$. We define the moist adiabat as follows:
 
 \begin{figure}[ht!]
  \centerline{
@@ -162,99 +158,118 @@ The condensation of water in the interior of hydrogen-dominated atmospheres has 
 \end{figure}
 
 
-If condensation zone forms, it may be stable against convection. Convection is inhibited due to the formation of a stable condensation zone when $\alpha < 1$, where is $\alpha$ \citep{friedson_2017} is given by:
+\begin{equation}
+\nabla_{\rm moist} = (1 + \frac{\frac{x_{\rm vap} L}{R_{\rm gas}T}}{\nabla_{ad} + \frac{L^2}{R_{\rm gas}^2 T^2}} )
+\end{equation}
+where,
+\begin{equation}
+\frac{dT}{dP} =\frac{T}{P}\nabla_{\rm moist}
+\end{equation}
+and the gradient of the water vapor mole fraction is given by,
+\begin{equation}
+\frac{d x_{\rm vap}}{dP} = \frac{x_{\rm vap} L}{R_{\rm gas} T^2} \frac{dT}{dP} - \frac{x_{\rm vap}}{P}
+\end{equation}
+
+Gases condense at at sufficiently low temperatures or high pressures. Condensation of a gas is characterized by its saturation vapor pressure \citep{sanchez_2011}, $P_{\rm sat}$, given by: 
+
+\begin{equation}
+  P_{\rm sat}(T) = P_{\rm sat}(T_{\rm 0})e^{-\frac{L + C_{\rm p}T_{\rm 0}}{R_{\rm gas}}(\frac{1}{T} - \frac{1}{T_{\rm 0}}) -\frac{C_{\rm p}}{R_{\rm gas}}\ln{\frac{T}{T_{\rm 0}}}}
+\end{equation}
+where $T_{\rm 0} = 273.16K$.
+
+where $R_{\rm gas}$ is the gas constant for the condensible species. When the partial pressure of a gas, $P_{\rm gas}$, is less than $P_{\rm sat}$, the parcel of gas is 'unsaturated'. When $P_{\rm gas} = P_{\rm sat}$, the gas is 'saturated'. And, when $P_{\rm gas} > P_{\rm sat}$, the parcel is 'supersaturated'. Each condensible species has its own saturation vapor pressure. 
+
+\begin{figure}[ht!]
+ \centerline{
+  \includegraphics[width=6.5in]{figures/comparison_dry_vs_moist_lapse_rates.png}
+ }
+\caption[A Standard Interior Structure Model]
+{Moist vs. Dry lapse rate at t1 = }
+\label{fig:standard_dry_interior}
+\end{figure}
+
+
+If condensation occurs, we assume that it may be stable against convection if a fast rainout occurs such that the vertical gradient in mean molecular weight is large enough to counteract the positive bouyancy of the parcel of gas \citep{leconte_2017} \citep{friedson_2017}. In this scenario, condensation-inhibited convection occurs when $\alpha$ is negative, where is $\alpha$ \citep{friedson_2017} is given by:
 
 \begin{equation}
   \alpha = 1 + \xi (q_{s} L / R_{W} T_{0}) 
+  \label{eq:alpha}
 \end{equation}
-
-If convection is found to be inhibited,  
-
-At pressure where $\alpha < 1$, the cloud base of the water condensation zone forms. This thin, stable radiative layer has a temperature profile that is governed by:
-
-\begin{equation}
-	T(P) = T_{\rm top} + \int_{P_{\rm top}}^P\left(\frac{dT}{dP}\right)_{\rm rad}\,d P
-\end{equation}
+where $R_{\rm vap}$ is the gas constant for the vapor (water), $T_{0}$ is the local temperature, $L$ is the latent heat of vaporization for water, $q_{s}$ is the saturation specific humidity, and $\xi$ is given by $\xi = \frac{1}{\epsilon} - 1$, where $\epsilon$ is the ratio of the molecular weight of vapor to the mean molecular weight of dry atmosphere. When $\alpha$ is negative, the vertical gradient in molecular weight results in a stabilizing effect, overwhelming the effects due to latent heat release.
 
 \section{Temperature Jump Across the Water Condensation Zone}
-Letting $P_{\rm top}$ and $T_{\rm top}$ denote the pressure and temperature at the top of the stable water condensation(radiative) zone, the temperature within the radiative zone is given by
-\begin{align}
-T(P) &= T_{\rm top} + \int_{P_{\rm top}}^P\left(\frac{dT}{dP}\right)_{\rm rad}\,d P. \label{eq.t_of_p}
-\end{align}
-The radiative zone is thin under the relatively opaque conditions typical of water condensation zones in the ice giants (Leconte et al. 2017, Friedson \& Gonzales 2017). As a result our discretized model does not spatially resolve the radiative layer. Instead we treat the layer as a discontinuous increase in $T$ and water vapor mole fraction $x_{\rm vap}$. Here we derive the magnitude of the temperature jump in the limit of a thin radiative zone.
+Our model treats the radiative layer as a discontinuous increase in temperature. This, stable, radiative layer has a temperature profile that is governed by:
 
-Over a thin layer, the radiative temperature gradient
+\begin{equation}
+  T(P) = T_{\rm top} + \int_{P_{\rm top}}^{P_{\rm base}} \left(\frac{dT}{dP}\right)_{\rm rad}\,d P
+\end{equation}
+with $P_{\rm top}$ and $T_{\rm top}$ denote the pressure and temperature at the top of the stable water condensation(radiative) zone, and $P_{\rm base}$ represents the bottom of the zone. The integrand is the radiative temprature gradient \citep{leconte_2017}, defined as:
 \begin{align}
   \left(\frac{dT}{dP}\right)_{\rm rad}=\frac{T}{P}\nabla_{\rm rad}
   = \frac{T}{P}\times\frac{3}{16}\frac{\kappa_R P}{g}\frac{T_{\rm int}^4}{T^4}
 \end{align}
-is nearly constant. In this case the integral in (\ref{eq.t_of_p}) simplifies to
+The radiative temperature gradient across the layer is nearly constant, so that the integral above simplifies to:
 \begin{align}
-T_{\rm base}\equiv T(P+\Delta P) &= T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\Delta P.\label{eq.t1}
+T_{\rm base}\equiv T(P+\Delta P) &= T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\Delta P
+\end{align}
+where $\Delta P$ is the extent of the pressure-space of the radiative layer, given by:
+\begin{align}
+\Delta P \equiv P_{\rm base}-P_{\rm top} &= \frac{P_{\rm sat}(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}.
 \end{align}
 
-Just as in the moist troposphere above, the local water vapor mole fraction $x_{\rm vap}$ follows the saturation value $x_{\rm vap}^{\rm sat}$ everywhere within the radiative layer, i.e.,
 \begin{align}
-x_{\rm vap}(P, T) &= x_{\rm vap}^{\rm sat}(P, T) = \frac{e_s(T)}{P}, \qquad P<P_{\rm base}.
+x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) &= \frac{P_{\rm sat}(T_{\rm base})}{P_{\rm base}}=x_{\rm vap}^{\rm deep}
 \end{align}
-We denote by $P_{\rm base}$ and $T_{\rm base}$ the pressure and temperature at the base of the radiative zone, which is set by the condition that $x_{\rm vap}$ has reached the deep value $x_{\rm vap}^{\rm deep}$:
-\begin{align}
-% x_{\rm vap}^{\rm sat}(P_{\rm top}, T_{\rm top}) &= \frac{e_s(T_{\rm top})}{P_{\rm top}} \\
-x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) &= \frac{e_s(T_{\rm base})}{P_{\rm base}}=x_{\rm vap}^{\rm deep} \\
-\implies \Delta P \equiv P_{\rm base}-P_{\rm top} &= \frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}.\label{eq.delta_p_xvap_deep}
-\end{align}
-(Here $e_s$ is the H$_2$O saturation vapor pressure, calculated from XXXX relation [describe what the method from thermodynamics.py actually does].)
-Deeper pressures $P>P_{\rm base}$ are sub-saturated and hence no further condensation of H$_2$O takes place.
-$\Delta P$ gives the extent, in pressure coordinates, of the radiative layer. Combining (\ref{eq.delta_p_xvap_deep}) and (\ref{eq.t_of_p}) yields  
-\begin{align}
-T_{\rm base} &= T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\left(\frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}\right)
-\end{align}
-which we numerically solve for $T_{\rm base}$. Deeper temperatures are then obtained by integrating the dry adiabat $\nabla_{\rm ad}$:
-\begin{align}
-T(P>P_{\rm base}) &= T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P. \label{eq.t_of_p_deep_dry}
-\end{align}
-% \begin{figure}%
-%     \centering
-%     \subfloat[\centering The interiror structure for dry adiabat. This can also represent the situation in which the water condensation zone has eroded and the interior becomes fully convective. ]{{\includegraphics[width=12cm]{figures/structure_schematic_images/structure_schematic_images.001} }}%
-%     \qquad
-%     \subfloat[\centering The interior structure when a condensation zone has formed, creating a potentially stable, radiative layer. This represents the cloud base. It's depth decreases with a decrease in $T_{10}$. ]{{\includegraphics[width=12cm]{figures/structure_schematic_images/structure_schematic_images.002} }}%
-%     \caption{Interior structure model for Uranus}%
-%     \label{fig:example}%
-% \end{figure}
 
-% \begin{figure}[ht!]
-%  \centerline{
-%   \includegraphics[width=7.0in]{figures/uranus_with_wcz_structure.001.jpeg}
-%  }
-% \caption[Interior Structure]
-% {Model of interior structure of Uranus without condensation on the left and with condensation on the right. The dry adiabat model on the left can also represent the situation in which the water condensation zone has eroded and the interior becomes fully convective. The figure on the right shows the interior structure when a condensation zone has formed, creating a potentially stable, radiative layer. This represents the cloud base. It's depth decreases with a decrease in $T_{10}$.}
-% \label{fig:uranus}
-% \end{figure}
+Within the condensation zone, the vapor mole fraction, $x_{\rm vap}$ is equal to the saturated vapor mole fraction:
+\begin{align}
+x_{\rm vap}(P, T) &= x_{\rm vap}^{\rm sat}(P, T) = \frac{P_{\rm sat}(T)}{P}, \qquad P<P_{\rm base}.
+\end{align}
 
-\section{Thermal Evolution of Model}
-Conservation of energy relates the instantaneous luminosity profile $L(m)$ to the rate of change of specific entropy $s$ in the planet:
-\begin{equation}
-  \frac{dL}{dm}=-T\frac{\delta s}{\delta t}.
-\end{equation}
-Integrating over the mass of the planet and solving for $\delta t$ yields
-\begin{equation}
-\delta t=-\frac{1}{L_{\rm int}}\int_0^M T\,\delta s\,dm
-\end{equation}
-where $L_{\rm int}$ is the intrinsic luminosity $4\pi R^2\sigma_{\rm SB}T_{\rm int}^4$.
+The pressure and temperature at the base of the condensation zone is set by the condition that $x_{\rm vap}$ has reached the deep value $x_{\rm vap}^{\rm deep}$.
 
-For our assumed ideal mixture of light elements (H/He) and heavy elements (H$_2$O) this entropy difference is simply
+Below the condensation zone, the region is subsaturated and hence no condensation occurs. Deeper temperatures are then obtained by integrating the dry adiabat $\nabla_{\rm ad}$:
+\begin{align}
+T(P>P_{\rm base}) &= T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P
+\end{align}
+
+
+% \begin{align}
+% T_{\rm base} &= T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\left(\frac{e_s(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}\right)
+% \end{align}
+% which we numerically solve for $T_{\rm base}$. 
+
+\section{Energy Conservation and Thermal Evolution of Model}
+We borrow from conservation of energy and stellar structure and evolution to determine the timestep needed to evolve our model \citep{kippenhahn_2012}. We begin with the planets' intrinsic luminosity, defined as:
+
 \begin{equation}
-  \delta s = (1-Z)\delta s_{HHe} + Z\delta s_Z
+L_{\rm int} = 4\pi R^2\sigma_{\rm SB}T_{\rm int}^4
 \end{equation}
-where in practice $\delta s_Z$ is computed in terms of the change in internal energy and density:
+And, the first law of thermodynamics states:
 \begin{equation}
-  T\,\delta s_Z = \delta u_Z + P\delta\left(\rho_Z^{-1}\right).
+dQ = du + Pdv
 \end{equation}
+where $dQ$ is the heat added per unit mass, $u$ is the internal energy per unit mass, and $v = \frac{1}{\rho}$ per unit mass.
+So, for the heat per unit mass shell, we may write:
+\begin{equation}
+dQ = \big(\epsilon - \frac{dL}{dm})dt
+\end{equation}
+Substituting our equation for the first law of thermodynamics, we arrive at:
+\begin{equation}
+\frac{\partial L}{\partial m} = \epsilon - \frac{\partial u}{\partial t} + \frac{P}{\rho^2}\frac{\partial \rho}{\partial t}
+\end{equation}
+Here, we are not dealing with any nuclear reactions, so $\epsilon = 0$, giving us:
+\begin{equation}
+\frac{\partial L}{\partial m} = \frac{\partial u}{\partial t} + \frac{P}{\rho^2}\frac{\partial \rho}{\partial t}
+\end{equation}
+
+
 
 \chapter{Results}
 
 \section{Condensation-inhibited Convection}
-Talk about Figure 3.1.
+We began by looking at if and when condensation-inhibited convection would occur. We ran static models for a variety of $T_{10}$'s, or points in Uranus' past, moving from warmer (past) temperatures to cooler (recent) temperatures. The output of these static simulations are plotted in Figure ~\ref{fig:convection_inhibited}. We ran our model with three different values of $q_{\rm deep}$. The goal was to determine for each deep water concentration, at what pressures and temperatures, would condensation-inhibited convection occur. We found that for $q_{\rm deep} = 0.05$, no condensation-inhibited convection occured. In other words, $\alpha$ (Eqn.~\ref{eq:alpha}) was never negative. However, for larger values of $q_{\rm deep}$, we found that $\alpha$ did take on negative values in the planet's past (see rows 2 and 3 in Figure ~\ref{fig:convection_inhibited}). The shaded regions of the plots indicate the pressure-space over which $\alpha$ is negative. We show $\alpha$ with respect to pressure, vapor mole fraction, and temperature. Note: the top of the shaded region in each plot would indicate the base of the condensation zone. [not sure if i should go into the issue of the reainder of the sghaded region having no physical meaning]. Looking at these plots, for $q_{\rm deep} = 0.15$ and $q_{\rm deep} = 0.25$, we can see that condensation inhibited convection sets in at approximately $T_{10} = 335K$. Note: The $T_{10}$ at which the onset of condesation occurs is of course dependent on the resolution of the simulation. As such, these plots are meant to show the likelehood of condensation-inhibited convection rather than the exact moment or specific deep water concentration for which it occurs. 
+
 \begin{figure}[ht!]
  \centerline{
   \includegraphics[width=7.0in]{figures/convection_inhibited_2.png}
@@ -265,12 +280,23 @@ Talk about Figure 3.1.
 \end{figure}
 
 
-
 \section{Formation of Radiative Zone}
-Talk about Figure.
+The plots in Figure~\ref{fig:radiative} show the lapse rate (first column), and the change in the vapor mole fraction for $H_{2}O$ (second column), for three different values of $q_{\rm deep}$, $0.05$, $0.15$, and $0.25$, for rows 1 through 3, respectively. In the first row, we can see that for early $T_{10}$'s, there is no onset of condensation, and the lapse rate follows a dry adiabat. For later $T_{10}$'s, there is a visible kink in the lapse rate which indicates the onset of condensation, at which point the lapse rate has a shallower slope. For the larger values of $q_{\rm deep}$, where $\alpha$ takes on negative values, we see the onset of condensation-inhibited convection and the establishment of a radiative zone. In the plots, these condensation (stable, radiative)zones are represented by the horizontal discontinuites moving from left to right. As the planet cools, these radiative zones descend deeper into the planet's interior. When the radiative zones are established, the temperature jump across the radiative zone creates a warmer interior. Looking at Figure~\ref{fig:overlay}, we have overlayed the lapse rate for $q_{\rm deep} = 0.25$ (containing radiative zones) over the lapse rate for $q_{\rm deep}=0.05$ (no radiative zones). From this plot, one can see that the presence of a radiative zonecreates a tempearure jump such that a given $T_{10}$ appears to look like an earlier $T_{10}$. In other words, in the presence of radiative zones, the interiror appears as warm as an earlier interiror.
+
 \begin{figure}[ht]
  \centerline{
-  \includegraphics[width=7.5in]{figures/thesis_static_radiative_layer_plots_without_grid_points.png}
+  \includegraphics[scale=0.7]{figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png}
+ }
+\caption[Inhibition of convection on Uranus]
+{add description these plots. explain differences}
+\label{fig:overlay}
+\end{figure}
+
+Looking at the adjacent $x_{\rm vap}$ plots, we can see that $x_{\rm vap}$ follows its saturated value. At the bootom of the radiative zone, the vapor mole fraction equals its deep water value, which sets the conditions for the creation of the base of the condensation zone. 
+
+\begin{figure}[ht]
+ \centerline{
+  \includegraphics[width=7.0in]{figures/thesis_static_radiative_layer_plots_without_grid_points.png}
  }
 \caption[Inhibition of convection on Uranus]
 {add description these plots. explain differences}
@@ -280,52 +306,66 @@ Talk about Figure.
 
 \section{Thermal Evolution of Uranus and Neptune}
 
+% cooling camparisons of dry adiabat, moist adiabat, and moist adiabat with radiative layer
+We simulated the thermal evolution of Uranus and Neptune with a variety of parameters. In Figure~\ref{fig:evolve_adiabats}, we show the thermal evolution of Uranus, comparing the evolution of a dry adiabat, a moist adiabat with condensation but no radiative zone, and a moist adiabat with condensation with stable radiative zones. For all of these evolutionary tracks, we assumed $q_{\rm deep} = 0.25$. From these evolutionary tracks, it is clear that the coolest scenario is a moist adiabat that is never stable against convection. Interestingly, the moist adiabat that is stable against convection has the warmest outcome.
 
 \begin{figure}[ht]
  \centerline{
-  \includegraphics[scale=0.5]{figures/u_cooling_curves_nz_4096_more_qdeeps.png}
+  \includegraphics[scale=0.5]{figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png}
  }
 \caption[Inhibition of convection on Uranus]
-{add description these plots. explain differences}
-\label{fig:radiative}
+{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. }
+\label{fig:evolve_adiabats}
+\end{figure}
+
+% cooling uranus
+\begin{figure}[ht]
+ \centerline{
+  \includegraphics[scale=0.45]{figures/u_cooling_curves_nz_4096_more_qdeeps.png}
+ }
+\caption[Inhibition of convection on Uranus]
+{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. }
+\label{fig:evolve_uranus_qdeeps}
+\end{figure}
+
+%  cooling neptune
+ 
+
+\begin{figure}[ht]
+ \centerline{
+  \includegraphics[scale=0.45]{figures/n_cooling_curves_nz_4096_more_qdeeps.png}
+ }
+\caption[Inhibition of convection on Uranus]
+{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. }
+\label{fig:evolve_neptune_qdeeps}
+\end{figure}
+
+
+
+%  cooling radius curves
+\begin{figure}[ht]
+ \centerline{
+  \includegraphics[scale=0.45]{figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png}
+ }
+\caption[Inhibition of convection on Uranus]
+{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy.  }
+\label{fig:evolve_uranus_radius}
 \end{figure}
 
 
 \begin{figure}[ht]
  \centerline{
-  \includegraphics[scale=0.5]{figures/n_cooling_curves_nz_4096_more_qdeeps.png}
+  \includegraphics[scale=0.45]{figures/n_cooling_radius_nz_4096_logx.png}
  }
 \caption[Inhibition of convection on Uranus]
-{add description these plots. explain differences}
-\label{fig:radiative}
+{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy.  }
+\label{fig:evolve_neptune_radius}
 \end{figure}
-
-
-\begin{figure}[ht]
- \centerline{
-  \includegraphics[scale=0.5]{figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png}
- }
-\caption[Inhibition of convection on Uranus]
-{add description these plots. explain differences}
-\label{fig:radiative}
-\end{figure}
-
-
-
-\begin{figure}[ht]
- \centerline{
-  \includegraphics[scale=0.5]{figures/n_cooling_radius_nz_4096_logx.png}
- }
-\caption[Inhibition of convection on Uranus]
-{add description these plots. explain differences}
-\label{fig:radiative}
-\end{figure}
-
 
 
 
 \chapter{Discussion and Conclusions}
-
+All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. 
 
 
 
