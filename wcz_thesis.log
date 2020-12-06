@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 DEC 2020 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 DEC 2020 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,14 +347,91 @@ Package caption Info: End \AtBeginDocument code.
 
 ] [7] [8]
  1.
+
+Package natbib Warning: Citation `hubbard_1968' on page 1 undefined on input li
+ne 100.
+
+
+Package natbib Warning: Citation `low_1966' on page 1 undefined on input line 1
+00.
+
+
+Package natbib Warning: Citation `hubbard_1977' on page 1 undefined on input li
+ne 100.
+
+
+Package natbib Warning: Citation `hubbard_1977_2' on page 1 undefined on input 
+line 100.
+
+
+Package natbib Warning: Citation `podolak_1991' on page 1 undefined on input li
+ne 100.
+
+
+Package natbib Warning: Citation `fortney_2011' on page 1 undefined on input li
+ne 104.
+
+
+Package natbib Warning: Citation `podolak_1991' on page 1 undefined on input li
+ne 104.
+
+
+Package natbib Warning: Citation `hubbard_1995' on page 1 undefined on input li
+ne 104.
+
+
+Package natbib Warning: Citation `scheibe_2019' on page 1 undefined on input li
+ne 104.
+
+
+Package natbib Warning: Citation `podolak_1991' on page 1 undefined on input li
+ne 106.
+
+
+Package natbib Warning: Citation `friedson_2017' on page 1 undefined on input l
+ine 106.
+
+
+Package natbib Warning: Citation `leconte_2017' on page 1 undefined on input li
+ne 106.
+
+
+Package natbib Warning: Citation `guillot_1995' on page 1 undefined on input li
+ne 106.
+
+
+Package natbib Warning: Citation `nettelmann_2016' on page 1 undefined on input
+ line 106.
+
 [1
 
-] [2] [3]
+]
+
+Package natbib Warning: Citation `guillot_1995' on page 2 undefined on input li
+ne 109.
+
+
+Package natbib Warning: Citation `friedson_2017' on page 2 undefined on input l
+ine 109.
+
+
+Package natbib Warning: Citation `leconte_2017' on page 2 undefined on input li
+ne 109.
+
+[2]
  2.
-[4
+
+Package natbib Warning: Citation `mazevet_2019' on page 3 undefined on input li
+ne 129.
+
+
+Package natbib Warning: Citation `miguel_2018' on page 3 undefined on input lin
+e 129.
+
+[3
 
 ]
-<figures/structure_schematic_images/structure_schematic_images.001.png, id=48, 
+<figures/structure_schematic_images/structure_schematic_images.001.png, id=45, 
 1027.84pt x 770.88pt>
 File: figures/structure_schematic_images/structure_schematic_images.001.png Gra
 phic file (type png)
@@ -362,38 +439,97 @@ phic file (type png)
 Package pdftex.def Info: figures/structure_schematic_images/structure_schematic
 _images.001.png  used on input line 134.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
- [5 <./figures/structure_schematic_images/structure_schematic_images.001.png>]
-<figures/moist_adiabat_structure.png, id=55, 1927.2pt x 1084.05pt>
+
+
+Package natbib Warning: Citation `kippenhahn_2012' on page 4 undefined on input
+ line 140.
+
+[4 <./figures/structure_schematic_images/structure_schematic_images.001.png>]
+
+Package natbib Warning: Citation `graboske_1975' on page 5 undefined on input l
+ine 146.
+
+
+Package natbib Warning: Citation `fortney_2011' on page 5 undefined on input li
+ne 146.
+
+<figures/moist_adiabat_structure.png, id=51, 1927.2pt x 1084.05pt>
 File: figures/moist_adiabat_structure.png Graphic file (type png)
 <use figures/moist_adiabat_structure.png>
 Package pdftex.def Info: figures/moist_adiabat_structure.png  used on input lin
 e 154.
 (pdftex.def)             Requested size: 578.15999pt x 325.20097pt.
- [6] [7 <./figures/moist_adiabat_structure.png>]
-<figures/comparison_dry_vs_moist_lapse_rates.png, id=68, 746.79pt x 379.8993pt>
+[5]
+
+Package natbib Warning: Citation `sanchez_2011' on page 6 undefined on input li
+ne 173.
+
+[6 <./figures/moist_adiabat_structure.png>]
+<figures/comparison_dry_vs_moist_lapse_rates.png, id=66, 746.79pt x 379.8993pt>
 
 File: figures/comparison_dry_vs_moist_lapse_rates.png Graphic file (type png)
 <use figures/comparison_dry_vs_moist_lapse_rates.png>
 Package pdftex.def Info: figures/comparison_dry_vs_moist_lapse_rates.png  used 
 on input line 185.
 (pdftex.def)             Requested size: 469.75499pt x 238.96683pt.
- [8 <./figures/comparison_dry_vs_moist_lapse_rates.png>]
+
+
+Package natbib Warning: Citation `leconte_2017' on page 7 undefined on input li
+ne 192.
+
+
+Package natbib Warning: Citation `friedson_2017' on page 7 undefined on input l
+ine 192.
+
+
+Package natbib Warning: Citation `friedson_2017' on page 7 undefined on input l
+ine 192.
+
+[7 <./figures/comparison_dry_vs_moist_lapse_rates.png>]
 Overfull \hbox (0.13297pt too wide) in paragraph at lines 200--200
 []\OT1/cmr/bx/n/14.4 Temperature Jump Across the Wa-ter Con-den-sa-tion Zone 
  []
 
-[9] [10] [11]
+
+Package natbib Warning: Citation `leconte_2017' on page 8 undefined on input li
+ne 206.
+
+[8]
+
+Package natbib Warning: Citation `kippenhahn_2012' on page 9 undefined on input
+ line 243.
+
+[9] [10]
  3.
-[12
+
+LaTeX Warning: Reference `fig:convection_inhibited' on page 11 undefined on inp
+ut line 271.
+
+
+LaTeX Warning: Reference `fig:convection_inhibited' on page 11 undefined on inp
+ut line 271.
+
+[11
 
 ]
-<figures/convection_inhibited_2.png, id=87, 1317.4821pt x 1442.5092pt>
+<figures/convection_inhibited_2.png, id=84, 1317.4821pt x 1442.5092pt>
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
  276.
-(pdftex.def)             Requested size: 505.89pt x 553.88203pt.
-<figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=88, 697.
+(pdftex.def)             Requested size: 469.75499pt x 514.32846pt.
+
+
+LaTeX Warning: Float too large for page by 67.03346pt on input line 280.
+
+
+LaTeX Warning: Reference `fig:radiative' on page 12 undefined on input line 284
+.
+
+
+LaTeX Warning: Reference `fig:overlay' on page 12 undefined on input line 284.
+
+<figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=85, 697.
 8873pt x 493.845pt>
 File: figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png Graphic
  file (type png)
@@ -401,100 +537,31 @@ File: figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png Graphic
 Package pdftex.def Info: figures/thesis_static_radiative_layer_plot_diff_qdeep_
 overlay.png  used on input line 289.
 (pdftex.def)             Requested size: 488.51778pt x 345.68913pt.
- [13]
-<figures/thesis_static_radiative_layer_plots_without_grid_points.png, id=92, 12
-86.8878pt x 1442.5092pt>
-File: figures/thesis_static_radiative_layer_plots_without_grid_points.png Graph
-ic file (type png)
-<use figures/thesis_static_radiative_layer_plots_without_grid_points.png>
-Package pdftex.def Info: figures/thesis_static_radiative_layer_plots_without_gr
-id_points.png  used on input line 300.
-(pdftex.def)             Requested size: 505.89pt x 567.06656pt.
-<figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=93, 1
-092.2406pt x 876.876pt>
-File: figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png Grap
-hic file (type png)
-<use figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>
-Package pdftex.def Info: figures/dry_moist_radiative_u_cooling_curves_adiabat_c
-omparisons.png  used on input line 315.
-(pdftex.def)             Requested size: 546.11897pt x 438.43694pt.
-<figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=94, 1092.2406pt x 896.629
-8pt>
-File: figures/u_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
-<use figures/u_cooling_curves_nz_4096_more_qdeeps.png>
-Package pdftex.def Info: figures/u_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 325.
-(pdftex.def)             Requested size: 491.50374pt x 403.47968pt.
-<figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=95, 1092.7224pt x 896.629
-8pt>
-File: figures/n_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
-<use figures/n_cooling_curves_nz_4096_more_qdeeps.png>
-Package pdftex.def Info: figures/n_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 337.
-(pdftex.def)             Requested size: 491.72054pt x 403.47968pt.
-<figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=96, 1060.9236pt x 40
-6.3983pt>
-File: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png Graphic file (type 
-png)
-<use figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png>
-Package pdftex.def Info: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png 
- used on input line 349.
-(pdftex.def)             Requested size: 477.41121pt x 182.87755pt.
-<figures/n_cooling_radius_nz_4096_logx.png, id=97, 1073.4504pt x 406.3983pt>
-File: figures/n_cooling_radius_nz_4096_logx.png Graphic file (type png)
-<use figures/n_cooling_radius_nz_4096_logx.png>
-Package pdftex.def Info: figures/n_cooling_radius_nz_4096_logx.png  used on inp
-ut line 359.
-(pdftex.def)             Requested size: 483.04822pt x 182.87755pt.
- [14] [15 <./figures/convection_inhibited_2.png>] [16 <./figures/thesis_static_
-radiative_layer_plot_diff_qdeep_overlay.png>] [17 <./figures/thesis_static_radi
-ative_layer_plots_without_grid_points.png>] [18 <./figures/dry_moist_radiative_
-u_cooling_curves_adiabat_comparisons.png>] [19 <./figures/u_cooling_curves_nz_4
-096_more_qdeeps.png>] [20 <./figures/n_cooling_curves_nz_4096_more_qdeeps.png>]
- [21 <./figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png> <./figures/n_coo
-ling_radius_nz_4096_logx.png>]
- 4.
-[22
+)
+Runaway argument?
+{The solid lines represent the lapse rate for $q_{\rm deep} = 0.25, a\ETC.
+! File ended while scanning use of \caption@ydblarg.
+<inserted text> 
+                \par 
+<*> wcz_thesis.tex
+                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-] [23]
-Appendix A.
-(./wcz_thesis.bbl [24
+! Emergency stop.
+<*> wcz_thesis.tex
+                  
+*** (job aborted, no legal \end found)
 
-] [25
-
-] [26]) [27] (./wcz_thesis.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 5172 strings out of 480608
- 87714 string characters out of 5903631
- 477527 words of memory out of 5000000
- 20975 multiletter control sequences out of 15000+600000
- 539926 words of font info for 50 fonts, out of 8000000 for 9000
+ 5069 strings out of 480608
+ 84374 string characters out of 5903631
+ 474527 words of memory out of 5000000
+ 20884 multiletter control sequences out of 15000+600000
+ 539580 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,9n,48p,1876b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
-0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (35 pages, 13934984 bytes).
-PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 50i,9n,48p,1858b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -25,11 +25,11 @@
 \usepackage{amsmath}
 \usepackage[font=small,labelfont=bf]{caption}
 
-% \pagecolor{darkgray}
-% \color{white}
+\pagecolor{darkgray}
+\color{white}
 
-\pagecolor{white}
-\color{black}
+% \pagecolor{white}
+% \color{black}
 
 
 \begin{document}
@@ -153,7 +153,7 @@ Our interior structure model modifies the baseline structure described above by 
   \includegraphics[width=8.0in]{figures/moist_adiabat_structure.png}
  }
 \caption[Interior Structure for Moist Adiabat]
-{The structure for moist adiabatic interior, allowing for condensation-inhibited convection.}
+{The structure for moist adiabatic interior, allowing for condensation-inhibited convection. In this model, a stable water condensation zone may form. The pressure and temperature at the base of the condensation zone is set by the condition that $x_{\rm vap}$ has reached the deep value $x_{\rm vap}^{\rm deep}$. Below the condensation zone, the temperature and pressure follow a dry adiabat.}
 \label{fig:moist_interior}
 \end{figure}
 
@@ -272,10 +272,10 @@ We began by looking at if and when condensation-inhibited convection would occur
 
 \begin{figure}[ht!]
  \centerline{
-  \includegraphics[width=7.0in]{figures/convection_inhibited_2.png}
+  \includegraphics[width=6.5in]{figures/convection_inhibited_2.png}
  }
 \caption[Inhibition of convection on Uranus]
-{add description re: moist adiabat, when/where convection is inhibited and where the radiative zone base is in these plots. explain differences}
+{Each row represents a different value for $q_{\rm deep}$. For the top row, $q_{\rm deep} = 0.05$, for which no stable condensation zone forms. For the the moddle row, $q_{\rm deep} = 0.15$, and for the third row $q_{\rm deep} = 0.25$. For thee concentrations, stable condensation zones can form. The shaded regions of the plots indicate zones where $\alpha$ is negative, or where stable zones can form. Note: Physically, the top of the shaded region is where the stable zone would form. Below the top of the shaded region has no physical meaning, as this model did not create a water condensation zone, but just checked for its existence.}
 \label{fig:convection_inhibited}
 \end{figure}
 
@@ -288,7 +288,7 @@ The plots in Figure~\ref{fig:radiative} show the lapse rate (first column), and 
   \includegraphics[scale=0.7]{figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png}
  }
 \caption[Inhibition of convection on Uranus]
-{add description these plots. explain differences}
+{The solid lines represent the lapse rate for $q_{\rm deep} = 0.25, and the dashed lines for $q_{\rm deep}=0.05$. Looking at recent $T_{10$'s, the lapse interiror temperature for $q_{\rm deep} = 0.25$ jumps to an earlier $t_{10$. The radiative layer traps heat, such that the interiror looks like the interiror from an earlier $T_{10}$.}
 \label{fig:overlay}
 \end{figure}
 
