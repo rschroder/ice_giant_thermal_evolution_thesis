@@ -55,45 +55,45 @@ Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma a
 while executing---line 1266 of file apalike2.bst
 Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry miguel_2018
 while executing---line 1266 of file apalike2.bst
-You've used 17 entries,
+You've used 18 entries,
             2229 wiz_defined-function locations,
-            609 strings with 6382 characters,
-and the built_in function-call counts, 6076 in all, are:
-= -- 592
-> -- 180
-< -- 18
-+ -- 63
-- -- 56
-* -- 461
-:= -- 1067
-add.period$ -- 51
-call.type$ -- 17
-change.case$ -- 111
-chr.to.int$ -- 16
-cite$ -- 17
-duplicate$ -- 261
-empty$ -- 459
-format.name$ -- 81
-if$ -- 1214
+            612 strings with 6477 characters,
+and the built_in function-call counts, 6346 in all, are:
+= -- 618
+> -- 187
+< -- 19
++ -- 65
+- -- 58
+* -- 478
+:= -- 1119
+add.period$ -- 54
+call.type$ -- 18
+change.case$ -- 117
+chr.to.int$ -- 17
+cite$ -- 18
+duplicate$ -- 274
+empty$ -- 479
+format.name$ -- 84
+if$ -- 1265
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 88
-num.names$ -- 51
-pop$ -- 82
+missing$ -- 20
+newline$ -- 93
+num.names$ -- 54
+pop$ -- 87
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 119
 quote$ -- 0
-skip$ -- 211
+skip$ -- 222
 stack$ -- 0
-substring$ -- 433
-swap$ -- 40
+substring$ -- 445
+swap$ -- 41
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 98
+type$ -- 104
 warning$ -- 0
-while$ -- 50
+while$ -- 52
 width$ -- 0
-write$ -- 221
+write$ -- 233
 (There were 25 error messages)
