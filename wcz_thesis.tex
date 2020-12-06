@@ -25,11 +25,11 @@
 \usepackage{amsmath}
 \usepackage[font=small,labelfont=bf]{caption}
 
-\pagecolor{darkgray}
-\color{white}
+% \pagecolor{darkgray}
+% \color{white}
 
-% \pagecolor{white}
-% \color{black}
+\pagecolor{white}
+\color{black}
 
 
 \begin{document}
@@ -42,6 +42,7 @@
 \degreemonth{December}
 \degree{BACHELOR OF SCIENCE}
 \field{ASTROPHYSICS}%
+
 % Declare up to five committee members.  The text will be reproduced directly
 % on the signature page.  Though the chair is a committee member, leave
 % him/her out of the \committeemember declarations.  Make sure \numberofmembers
@@ -140,7 +141,7 @@ We employ a three-layer interior structure, seen schematically in Figure 2.1. At
 Historically, interior structure models have assumed that the interiors are composed of compressible gasses that are statically unstable and fully convective. In a dry-convective model such as this, a parcel of gas rises as its temperature increases while its pressure remains constant. This process happens without the addition or loss of heat from the parcel, a process referred to as adiabatic. Furthermore, while there may be a critical concentration for a condensible species, this dry model does not allow for condensation. The temperature-pressure profile follows a dry adiabat gradient\citep{kippenhahn_2012}, given by:
 
 \begin{equation}
-\nabla_{\rm ad} = \left( \frac{\partial \ln T}{\partial \ln P} \right)_{\rm s}
+  \nabla_{\rm ad} = \left( \frac{\partial \ln T}{\partial \ln P} \right)_{\rm s}
 \end{equation}
 
 Finally, beyond the outer envelope is the atmosphere. When modeling the thermal evolution of gas and ice giants, it has long been recognized that model atmospheres constitute an outer boundary condition for interior structure models, providing key inputs that impact cooling times for interior structure models. Our work considers both \citep{graboske_1975} and \citep{fortney_2011} model atmospheres. Unless otherwise stated, our results will utilize the Fortney 2011 model atmospheres. 
@@ -174,6 +175,7 @@ Gases condense at at sufficiently low temperatures or high pressures. Condensati
 
 \begin{equation}
   P_{\rm sat}(T) = P_{\rm sat}(T_{\rm 0})e^{-\frac{L + C_{\rm p}T_{\rm 0}}{R_{\rm gas}}(\frac{1}{T} - \frac{1}{T_{\rm 0}}) -\frac{C_{\rm p}}{R_{\rm gas}}\ln{\frac{T}{T_{\rm 0}}}}
+  \label{eq:saturation_vapor_pressure}
 \end{equation}
 where $T_{\rm 0} = 273.16K$.
 
@@ -202,19 +204,23 @@ Our model treats the radiative layer as a discontinuous increase in temperature.
 
 \begin{equation}
   T(P) = T_{\rm top} + \int_{P_{\rm top}}^{P_{\rm base}} \left(\frac{dT}{dP}\right)_{\rm rad}\,d P
+  \label{eq:temp_integral_over_radiative_layer}
 \end{equation}
 with $P_{\rm top}$ and $T_{\rm top}$ denote the pressure and temperature at the top of the stable water condensation(radiative) zone, and $P_{\rm base}$ represents the bottom of the zone. The integrand is the radiative temprature gradient \citep{leconte_2017}, defined as:
 \begin{align}
   \left(\frac{dT}{dP}\right)_{\rm rad}=\frac{T}{P}\nabla_{\rm rad}
   = \frac{T}{P}\times\frac{3}{16}\frac{\kappa_R P}{g}\frac{T_{\rm int}^4}{T^4}
+  \label{eq:radiative_gradient}
 \end{align}
 The radiative temperature gradient across the layer is nearly constant, so that the integral above simplifies to:
 \begin{align}
 T_{\rm base}\equiv T(P+\Delta P) &= T_{\rm top} + \left(\frac{dT}{dP}\right)_{\rm rad}\Delta P
+\label{eq:temperature_profile_over_radiative_layer_simplification}
 \end{align}
 where $\Delta P$ is the extent of the pressure-space of the radiative layer, given by:
 \begin{align}
 \Delta P \equiv P_{\rm base}-P_{\rm top} &= \frac{P_{\rm sat}(T_{\rm base})}{x_{\rm vap}^{\rm deep}} - P_{\rm top}.
+\label{eq:delta_P_over_radiative_layer}
 \end{align}
 
 \begin{align}
@@ -224,6 +230,7 @@ x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) &= \frac{P_{\rm sat}(T_{\rm ba
 Within the condensation zone, the vapor mole fraction, $x_{\rm vap}$ is equal to the saturated vapor mole fraction:
 \begin{align}
 x_{\rm vap}(P, T) &= x_{\rm vap}^{\rm sat}(P, T) = \frac{P_{\rm sat}(T)}{P}, \qquad P<P_{\rm base}.
+\label{eq:vapor_mole_fraction_within_condensation_zone}
 \end{align}
 
 The pressure and temperature at the base of the condensation zone is set by the condition that $x_{\rm vap}$ has reached the deep value $x_{\rm vap}^{\rm deep}$.
@@ -231,6 +238,7 @@ The pressure and temperature at the base of the condensation zone is set by the 
 Below the condensation zone, the region is subsaturated and hence no condensation occurs. Deeper temperatures are then obtained by integrating the dry adiabat $\nabla_{\rm ad}$:
 \begin{align}
 T(P>P_{\rm base}) &= T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P
+\label{eq:dry_adiabat_integration}
 \end{align}
 
 
@@ -244,15 +252,18 @@ We borrow from conservation of energy and stellar structure and evolution to det
 
 \begin{equation}
 L_{\rm int} = 4\pi R^2\sigma_{\rm SB}T_{\rm int}^4
+\label{eq:intrinsic_luminosity}
 \end{equation}
 And, the first law of thermodynamics states:
 \begin{equation}
 dQ = du + Pdv
+\label{eq:first_law_thermodynamics}
 \end{equation}
 where $dQ$ is the heat added per unit mass, $u$ is the internal energy per unit mass, and $v = \frac{1}{\rho}$ per unit mass.
 So, for the heat per unit mass shell, we may write:
 \begin{equation}
 dQ = \big(\epsilon - \frac{dL}{dm})dt
+\label{eq:heat_per_unit_mass_shell}
 \end{equation}
 Substituting our equation for the first law of thermodynamics, we arrive at:
 \begin{equation}
@@ -272,7 +283,7 @@ We began by looking at if and when condensation-inhibited convection would occur
 
 \begin{figure}[ht!]
  \centerline{
-  \includegraphics[width=6.5in]{figures/convection_inhibited_2.png}
+  \includegraphics[scale=0.36]{figures/convection_inhibited_2.png}
  }
 \caption[Inhibition of convection on Uranus]
 {Each row represents a different value for $q_{\rm deep}$. For the top row, $q_{\rm deep} = 0.05$, for which no stable condensation zone forms. For the the moddle row, $q_{\rm deep} = 0.15$, and for the third row $q_{\rm deep} = 0.25$. For thee concentrations, stable condensation zones can form. The shaded regions of the plots indicate zones where $\alpha$ is negative, or where stable zones can form. Note: Physically, the top of the shaded region is where the stable zone would form. Below the top of the shaded region has no physical meaning, as this model did not create a water condensation zone, but just checked for its existence.}
@@ -287,8 +298,8 @@ The plots in Figure~\ref{fig:radiative} show the lapse rate (first column), and 
  \centerline{
   \includegraphics[scale=0.7]{figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png}
  }
-\caption[Inhibition of convection on Uranus]
-{The solid lines represent the lapse rate for $q_{\rm deep} = 0.25, and the dashed lines for $q_{\rm deep}=0.05$. Looking at recent $T_{10$'s, the lapse interiror temperature for $q_{\rm deep} = 0.25$ jumps to an earlier $t_{10$. The radiative layer traps heat, such that the interiror looks like the interiror from an earlier $T_{10}$.}
+\caption[Impact of Radiative Layer on T10]
+{The solid lines represent the lapse rate for $q_{\rm deep} = 0.25$, and the dashed lines for $q_{\rm deep}=0.05$. Looking at recent $T_{10}$'s, the lapse interiror temperature for $q_{\rm deep} = 0.25$ jumps to an earlier $t_{10}$. The radiative layer traps heat, such that the interiror looks like the interiror from an earlier $T_{10}$.}
 \label{fig:overlay}
 \end{figure}
 
@@ -298,8 +309,8 @@ Looking at the adjacent $x_{\rm vap}$ plots, we can see that $x_{\rm vap}$ follo
  \centerline{
   \includegraphics[width=7.0in]{figures/thesis_static_radiative_layer_plots_without_grid_points.png}
  }
-\caption[Inhibition of convection on Uranus]
-{add description these plots. explain differences}
+\caption[Formation of Radiative Zone]
+{These plots were generated using our model Uranus. Again, from top to bottom row, we move from $q_{\rm deep} = 0.05$, $0.15$, and $0.25$, respectively. $T_{10}$'s range from hotter (yellow) to cooler (purple), more recent temperatures. In the top row, no stable radiative zones are formed. The kink visible in the middle of the top left plot represents the transition from a moist to dry adiabat. Condensation occurs, but no stability is achieved. In rows two and three, stable radiative zones are formed, as indicated by the discontinuous temperature jumps moving left to right. The radiative zones form deeper in the interiror as the planet cools. The plots in the second column show the vapor mole fraction with respect to pressure. The vapor mole fraction is constant within the radiative zone and reaches its deep water concentration value at the bottom of the radiative zone. }
 \label{fig:radiative}
 \end{figure}
 
@@ -307,14 +318,14 @@ Looking at the adjacent $x_{\rm vap}$ plots, we can see that $x_{\rm vap}$ follo
 \section{Thermal Evolution of Uranus and Neptune}
 
 % cooling camparisons of dry adiabat, moist adiabat, and moist adiabat with radiative layer
-We simulated the thermal evolution of Uranus and Neptune with a variety of parameters. In Figure~\ref{fig:evolve_adiabats}, we consider separately the evolution of a dry adiabat, a moist adiabat with condensation but no stable radiative zone, and finally a moist adiabat with condensation containing stable radiative zones. For all of these evolutionary tracks, we assumed $q_{\rm deep} = 0.25$. Looking at these evolutionary tracks, the coolest scenario at present time, is a moist adiabat that is never stable against convection. The moist adiabat that is stable against convection has the warmest outcome. In Figure~\ref{fig:evolve_uranus_qdeeps} and Figure ~\ref{fig:evolve_neptune_qdeeps}, we consider the impact of different deep water concentrations on the thermal evolution of Uranus and Neptune, respectively. As the planets cool, their radiative zones descend deeper into the interiror, as we saw in Figure~\ref{fig:radiative}. This feature is also noticable in the thermal evolution plots. Looking at $T_{\rm eff}$ at just before $10^8$ Gyr, the onset of condensation-inhibited convection occurs, resulting in a discontinuous temperature drop. The same behavior is seen in the $T_{10}$ plot, however, by this time the radiative zone has descended deeper, later in time at around $10^9$ Gyr. Larger $q_{\rm deep}$'s result in warmer Uranus and Neptune at present time. We also look at the impact of $q_{\rm deep}$ on the evolution of planetary radius and find that larger values of $q_{\rm deep}$ tend to converge more closely toward the presntly observed radius for both Uranus and Neptune in these simulations.
+We simulated the thermal evolution of Uranus and Neptune with a variety of parameters. In Figure~\ref{fig:evolve_adiabats}, we consider separately the evolution of a dry adiabat, a moist adiabat with condensation but no stable radiative zone, and finally a moist adiabat with condensation containing stable radiative zones. For all of these evolutionary tracks, we assumed $q_{\rm deep} = 0.25$. Looking at these evolutionary tracks, the coolest scenario at present time, is a moist adiabat that is never stable against convection. The moist adiabat that is stable against convection has the warmest outcome. In Figure~\ref{fig:evolve_uranus_qdeeps} and Figure ~\ref{fig:evolve_neptune_qdeeps}, we consider the impact of different deep water concentrations on the thermal evolution of Uranus and Neptune, respectively. As the planets cool, their radiative zones descend deeper into the interiror, as we saw in Figure~\ref{fig:radiative}. This feature is also noticable in the thermal evolution plots. Looking at $T_{\rm eff}$ at just before $10^8$ Gyr, the onset of condensation-inhibited convection occurs, resulting in a discontinuous temperature drop. The same behavior is seen in the $T_{10}$ plot, however, by this time the radiative zone has descended deeper, later in time at around $10^9$ Gyr. Larger $q_{\rm deep}$'s result in warmer Uranus and Neptune at present time. We also look at the impact of $q_{\rm deep}$ on the evolution of planetary radius and find that larger values of $q_{\rm deep}$ tend to converge more closely toward the presntly observed radius for both Uranus and Neptune in these simulations. 
 
 \begin{figure}[ht]
  \centerline{
   \includegraphics[scale=0.5]{figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png}
  }
-\caption[Inhibition of convection on Uranus]
-{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. }
+\caption[Thermal Evolution Curves for Uranus - Adiabat Comparisons]
+{The black line represents the thermal evolution for a dry adiabat. The dark red line represents the thermal evolution for a moist adiabat that does not allow for the formation of a stable radiative layer. The light red line represents the thermal evolution of a moist adiabat that does allow for the formation of a stable radiative zone. The fuschia dot on the lower plot represent the currently observed effective temperature of Uranus[include temp], plus or minus [include temp error]. }
 \label{fig:evolve_adiabats}
 \end{figure}
 
@@ -323,8 +334,8 @@ We simulated the thermal evolution of Uranus and Neptune with a variety of param
  \centerline{
   \includegraphics[scale=0.45]{figures/u_cooling_curves_nz_4096_more_qdeeps.png}
  }
-\caption[Inhibition of convection on Uranus]
-{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. }
+\caption[Thermal Evolution Curves for Uranus - Water Vapor Concentration Comparisons]
+{The curves in these plots represent thermal evolution tracks for different values of $q_{\rm deep}$. Dark blue is the largest concentration of water vapor, at $q_{\rm deep} = 0.55$ and the light blue line is the least concentration of water vapor at $q_{\rm deep} = 0.05$. For $q_{\rm deep} = 0.05$, there is no onset of condensation-inhibited convection and no rapid cooling episode. For larger values of $q_{\rm deep}$ there is a rapid cooling episode for $T_{\rm eff}$ at around $10^8$ Gyr. Similarly, a rapid cooling episode is visible deeper down in the interior as seen in the $T_{10}$ curves at around $10^9$ Gyr. }
 \label{fig:evolve_uranus_qdeeps}
 \end{figure}
 
@@ -335,8 +346,8 @@ We simulated the thermal evolution of Uranus and Neptune with a variety of param
  \centerline{
   \includegraphics[scale=0.45]{figures/n_cooling_curves_nz_4096_more_qdeeps.png}
  }
-\caption[Inhibition of convection on Uranus]
-{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. }
+\caption[Thermal Evolution Curves for Neptune - Water Vapor Concentration Comparisons]
+{Similar to the Uranus plots, these curves represent cooling tracks for $q_{\rm deep}$'s ranging from $0.05$ to $0.55$. Similar to Uranus, the rapid cooling episodes for $T_{\rm eff}$ and $T_{10}$ occur at $10^8$ Gyr and $10^9$ Gyr, respectively. The vertical fucshia line in the bottom plot indicates the current observed effective temperature of Neptune [include temp], plus or minus [include temp error] }
 \label{fig:evolve_neptune_qdeeps}
 \end{figure}
 
@@ -347,8 +358,8 @@ We simulated the thermal evolution of Uranus and Neptune with a variety of param
  \centerline{
   \includegraphics[scale=0.45]{figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png}
  }
-\caption[Inhibition of convection on Uranus]
-{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy.  }
+\caption[Thermal Evolution Curves for Uranus - Radius]
+{This thermal evolution plot shows the impact of different deep water concentration on the radius as the planet cools. The gray square represents the current observed radius.}
 \label{fig:evolve_uranus_radius}
 \end{figure}
 
@@ -357,8 +368,8 @@ We simulated the thermal evolution of Uranus and Neptune with a variety of param
  \centerline{
   \includegraphics[scale=0.45]{figures/n_cooling_radius_nz_4096_logx.png}
  }
-\caption[Inhibition of convection on Uranus]
-{All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy. All work no play makes Jack a dull boy.  }
+\caption[Thermal Evolution Curves for Neptune - Radius]
+{[Combine this plot with the above and have one caption.] }
 \label{fig:evolve_neptune_radius}
 \end{figure}
 
