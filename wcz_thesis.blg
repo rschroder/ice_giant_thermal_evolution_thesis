@@ -7,6 +7,8 @@ Repeated entry---line 153 of file wcz_bib.bib
  : @article{graboske_1975
  :                       ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "robinson_2016" isn't style-file defined
+--line 201 of file wcz_bib.bib
 Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
 while executing---line 1191 of file apalike2.bst
 Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
@@ -55,45 +57,45 @@ Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma a
 while executing---line 1266 of file apalike2.bst
 Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry miguel_2018
 while executing---line 1266 of file apalike2.bst
-You've used 18 entries,
+You've used 19 entries,
             2229 wiz_defined-function locations,
-            612 strings with 6477 characters,
-and the built_in function-call counts, 6346 in all, are:
-= -- 618
-> -- 187
-< -- 19
-+ -- 65
-- -- 58
-* -- 478
-:= -- 1119
-add.period$ -- 54
-call.type$ -- 18
-change.case$ -- 117
-chr.to.int$ -- 17
-cite$ -- 18
-duplicate$ -- 274
-empty$ -- 479
-format.name$ -- 84
-if$ -- 1265
+            616 strings with 6568 characters,
+and the built_in function-call counts, 6586 in all, are:
+= -- 642
+> -- 194
+< -- 20
++ -- 69
+- -- 60
+* -- 493
+:= -- 1166
+add.period$ -- 56
+call.type$ -- 19
+change.case$ -- 123
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 284
+empty$ -- 494
+format.name$ -- 87
+if$ -- 1308
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 20
-newline$ -- 93
-num.names$ -- 54
-pop$ -- 87
+newline$ -- 97
+num.names$ -- 57
+pop$ -- 91
 preamble$ -- 1
-purify$ -- 119
+purify$ -- 125
 quote$ -- 0
-skip$ -- 222
+skip$ -- 231
 stack$ -- 0
-substring$ -- 445
+substring$ -- 459
 swap$ -- 41
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 104
+type$ -- 110
 warning$ -- 0
-while$ -- 52
+while$ -- 54
 width$ -- 0
-write$ -- 233
+write$ -- 243
 (There were 25 error messages)
