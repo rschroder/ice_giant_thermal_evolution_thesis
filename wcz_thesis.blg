@@ -3,12 +3,12 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: wcz_thesis.aux
 The style file: apalike2.bst
 Database file #1: wcz_bib.bib
-Repeated entry---line 153 of file wcz_bib.bib
+Repeated entry---line 164 of file wcz_bib.bib
  : @article{graboske_1975
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "robinson_2016" isn't style-file defined
---line 201 of file wcz_bib.bib
+--line 212 of file wcz_bib.bib
 Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
 while executing---line 1191 of file apalike2.bst
 Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
@@ -59,14 +59,14 @@ Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry
 while executing---line 1266 of file apalike2.bst
 You've used 19 entries,
             2229 wiz_defined-function locations,
-            616 strings with 6568 characters,
-and the built_in function-call counts, 6586 in all, are:
+            617 strings with 6589 characters,
+and the built_in function-call counts, 6591 in all, are:
 = -- 642
 > -- 194
 < -- 20
 + -- 69
 - -- 60
-* -- 493
+* -- 496
 := -- 1166
 add.period$ -- 56
 call.type$ -- 19
@@ -74,9 +74,9 @@ change.case$ -- 123
 chr.to.int$ -- 18
 cite$ -- 19
 duplicate$ -- 284
-empty$ -- 494
+empty$ -- 495
 format.name$ -- 87
-if$ -- 1308
+if$ -- 1309
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 20
