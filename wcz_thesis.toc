@@ -3,7 +3,7 @@
 \contentsline {chapter}{Dedication}{vii}%
 \contentsline {chapter}{Acknowledgements}{viii}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
-\contentsline {section}{\numberline {1.1}Condensation in Hydrogen Dominated Atmospheres}{2}%
+\contentsline {section}{\numberline {1.1}Condensation in Hydrogen Dominated Atmospheres}{3}%
 \contentsline {chapter}{\numberline {2}Model}{4}%
 \contentsline {section}{\numberline {2.1}Three-layer Model with Dry Adiabat}{4}%
 \contentsline {section}{\numberline {2.2}Inclusion of Moist Adiabat Within Outer Envelope}{6}%

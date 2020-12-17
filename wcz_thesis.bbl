@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[{Demarcus}, 1958]{demarcus_1958}
+{Demarcus}, W.~C. (1958).
+\newblock {The constitution of Jupiter and Saturn}.
+\newblock {\em \aj}, 63, 2.
+
 \bibitem[{Fortney} et~al., 2011]{fortney_2011}
 {Fortney}, J.~J., {Ikoma}, M., {Nettelmann}, N., {Guillot}, T., \& {Marley},
   M.~S. (2011).
@@ -7,12 +12,12 @@
   System's Giant Planets}.
 \newblock {\em \apj}, 729(1), 32.
 
-\bibitem[Friedson \& Gonzales, 2017]{friedson_2017}
-Friedson, A.~J. \& Gonzales, E.~J. (2017).
-\newblock Inhibition of ordinary and diffusive convection in the water
+\bibitem[{Friedson} \& {Gonzales}, 2017]{friedson_2017}
+{Friedson}, A.~J. \& {Gonzales}, E.~J. (2017).
+\newblock {Inhibition of ordinary and diffusive convection in the water
   condensation zone of the ice giants and implications for their thermal
-  evolution.
-\newblock {\em Icarus}, 297, 160--178.
+  evolution}.
+\newblock {\em \icarus}, 297, 160--178.
 
 \bibitem[Guillot, 1995]{guillot_1995}
 Guillot, T. (1995).
@@ -31,11 +36,6 @@ Harold C.~Graboske, Jr., J. B. P. A. S.~G. \& Olness, R.~J. (1975).
 \newblock The structure and evolution of jupiter: The fluid contraction.
 \newblock {\em The Astrophysical Journal}, 199, 265--281.
 
-\bibitem[Hubbard, 1967]{hubbard_1968}
-Hubbard, W. (1967).
-\newblock Thermal structure of jupiter.
-\newblock {\em The Astrophysical Journal}, 152, 745--754.
-
 \bibitem[Hubbard, 1977a]{hubbard_1977_2}
 Hubbard, W. (1977a).
 \newblock Comparative thermal evolution of uranus and neptune.
@@ -45,6 +45,11 @@ Hubbard, W. (1977a).
 Hubbard, W. (1977b).
 \newblock The jovian surface condition and cooling rate.
 \newblock {\em Icarus}, , 30, 305--310.
+
+\bibitem[{Hubbard}, 1968]{hubbard_1968}
+{Hubbard}, W.~B. (1968).
+\newblock {Thermal structure of Jupiter}.
+\newblock {\em \apj}, 152, 745--754.
 
 \bibitem[L.~Scheibe, 2019]{scheibe_2019}
 L.~Scheibe, N~Nettelmann, R.~R. (2019).
@@ -63,10 +68,11 @@ Leconte, J., Selsis, F., Hersant, F., \& Guillot, T. (2017).
   jupiter, saturn, uranus, and neptune.
 \newblock {\em Astronomy and Astrophysics}, A98, 598.
 
-\bibitem[Low, 1966]{low_1966}
-Low, F. (1966).
-\newblock Observations of venus, jupiter, and saturn at wavelength 20 microns.
-\newblock {\em Astronomical Journal}, 71, 391.
+\bibitem[{Low}, 1966]{low_1966}
+{Low}, F.~J. (1966).
+\newblock {Observations of Venus, Jupiter, and Saturn at
+  {\ensuremath{\lambda}}20 {\ensuremath{\mu}}.}
+\newblock {\em \aj}, 71, 391.
 
 \bibitem[M.~Podolak, 1991]{podolak_1991}
 M.~Podolak, W.B.~Hubbard, D.~S. (1991).
@@ -74,10 +80,17 @@ M.~Podolak, W.B.~Hubbard, D.~S. (1991).
 \newblock {\em Uranus, Editors: J.T. Bergstralh, E.D. Miner, M. Shapely
   Matthews}, (pp.\~29).
 
-\bibitem[N.~Nettelmann, 2016]{nettelmann_2016}
-N.~Nettelmann, K.~Wangd, J. F. S. H. S. Y. M. B. R.~R. (2016).
-\newblock Uranus evolution models with simple thermal boundary layers.
-\newblock {\em Icarus}, 275, 107--116.
+\bibitem[{Nettelmann} et~al., 2016]{nettelmann_2016}
+{Nettelmann}, N., {Wang}, K., {Fortney}, J.~J., {Hamel}, S., {Yellamilli}, S.,
+  {Bethkenhagen}, M., \& {Redmer}, R. (2016).
+\newblock {Uranus evolution models with simple thermal boundary layers}.
+\newblock {\em \icarus}, 275, 107--116.
+
+\bibitem[{Pearl} \& {Conrath}, 1991]{pearl_conrath_1991}
+{Pearl}, J.~C. \& {Conrath}, B.~J. (1991).
+\newblock {The albedo, effective temperature, and energy balance of Neptune, as
+  determined from Voyager data}.
+\newblock {\em \jgr}, 96, 18921--18930.
 
 \bibitem[R.~Kippenhahn, 2012]{kippenhahn_2012}
 R.~Kippenhahn, A.~Weigert, A.~W. (2012).
@@ -93,6 +106,16 @@ S.~Mazevet, A.~Licari, G.~C. \& Potekhin, A.~Y. (2019).
 \newblock Ab initio based equation of state of dense water for planetary and
   exoplanetary modeling.
 \newblock {\em Astronomy \& Astrophysics}, A128, 621.
+
+\bibitem[Seager, 2010]{seager_2010}
+Seager, S. (2010).
+\newblock {\em Exoplanet Atmospheres}.
+\newblock Princeton University Press.
+
+\bibitem[{Smoluchowski}, 1967]{smoluchowski_1967}
+{Smoluchowski}, R. (1967).
+\newblock {Internal Structure and Energy Emission of Jupiter}.
+\newblock {\em \nat}, 215(5102), 691--695.
 
 \bibitem[W.B.~Hubbard, 1995]{hubbard_1995}
 W.B.~Hubbard, D.~S. (1995).

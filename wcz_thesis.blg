@@ -3,28 +3,12 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: wcz_thesis.aux
 The style file: apalike2.bst
 Database file #1: wcz_bib.bib
-Repeated entry---line 164 of file wcz_bib.bib
+Repeated entry---line 231 of file wcz_bib.bib
  : @article{graboske_1975
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "robinson_2016" isn't style-file defined
---line 212 of file wcz_bib.bib
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1191 of file apalike2.bst
+--line 279 of file wcz_bib.bib
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1191 of file apalike2.bst
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
@@ -45,57 +29,49 @@ Name 1 in "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Rob
 while executing---line 1266 of file apalike2.bst
 Too many commas in name 1 of "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" for entry graboske_1975
 while executing---line 1266 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1266 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1266 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1266 of file apalike2.bst
-Too many commas in name 1 of "N. Nettelmann, K. Wangd, J.J. Fortney, S. Hamel, S. Yellamilli, M. Bethkenhagen, R. Redmer" for entry nettelmann_2016
-while executing---line 1266 of file apalike2.bst
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1266 of file apalike2.bst
 Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry miguel_2018
 while executing---line 1266 of file apalike2.bst
-You've used 19 entries,
+You've used 23 entries,
             2229 wiz_defined-function locations,
-            617 strings with 6589 characters,
-and the built_in function-call counts, 6591 in all, are:
-= -- 642
-> -- 194
-< -- 20
-+ -- 69
-- -- 60
-* -- 496
-:= -- 1166
-add.period$ -- 56
-call.type$ -- 19
-change.case$ -- 123
-chr.to.int$ -- 18
-cite$ -- 19
-duplicate$ -- 284
-empty$ -- 495
-format.name$ -- 87
-if$ -- 1309
+            643 strings with 7108 characters,
+and the built_in function-call counts, 8125 in all, are:
+= -- 786
+> -- 259
+< -- 23
++ -- 91
+- -- 82
+* -- 627
+:= -- 1440
+add.period$ -- 68
+call.type$ -- 23
+change.case$ -- 153
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 340
+empty$ -- 604
+format.name$ -- 115
+if$ -- 1607
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 20
-newline$ -- 97
-num.names$ -- 57
-pop$ -- 91
+missing$ -- 25
+newline$ -- 117
+num.names$ -- 69
+pop$ -- 116
 preamble$ -- 1
-purify$ -- 125
+purify$ -- 156
 quote$ -- 0
-skip$ -- 231
+skip$ -- 273
 stack$ -- 0
-substring$ -- 459
-swap$ -- 41
+substring$ -- 564
+swap$ -- 45
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 110
+type$ -- 132
 warning$ -- 0
-while$ -- 54
+while$ -- 65
 width$ -- 0
-write$ -- 243
-(There were 25 error messages)
+write$ -- 294
+(There were 13 error messages)
