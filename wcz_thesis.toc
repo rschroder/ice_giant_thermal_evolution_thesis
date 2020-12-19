@@ -4,14 +4,14 @@
 \contentsline {chapter}{Acknowledgements}{viii}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \contentsline {section}{\numberline {1.1}Condensation in Hydrogen Dominated Atmospheres}{3}%
-\contentsline {chapter}{\numberline {2}Model}{5}%
-\contentsline {section}{\numberline {2.1}Three-layer Model with Dry Adiabat}{5}%
-\contentsline {section}{\numberline {2.2}Inclusion of Moist Adiabat Within Outer Envelope}{7}%
-\contentsline {section}{\numberline {2.3}Temperature Jump Across the Water Condensation Zone}{10}%
-\contentsline {section}{\numberline {2.4}Energy Conservation and Thermal Evolution of Model}{12}%
-\contentsline {chapter}{\numberline {3}Results}{13}%
-\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{13}%
-\contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{14}%
-\contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{15}%
-\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{24}%
-\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{26}%
+\contentsline {chapter}{\numberline {2}Model}{6}%
+\contentsline {section}{\numberline {2.1}Three-layer Model with Dry Adiabat}{6}%
+\contentsline {section}{\numberline {2.2}Inclusion of Moist Adiabat Within Outer Envelope}{8}%
+\contentsline {section}{\numberline {2.3}Temperature Jump Across the Water Condensation Zone}{11}%
+\contentsline {section}{\numberline {2.4}Energy Conservation and Thermal Evolution of Model}{13}%
+\contentsline {chapter}{\numberline {3}Results}{14}%
+\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{14}%
+\contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{15}%
+\contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{16}%
+\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{25}%
+\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{27}%
