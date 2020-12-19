@@ -1,7 +1,5 @@
 \contentsline {chapter}{List of Figures}{v}%
 \contentsline {chapter}{List of Tables}{vi}%
-\contentsline {chapter}{Dedication}{vii}%
-\contentsline {chapter}{Acknowledgements}{viii}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \contentsline {section}{\numberline {1.1}Condensation in Hydrogen Dominated Atmospheres}{3}%
 \contentsline {chapter}{\numberline {2}Model}{6}%
@@ -14,4 +12,3 @@
 \contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{15}%
 \contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{16}%
 \contentsline {chapter}{\numberline {4}Discussion and Conclusions}{25}%
-\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{27}%
