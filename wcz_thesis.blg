@@ -3,12 +3,12 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: wcz_thesis.aux
 The style file: apalike2.bst
 Database file #1: wcz_bib.bib
-Repeated entry---line 231 of file wcz_bib.bib
+Repeated entry---line 331 of file wcz_bib.bib
  : @article{graboske_1975
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "robinson_2016" isn't style-file defined
---line 279 of file wcz_bib.bib
+--line 379 of file wcz_bib.bib
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1191 of file apalike2.bst
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
@@ -17,61 +17,50 @@ Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry
 while executing---line 1191 of file apalike2.bst
 Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry miguel_2018
 while executing---line 1191 of file apalike2.bst
-Name 1 in "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" has a comma at the end for entry graboske_1975
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" for entry graboske_1975
-while executing---line 1191 of file apalike2.bst
-Name 1 in "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" has a comma at the end for entry graboske_1975
-while executing---line 1191 of file apalike2.bst
-Too many commas in name 1 of "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" for entry graboske_1975
-while executing---line 1191 of file apalike2.bst
-Name 1 in "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" has a comma at the end for entry graboske_1975
-while executing---line 1266 of file apalike2.bst
-Too many commas in name 1 of "Harold C. Graboske, Jr., James B. Pollack, Allan S. Grossman, and Robert J. Olness" for entry graboske_1975
-while executing---line 1266 of file apalike2.bst
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1266 of file apalike2.bst
+Warning--empty journal in seager_2010
 Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry miguel_2018
 while executing---line 1266 of file apalike2.bst
-You've used 23 entries,
+You've used 26 entries,
             2229 wiz_defined-function locations,
-            643 strings with 7108 characters,
-and the built_in function-call counts, 8125 in all, are:
-= -- 786
-> -- 259
-< -- 23
-+ -- 91
-- -- 82
-* -- 627
-:= -- 1440
-add.period$ -- 68
-call.type$ -- 23
-change.case$ -- 153
-chr.to.int$ -- 22
-cite$ -- 23
-duplicate$ -- 340
-empty$ -- 604
-format.name$ -- 115
-if$ -- 1607
-int.to.chr$ -- 2
+            665 strings with 7664 characters,
+and the built_in function-call counts, 9739 in all, are:
+= -- 951
+> -- 308
+< -- 27
++ -- 102
+- -- 98
+* -- 771
+:= -- 1680
+add.period$ -- 76
+call.type$ -- 26
+change.case$ -- 177
+chr.to.int$ -- 26
+cite$ -- 27
+duplicate$ -- 409
+empty$ -- 732
+format.name$ -- 138
+if$ -- 1958
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 117
-num.names$ -- 69
-pop$ -- 116
+missing$ -- 27
+newline$ -- 131
+num.names$ -- 78
+pop$ -- 137
 preamble$ -- 1
-purify$ -- 156
+purify$ -- 179
 quote$ -- 0
-skip$ -- 273
+skip$ -- 333
 stack$ -- 0
-substring$ -- 564
-swap$ -- 45
-text.length$ -- 3
+substring$ -- 712
+swap$ -- 67
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
-warning$ -- 0
-while$ -- 65
+type$ -- 152
+warning$ -- 1
+while$ -- 76
 width$ -- 0
-write$ -- 294
-(There were 13 error messages)
+write$ -- 333
+(There were 7 error messages)

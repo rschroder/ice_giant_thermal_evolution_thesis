@@ -5,6 +5,12 @@
 \newblock {The constitution of Jupiter and Saturn}.
 \newblock {\em \aj}, 63, 2.
 
+\bibitem[{Fortney} \& {Hubbard}, 2003]{fortney_hubbard_2003}
+{Fortney}, J.~J. \& {Hubbard}, W.~B. (2003).
+\newblock {Phase separation in giant planets: inhomogeneous evolution of
+  Saturn}.
+\newblock {\em \icarus}, 164(1), 228--243.
+
 \bibitem[{Fortney} et~al., 2011]{fortney_2011}
 {Fortney}, J.~J., {Ikoma}, M., {Nettelmann}, N., {Guillot}, T., \& {Marley},
   M.~S. (2011).
@@ -19,37 +25,39 @@
   evolution}.
 \newblock {\em \icarus}, 297, 160--178.
 
-\bibitem[Guillot, 1995]{guillot_1995}
-Guillot, T. (1995).
-\newblock Condensation of methane, ammonia, and water and the inhibition of
-  convection in giant planets.
-\newblock {\em Science}, (pp.\ 1697--1699).
+\bibitem[{Graboske} et~al., 1975]{graboske_1975}
+{Graboske}, H.~C., J., {Pollack}, J.~B., {Grossman}, A.~S., \& {Olness}, R.~J.
+  (1975).
+\newblock {The structure and evolution of Jupiter: the fluid contraction
+  stage.}
+\newblock {\em \apj}, 199, 265--281.
 
-\bibitem[Guillot, 2019]{guillot_2019}
-Guillot, T. (2019).
-\newblock Uranus and neptune are key to understand planets with hydrogen
-  atmospheres.
-\newblock {\em arXiv.org}.
+\bibitem[{Guillot}, 1995]{guillot_1995}
+{Guillot}, T. (1995).
+\newblock {Condensation of Methane, Ammonia, and Water and the Inhibition of
+  Convection in Giant Planets}.
+\newblock {\em Science}, 269(5231), 1697--1699.
 
-\bibitem[Harold C.~Graboske \& Olness, 1975]{graboske_1975}
-Harold C.~Graboske, Jr., J. B. P. A. S.~G. \& Olness, R.~J. (1975).
-\newblock The structure and evolution of jupiter: The fluid contraction.
-\newblock {\em The Astrophysical Journal}, 199, 265--281.
-
-\bibitem[Hubbard, 1977a]{hubbard_1977_2}
-Hubbard, W. (1977a).
-\newblock Comparative thermal evolution of uranus and neptune.
-\newblock {\em Icarus}, , 35, 177--181.
-
-\bibitem[Hubbard, 1977b]{hubbard_1977}
-Hubbard, W. (1977b).
-\newblock The jovian surface condition and cooling rate.
-\newblock {\em Icarus}, , 30, 305--310.
+\bibitem[{Guillot}, 2020]{guillot_2019}
+{Guillot}, T. (2020).
+\newblock {Uranus and Neptune are key to understand planets with hydrogen
+  atmospheres}.
+\newblock In {\em European Planetary Science Congress}  (pp.\ EPSC2020--514).
 
 \bibitem[{Hubbard}, 1968]{hubbard_1968}
 {Hubbard}, W.~B. (1968).
 \newblock {Thermal structure of Jupiter}.
 \newblock {\em \apj}, 152, 745--754.
+
+\bibitem[{Hubbard}, 1977]{hubbard_1977}
+{Hubbard}, W.~B. (1977).
+\newblock {The Jovian Surface Condition and Cooling Rate}.
+\newblock {\em \icarus}, 30(2), 305--310.
+
+\bibitem[{Hubbard}, 1978]{hubbard_1977_2}
+{Hubbard}, W.~B. (1978).
+\newblock {Comparative thermal evolution of Uranus and Neptune}.
+\newblock {\em \icarus}, 35(2), 177--181.
 
 \bibitem[L.~Scheibe, 2019]{scheibe_2019}
 L.~Scheibe, N~Nettelmann, R.~R. (2019).
@@ -61,12 +69,17 @@ Lavega, A.~S. (2011).
 \newblock {\em Introduction to Planetary Atmospheres}.
 \newblock Taylor and Francis Group, LLC.
 
-\bibitem[Leconte et~al., 2017]{leconte_2017}
-Leconte, J., Selsis, F., Hersant, F., \& Guillot, T. (2017).
-\newblock Condensation-inhibited convection in hydrogen-rich atmospheres:
+\bibitem[{Leconte} \& {Chabrier}, 2013]{leconte_chabrier_2013}
+{Leconte}, J. \& {Chabrier}, G. (2013).
+\newblock {Layered convection as the origin of Saturn's luminosity anomaly}.
+\newblock {\em Nature Geoscience}, 6(5), 347--350.
+
+\bibitem[{Leconte} et~al., 2017]{leconte_2017}
+{Leconte}, J., {Selsis}, F., {Hersant}, F., \& {Guillot}, T. (2017).
+\newblock {Condensation-inhibited convection in hydrogen-rich atmospheres .
   Stability against double-diffusive processes and thermal profiles for
-  jupiter, saturn, uranus, and neptune.
-\newblock {\em Astronomy and Astrophysics}, A98, 598.
+  Jupiter, Saturn, Uranus, and Neptune}.
+\newblock {\em \aap}, 598, A98.
 
 \bibitem[{Low}, 1966]{low_1966}
 {Low}, F.~J. (1966).
@@ -79,6 +92,12 @@ M.~Podolak, W.B.~Hubbard, D.~S. (1991).
 \newblock Models of uranus' interior and magnetic field.
 \newblock {\em Uranus, Editors: J.T. Bergstralh, E.D. Miner, M. Shapely
   Matthews}, (pp.\~29).
+
+\bibitem[{Mankovich} \& {Fortney}, 2019]{mankovich_2020}
+{Mankovich}, C. \& {Fortney}, J.~J. (2019).
+\newblock {Evidence for a Dichotomy in the Interior Structures of Jupiter and
+  Saturn from Helium Phase Separation}.
+\newblock In {\em AGU Fall Meeting Abstracts}, volume 2019  (pp.\ P24B--02).
 
 \bibitem[{Nettelmann} et~al., 2016]{nettelmann_2016}
 {Nettelmann}, N., {Wang}, K., {Fortney}, J.~J., {Hamel}, S., {Yellamilli}, S.,
@@ -109,8 +128,7 @@ S.~Mazevet, A.~Licari, G.~C. \& Potekhin, A.~Y. (2019).
 
 \bibitem[Seager, 2010]{seager_2010}
 Seager, S. (2010).
-\newblock {\em Exoplanet Atmospheres}.
-\newblock Princeton University Press.
+\newblock Exoplanet atmospheres.
 
 \bibitem[{Smoluchowski}, 1967]{smoluchowski_1967}
 {Smoluchowski}, R. (1967).

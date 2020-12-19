@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  17 DEC 2020 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  18 DEC 2020 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -266,20 +266,20 @@ LaTeX Warning: Label `fig:standard_dry_interior' multiply defined.
 )
 \openout1 = `wcz_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count269
@@ -352,213 +352,138 @@ Package caption Info: End \AtBeginDocument code.
  1.
 [1
 
-] [2] [3]
+] [2] [3] [4]
  2.
-[4
+[5
 
 ]
-<figures/structure_schematic_images/structure_schematic_images.001.png, id=51, 
+<figures/structure_schematic_images/structure_schematic_images.001.png, id=55, 
 1027.84pt x 770.88pt>
 File: figures/structure_schematic_images/structure_schematic_images.001.png Gra
 phic file (type png)
 <use figures/structure_schematic_images/structure_schematic_images.001.png>
 Package pdftex.def Info: figures/structure_schematic_images/structure_schematic
-_images.001.png  used on input line 153.
+_images.001.png  used on input line 164.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
- [5 <./figures/structure_schematic_images/structure_schematic_images.001.png>]
-<figures/moist_adiabat_structure.png, id=58, 1927.2pt x 1084.05pt>
+ [6 <./figures/structure_schematic_images/structure_schematic_images.001.png>]
+<figures/moist_adiabat_structure.png, id=61, 1927.2pt x 1084.05pt>
 File: figures/moist_adiabat_structure.png Graphic file (type png)
 <use figures/moist_adiabat_structure.png>
 Package pdftex.def Info: figures/moist_adiabat_structure.png  used on input lin
-e 173.
+e 184.
 (pdftex.def)             Requested size: 578.15999pt x 325.20097pt.
- [6] [7 <./figures/moist_adiabat_structure.png>]
-<figures/comparison_dry_vs_moist_lapse_rates.png, id=68, 746.79pt x 379.8993pt>
+ [7] [8 <./figures/moist_adiabat_structure.png>]
+<figures/comparison_dry_vs_moist_lapse_rates.png, id=71, 746.79pt x 379.8993pt>
 
 File: figures/comparison_dry_vs_moist_lapse_rates.png Graphic file (type png)
 <use figures/comparison_dry_vs_moist_lapse_rates.png>
 Package pdftex.def Info: figures/comparison_dry_vs_moist_lapse_rates.png  used 
-on input line 202.
+on input line 213.
 (pdftex.def)             Requested size: 469.75499pt x 238.96683pt.
 
-Overfull \hbox (0.13297pt too wide) in paragraph at lines 217--217
+Overfull \hbox (0.13297pt too wide) in paragraph at lines 228--228
 []\OT1/cmr/bx/n/14.4 Temperature Jump Across the Wa-ter Con-den-sa-tion Zone 
  []
 
-[8] [9 <./figures/comparison_dry_vs_moist_lapse_rates.png>] [10] [11]
+[9] [10 <./figures/comparison_dry_vs_moist_lapse_rates.png>] [11] [12]
  3.
-[12
+[13
 
 ]
-<figures/convection_inhibited_2.png, id=87, 1317.4821pt x 1442.5092pt>
+<figures/convection_inhibited_2.png, id=90, 1317.4821pt x 1442.5092pt>
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
- 295.
+ 306.
 (pdftex.def)             Requested size: 474.2932pt x 519.30292pt.
 
 
-LaTeX Warning: Float too large for page by 0.00792pt on input line 299.
+LaTeX Warning: Float too large for page by 0.00792pt on input line 310.
 
-[13]
-<figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=91, 697.
+[14]
+<figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=94, 697.
 8873pt x 493.845pt>
 File: figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png Graphic
  file (type png)
 <use figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>
 Package pdftex.def Info: figures/thesis_static_radiative_layer_plot_diff_qdeep_
-overlay.png  used on input line 308.
+overlay.png  used on input line 319.
 (pdftex.def)             Requested size: 488.51778pt x 345.68913pt.
-<figures/thesis_static_radiative_layer_plots_without_grid_points.png, id=92, 12
+<figures/thesis_static_radiative_layer_plots_without_grid_points.png, id=95, 12
 86.8878pt x 1442.5092pt>
 File: figures/thesis_static_radiative_layer_plots_without_grid_points.png Graph
 ic file (type png)
 <use figures/thesis_static_radiative_layer_plots_without_grid_points.png>
 Package pdftex.def Info: figures/thesis_static_radiative_layer_plots_without_gr
-id_points.png  used on input line 319.
+id_points.png  used on input line 330.
 (pdftex.def)             Requested size: 386.06932pt x 432.7561pt.
 
 
-LaTeX Warning: Float too large for page by 33.4611pt on input line 323.
+LaTeX Warning: Float too large for page by 33.4611pt on input line 334.
 
-[14]
-<figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=96, 1
+[15]
+<figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=99, 1
 092.2406pt x 896.6298pt>
 File: figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png Grap
 hic file (type png)
 <use figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>
 Package pdftex.def Info: figures/dry_moist_radiative_u_cooling_curves_adiabat_c
-omparisons.png  used on input line 334.
+omparisons.png  used on input line 345.
 (pdftex.def)             Requested size: 546.11897pt x 448.3138pt.
-<figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=97, 1092.2406pt x 896.629
-8pt>
+<figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=100, 1092.2406pt x 896.62
+98pt>
 File: figures/u_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/u_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 344.
+ on input line 355.
 (pdftex.def)             Requested size: 491.50374pt x 403.47968pt.
-<figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=98, 1092.2406pt x 896.629
-8pt>
+<figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=101, 1092.2406pt x 896.62
+98pt>
 File: figures/n_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/n_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/n_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 356.
+ on input line 367.
 (pdftex.def)             Requested size: 491.50374pt x 403.47968pt.
-<figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=99, 1060.9236pt x 40
-6.3983pt>
+<figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=102, 1060.9236pt x 4
+06.3983pt>
 File: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png Graphic file (type 
 png)
 <use figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png 
- used on input line 368.
+ used on input line 379.
 (pdftex.def)             Requested size: 477.41121pt x 182.87755pt.
-<figures/n_cooling_radius_nz_4096_logx.png, id=100, 1073.4504pt x 406.3983pt>
+<figures/n_cooling_radius_nz_4096_logx.png, id=103, 1073.4504pt x 406.3983pt>
 File: figures/n_cooling_radius_nz_4096_logx.png Graphic file (type png)
 <use figures/n_cooling_radius_nz_4096_logx.png>
 Package pdftex.def Info: figures/n_cooling_radius_nz_4096_logx.png  used on inp
-ut line 378.
+ut line 389.
 (pdftex.def)             Requested size: 483.04822pt x 182.87755pt.
- [15] [16 <./figures/convection_inhibited_2.png>] [17 <./figures/thesis_static_
-radiative_layer_plot_diff_qdeep_overlay.png>] [18 <./figures/thesis_static_radi
-ative_layer_plots_without_grid_points.png>] [19 <./figures/dry_moist_radiative_
-u_cooling_curves_adiabat_comparisons.png>] [20 <./figures/u_cooling_curves_nz_4
-096_more_qdeeps.png>] [21 <./figures/n_cooling_curves_nz_4096_more_qdeeps.png>]
- [22 <./figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png> <./figures/n_coo
+ [16] [17 <./figures/convection_inhibited_2.png>] [18 <./figures/thesis_static_
+radiative_layer_plot_diff_qdeep_overlay.png>] [19 <./figures/thesis_static_radi
+ative_layer_plots_without_grid_points.png>] [20 <./figures/dry_moist_radiative_
+u_cooling_curves_adiabat_comparisons.png>] [21 <./figures/u_cooling_curves_nz_4
+096_more_qdeeps.png>] [22 <./figures/n_cooling_curves_nz_4096_more_qdeeps.png>]
+ [23 <./figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png> <./figures/n_coo
 ling_radius_nz_4096_logx.png>]
  4.
-[23
+[24
 
-] [24]
+] [25]
 Appendix A.
-(./wcz_thesis.bbl [25
+(./wcz_thesis.bbl [26
 
-]
-! Undefined control sequence.
-l.6 \newblock {\em \aj
-                      }, 63, 2.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [27
 
-! Undefined control sequence.
-l.13 \newblock {\em \apj
-                        }, 729(1), 32.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.20 \newblock {\em \icarus
-                           }, 297, 160--178.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[26
-
-]
-! Undefined control sequence.
-l.52 \newblock {\em \apj
-                        }, 152, 745--754.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.75 \newblock {\em \aj
-                       }, 71, 391.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.87 \newblock {\em \icarus
-                           }, 275, 107--116.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.93 \newblock {\em \jgr
-                        }, 96, 18921--18930.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[27]
-! Undefined control sequence.
-l.118 \newblock {\em \nat
-                         }, 215(5102), 691--695.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [28] (./wcz_thesis.aux)
+] [28]) [29] (./wcz_thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5201 strings out of 480608
- 88499 string characters out of 5903631
- 476527 words of memory out of 5000000
- 21004 multiletter control sequences out of 15000+600000
+ 5217 strings out of 480608
+ 88761 string characters out of 5903631
+ 476695 words of memory out of 5000000
+ 21020 multiletter control sequences out of 15000+600000
  539926 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,9n,48p,1872b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -578,10 +503,10 @@ ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020
 /texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (36 pages, 14151480 bytes).
+Output written on wcz_thesis.pdf (37 pages, 14153496 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
+ 210 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

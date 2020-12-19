@@ -10,7 +10,13 @@
 \usepackage{natbib}
 \usepackage{graphicx,epsf}% Include figure files
 \usepackage{spverbatim}
-
+\newcommand{\aj}{Astronomical Journal}
+\newcommand{\apj}{Astrophysical Journal}
+\newcommand{\icarus}{Icarus}
+\newcommand{\aap}{Astronomy and Astrophysics}     % Astronomy and Astrophysics 
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society} 
+\newcommand{\nat}{Nature} 
+\newcommand{\jgr}{Journal of Geophysical Research}
 
 % The following declaration is for citations and bibliographies consistent with
 % Astrophysical Journal specifications.  It may be left out or replaced with
@@ -24,6 +30,7 @@
 \usepackage{subfig}
 \usepackage{amsmath}
 \usepackage[font=small,labelfont=bf]{caption}
+
 
 % \pagecolor{darkgray}
 % \color{white}
@@ -97,31 +104,35 @@ I'd like to thank....
 %\part{First Part}
 
 \chapter{Introduction}
-Planets coalesce from matter contained in their parent star's protoplanetary disk. As planets accrete material from the disk, it gravitationally collapses and heats up, giving the planet a so-called 'hot start'. After accretion is complete, the planet will begin to cool over time. It will be helpful to define what we mean by temperature. There are several temperatures that describe a planet's atmosphere. The effective temperature, $T_{\rm eff}$, is defined as the total flux integrated over all frequencies of a black body of the same shape and same distance as the planet \citep{seager_2010}.
+Planets coalesce from matter contained in their parent star's protoplanetary disk. As planets accrete material from the disk, it heats up, giving the planet a so-called 'hot start'. After accretion is complete, the planet will begin to cool over time. It will be helpful to define what we mean by temperature. There are several temperatures that describe a planet's atmosphere. The effective temperature, $T_{\rm eff}$, is defined as the total flux integrated over all frequencies of a black body of the same shape and same distance as the planet \citep{seager_2010}.
 \begin{equation}
     \pi \int_{0}^{\infty} B(T, \nu) d\nu = \sigma_{\rm R}T^{4}
   \label{eq:effective_temp_integral}
 \end{equation}  
 yielding,
 \begin{equation}
-    T_{\rm eff} = \big(\frac{F_{\rm S}}{\sigma_{\rm R}})^{\frac{1}{4}} 
+    T_{\rm eff} = \bigg(\frac{F}{\sigma_{\rm R}}\bigg)^{\frac{1}{4}} 
   \label{eq:effective_temp}
 \end{equation} 
-The equilibrium temperature, $T_{\rm eq}$, is the temperature the planet would have if it were in thermal equilibrium with its parent star, and is defined as:
+The equilibrium temperature, $T_{\rm eq}$, is the temperature the planet would have if it were in thermal equilibrium with its parent star. This occurs when the planet has radiated away its latent heat of formation, and the only remaining source of energy is from its star. This temperature is defined as:
 \begin{equation}
-    T_{\rm eq}^4 = \frac{f(1-A_{\rm B})}{r^{2} 4 \pi \sigma_{\rm B}}
+    T_{\rm eq}^4 = \frac{F(1-A_{\rm B})}{r^{2} 4 \pi \sigma_{\rm B}}
   \label{eq:equilibrium_temp}
 \end{equation} 
-where $r$ is the distance from the star in AU, $A_{\rm B}$ is the bond albedo, and $f$ is the solar flux. Finally, the intrinsic temperature, $T{\rm int}$, the temperature that defines the flux from the planet's interior and is defined by the relation:
+where $r$ is the distance from the star in AU, $A_{\rm B}$ is the bond albedo, and $F$ is the solar flux. Finally, the intrinsic temperature, $T{\rm int}$, the temperature that defines the flux from the planet's interior and is defined by the relation:
 
 \begin{equation}
     T_{\rm eff}^4 =  T_{\rm eq}^4 +  T_{\rm int}^4
   \label{eq:effective_temp}
 \end{equation} 
 
-In 1965, Frank Low measured Jupiter's intrinsic temperature \citep{low_1966}. To explain this observation, theorists set out to expand on prior work \citep{demarcus_1958} on the theory of interior structure of solar system gas and ice giants \citep{hubbard_1968, smoluchowski_1967,hubbard_1977, hubbard_1977_2, podolak_1991}. At the present time, most of the giant planets in our solar system: Saturn, Jupiter, and Neptune, all have an intrinsic flux. Uranus is the exception \citep{pearl_conrath_1991}. Measurements of Uranus's effective temperature are consistent with a planet that has no intrinsic flux, a planet in thermal equilibrium with the Sun, cooler than its more distant neighbor, Neptune, a planet with similar mass and composition. Thermal evolution models for Uranus have not matched observation, instead predicting a warmer effective temperature at $4.6$ Gyr, the current age of the solar system \citep{fortney_2011, podolak_1991, hubbard_1995, scheibe_2019}.
+In 1965, Frank Low measured Jupiter's intrinsic temperature \citep{low_1966}. To explain this observation, theorists set out to expand on prior work \citep{demarcus_1958} on the theory of interior structure of solar system gas and ice giants \citep{hubbard_1968, smoluchowski_1967,hubbard_1977, hubbard_1977_2, podolak_1991}. In 1968, Hubbard showed that a convective interior would allow Jupiter's observed flux to be transported to the surface adiabatically.
 
-There have been various attempts to explain Uranus' cool temperature. Early investigations posited that a stratified interior, stable against convection, would allow heat to be trapped deep within the the interior \citep{podolak_1991}. Later work built on this idea, investigating the formation of stable condensation zones \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}, and thermal boundary layers \citep{nettelmann_2016}, that could inhibit convection. It was speculated that the presence of these thermal boundary layers, or condensation zones, could trap heat deep within the interior, allowing the envelope above to cool more rapidly, thereby lowering the planet's effective temperature.
+At the present time, most of the giant planets in our solar system: Saturn, Jupiter, and Neptune, all have an intrinsic flux. Uranus is the exception \citep{pearl_conrath_1991}. Measurements of Uranus's effective temperature are consistent with a planet that has no intrinsic flux, a planet in thermal equilibrium with the Sun, cooler than its more distant neighbor, Neptune, a planet with similar mass and composition. 
+
+While thermal evolution models do currently reproduce $T_{\rm eff}$ for Jupiter and Neptune at 4.6 Gyr \citep{graboske_1975,fortney_2011}, they do not reproduce $T_{\rm eff}$ for Saturn and Uranus. Models for Saturn predict a cooler planet; however, plausible explanations have been offered to explain its current, warmer $T_{\rm eff}$. Among them, the rain-out of helium \citep{fortney_hubbard_2003, mankovich_2020}, or double-diffusive convection \citep{leconte_chabrier_2013}. 
+
+Meanwhile, for Uranus, the models have predicted a warmer effective temperature at present time \citep{fortney_2011, podolak_1991, hubbard_1995, scheibe_2019}. There have been various attempts to explain Uranus' cool temperature. Early investigations posited that a stratified interior, stable against convection, would allow heat to be trapped deep within the the interior \citep{podolak_1991}. Later work built on this idea, investigating the formation of stable condensation zones \citep{friedson_2017}, \citep{leconte_2017}, and \citep{guillot_1995}, and thermal boundary layers \citep{nettelmann_2016}, that could inhibit convection. It was speculated that the presence of these thermal boundary layers, or condensation zones, could trap heat deep within the interior, allowing the envelope above to cool more rapidly, thereby lowering the planet's effective temperature.
 
 \section{Condensation in Hydrogen Dominated Atmospheres}
 On Earth, moist air is lighter than dry air. For example, water vapor, the primary condensate in Earth's atmosphere is lighter (not by much) than the background air which is composed primarily of $N_{2}$. Thus, when $H_{2}O$ condenses out of the atmosphere, there is small vertical gradient in mean molecular weight. This small gradient does not impose a significant barrier to convection. By contrast, in hydrogen dominated atmospheres such as Neptune and Uranus, the background gas is much lighter than the condensates. In this hydrogen-rich environment, when $H_{2}O$ condenses out of the atmosphere, a strong vertical gradient in mean molecular weight can be established, resulting in a negative buoyancy for the convecting parcel of gas. This can create a situation where the zone in which water condenses is stable against convection \citep{guillot_1995}, \citep{friedson_2017}, \citep{leconte_2017}. 
