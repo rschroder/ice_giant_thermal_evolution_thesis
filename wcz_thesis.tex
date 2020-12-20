@@ -135,14 +135,14 @@ We begin our description of the physics of our interior structure model by assum
 \begin{equation}
   \frac{dm}{dr} =4 \pi r^{2}\rho  
 \end{equation}
-where $dm$ is the mass contained within a sphere of radius $r + dr$, and $\rho(r)$ is the density. Hydrostatic equilibrium is also assumed and described by:
+where $dm$ is the mass contained within a sphere of radius $r + dr$, and $\rho$ is the density. Hydrostatic equilibrium is also assumed and described by:
 
 \begin{equation}
   \frac{dP}{dr} = -\frac{Gm\rho}{r^{2}}  
 \end{equation}
 where $P$ is the pressure and $G$ is the gravitational constant. 
 
-We employ a three-layer interior structure, seen schematically in Figure 2.1. At the center of the planet is a core made of rock and ice. Moving outward, the inner envelope is $H_{2}O$ dominated, with uniform concentrations of H, He, and H$_{{2}}$O. The outer envelope, below 1 bars, contains trace amounts of H$_{2}$O, but is mostly comprised of H and He. To accommodate the incredibly high temperatures and pressures experienced deep in the interior of giant planets, We use the MAZEVET EOS as our H-He equation of state \citep{mazevet_2019}. For metals, we use MH13SCVH EOS \citep{miguel_2018}. [How much more should I go into this?]
+We employ a three-layer interior structure, seen schematically in Figure 2.1. At the center of the planet is a core of mass, $m_{\rm core}$. The core is made of pure water ice, indicated by $Z = 1$, the H$_{2}$O mass fraction, in the diagram. Moving outward, the inner envelope is $H_{2}O$ dominated, where $Z_{2}$ is the H$_{2}$O mass fraction, $X_{2}$, and $Y_{2}$ are the hydrogen and helium mass fractions, respectively. The outer envelope, below 1 bar, contains trace amounts of H$_{2}$O, but is mostly comprised of hydrogen and helium, with mass fractions equal to $X_{1}$ and $Y_{1}$, respectively. $m_{\rm 12}$ is the mass coordinate that indicates the transition between the inner and outer envelope. $T1{1}$ is the temperature at $P=1$ bar. Near the surface, the ideal gas law provides a good approximation for relating pressure, temperature, density, and composition. However, at depth, this approximation is no longer valid. We use the MAZEVET EOS as our H-He equation of state \citep{mazevet_2019}. For metals, we use MH13SCVH EOS \citep{miguel_2018}. [How much more should I go into this?]
 
 \begin{figure}[ht!]
  \centerline{
