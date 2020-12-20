@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[{Chabrier} et~al., 2019]{chabrier_eos}
+{Chabrier}, G., {Mazevet}, S., \& {Soubiran}, F. (2019).
+\newblock {A New Equation of State for Dense Hydrogen-Helium Mixtures}.
+\newblock {\em \apj}, 872(1), 51.
+
 \bibitem[{Demarcus}, 1958]{demarcus_1958}
 {Demarcus}, W.~C. (1958).
 \newblock {The constitution of Jupiter and Saturn}.
@@ -66,8 +71,7 @@ L.~Scheibe, N~Nettelmann, R.~R. (2019).
 
 \bibitem[Lavega, 2011]{sanchez_2011}
 Lavega, A.~S. (2011).
-\newblock {\em Introduction to Planetary Atmospheres}.
-\newblock Taylor and Francis Group, LLC.
+\newblock Introduction to planetary atmospheres.
 
 \bibitem[{Leconte} \& {Chabrier}, 2013]{leconte_chabrier_2013}
 {Leconte}, J. \& {Chabrier}, G. (2013).
@@ -116,10 +120,6 @@ R.~Kippenhahn, A.~Weigert, A.~W. (2012).
 \newblock {\em Stellar Structure and Evolution}.
 \newblock Springer.
 
-\bibitem[Robinson, 2016]{robinson_2016}
-Robinson, T. (2016).
-\newblock The moist pseudo-adiabat for multiple condensing species.
-
 \bibitem[S.~Mazevet \& Potekhin, 2019]{mazevet_2019}
 S.~Mazevet, A.~Licari, G.~C. \& Potekhin, A.~Y. (2019).
 \newblock Ab initio based equation of state of dense water for planetary and
@@ -139,11 +139,5 @@ Seager, S. (2010).
 W.B.~Hubbard, D.~S. (1995).
 \newblock The interior of neptune.
 \newblock {\em Neptune and Triton, Editor: D.P. Kruikshank}, (pp.\ 109).
-
-\bibitem[Y.~Miguel \& Fayon, 2018]{miguel_2018}
-Y.~Miguel, T.~G. \& Fayon, L. (2018).
-\newblock Jupiter internal structure: the effect of different equations of
-  state.
-\newblock {\em Astronomy \& Astrophysics}, C2, 618.
 
 \end{thebibliography}

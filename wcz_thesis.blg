@@ -3,64 +3,57 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: wcz_thesis.aux
 The style file: apalike2.bst
 Database file #1: wcz_bib.bib
-Repeated entry---line 331 of file wcz_bib.bib
+Repeated entry---line 352 of file wcz_bib.bib
  : @article{graboske_1975
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "robinson_2016" isn't style-file defined
---line 379 of file wcz_bib.bib
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1191 of file apalike2.bst
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1191 of file apalike2.bst
-Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry miguel_2018
-while executing---line 1191 of file apalike2.bst
-Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry miguel_2018
-while executing---line 1191 of file apalike2.bst
+Warning--empty journal in sanchez_2011
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1266 of file apalike2.bst
 Warning--empty journal in seager_2010
-Name 1 in "Y. Miguel, T. Guillot, and L. Fayon" has a comma at the end for entry miguel_2018
-while executing---line 1266 of file apalike2.bst
-You've used 26 entries,
+You've used 25 entries,
             2229 wiz_defined-function locations,
-            665 strings with 7664 characters,
-and the built_in function-call counts, 9739 in all, are:
-= -- 951
-> -- 308
-< -- 27
-+ -- 102
+            660 strings with 7576 characters,
+and the built_in function-call counts, 9509 in all, are:
+= -- 926
+> -- 306
+< -- 25
++ -- 100
 - -- 98
-* -- 771
-:= -- 1680
-add.period$ -- 76
-call.type$ -- 26
-change.case$ -- 177
-chr.to.int$ -- 26
+* -- 763
+:= -- 1637
+add.period$ -- 73
+call.type$ -- 25
+change.case$ -- 173
+chr.to.int$ -- 25
 cite$ -- 27
-duplicate$ -- 409
-empty$ -- 732
-format.name$ -- 138
-if$ -- 1958
+duplicate$ -- 398
+empty$ -- 714
+format.name$ -- 135
+if$ -- 1912
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 131
-num.names$ -- 78
-pop$ -- 137
+missing$ -- 26
+newline$ -- 126
+num.names$ -- 75
+pop$ -- 134
 preamble$ -- 1
-purify$ -- 179
+purify$ -- 174
 quote$ -- 0
-skip$ -- 333
+skip$ -- 324
 stack$ -- 0
-substring$ -- 712
-swap$ -- 67
+substring$ -- 695
+swap$ -- 66
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
-warning$ -- 1
-while$ -- 76
+type$ -- 148
+warning$ -- 2
+while$ -- 74
 width$ -- 0
-write$ -- 333
-(There were 7 error messages)
+write$ -- 321
+(There were 4 error messages)
