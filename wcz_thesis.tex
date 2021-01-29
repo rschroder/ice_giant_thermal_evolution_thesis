@@ -32,11 +32,11 @@
 \usepackage[font=small,labelfont=bf]{caption}
 
 
-% \pagecolor{darkgray}
-% \color{white}
+\pagecolor{darkgray}
+\color{white}
 
-\pagecolor{white}
-\color{black}
+% \pagecolor{white}
+% \color{black}
 
 
 \begin{document}
@@ -90,22 +90,22 @@ We examine under what conditions stable water condensation zones would form in t
 %\part{First Part}
 
 \chapter{Introduction}
-Planets coalesce from matter contained in their parent star's protoplanetary disk. As a planet accretes material from the disk, it heats up, giving the planet a so-called 'hot start'. After accretion is complete, the planet will begin to cool over time. Before proceeding further, it will be helpful to define what we mean by temperature. There are several temperatures that describe a planet's atmosphere. The effective temperature, $T_{\rm eff}$, is defined as the total flux integrated over all frequencies, $\nu$, of a black body of the same shape and same distance as the planet \citep{seager_2010}:
+Planets coalesce from matter contained in their parent star's protoplanetary disk. A planet will accrete matter from the disk until the supply is exhausted, at which point, the planet will begin to cool and contract over time (cite armitage and lissauer). When discussing cooling, it will be neccesary to define what we mean when talking about the temperature of a planet, as there are several temperatures that describe a planet's temperature.  The effective temperature, $T_{\rm eff}$, is defined as the total flux integrated over all frequencies, $\nu$, of a black body of the same shape and same distance as the planet \citep{seager_2010}:
 \begin{equation}
     \pi \int_{0}^{\infty} B(T, \nu) d\nu = \sigma_{\rm B}T_{\rm eff}^{4}
   \label{eq:effective_temp_integral}
 \end{equation}  
-Here, $\sigma_{B}$ is the Stefan-Boltzmann constant, and $F$ is the solar flux. Simplifying further, this yields
+Here, $\sigma_{B}$ is the Stefan-Boltzmann constant, and $F_{\star}$ is the stellar flux. Simplifying further, this yields
 \begin{equation}
-    T_{\rm eff} = \bigg(\frac{F}{\sigma_{\rm B}}\bigg)^{\frac{1}{4}}.
+    T_{\rm eff} = \bigg(\frac{F_{\star}}{\sigma_{\rm B}}\bigg)^{\frac{1}{4}}.
   \label{eq:effective_temp}
 \end{equation}
 The equilibrium temperature, $T_{\rm eq}$, is the temperature the planet would have if it were in thermal equilibrium with its parent star. This occurs when the planet has radiated away its latent heat of formation, and the only remaining source of energy is from its star. This temperature is defined as
 \begin{equation}
-    T_{\rm eq}^4 = \frac{F(1-A_{\rm B})}{r^{2} 4 \pi \sigma_{\rm B}}
+    T_{\rm eq}^4 = \frac{F_{\star}(1-A_{\rm B})}{r_{\rm au}^{2} 4 \pi \sigma_{\rm B}} *** REEXAMINE
   \label{eq:equilibrium_temp}
 \end{equation} 
-where $r$ is the distance from the star in AU, $A_{\rm B}$ is the bond albedo. Finally, the intrinsic temperature, $T_{\rm int}$, the temperature that defines the flux from the planet's interior and is defined by the relation
+where $r_{\rm au}$ is the distance from the star in AU, $A_{\rm B}$ is the bond albedo. Finally, the intrinsic temperature, $T_{\rm int}$, the temperature that defines the flux from the planet's interior and is defined by the relation
 
 \begin{equation}
     T_{\rm eff}^4 =  T_{\rm eq}^4 +  T_{\rm int}^4.
