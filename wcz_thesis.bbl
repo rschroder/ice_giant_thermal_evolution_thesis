@@ -1,5 +1,9 @@
 \begin{thebibliography}{}
 
+\bibitem[{Armitage}, 2013]{2013apf..book.....A}
+{Armitage}, P.~J. (2013).
+\newblock {\em {Astrophysics of Planet Formation}}.
+
 \bibitem[{Chabrier} et~al., 2019]{chabrier_eos}
 {Chabrier}, G., {Mazevet}, S., \& {Soubiran}, F. (2019).
 \newblock {A New Equation of State for Dense Hydrogen-Helium Mixtures}.
@@ -84,6 +88,12 @@ Lavega, A.~S. (2011).
   Stability against double-diffusive processes and thermal profiles for
   Jupiter, Saturn, Uranus, and Neptune}.
 \newblock {\em \aap}, 598, A98.
+
+\bibitem[{Lissauer} \& {Stevenson}, 2007]{2007prpl.conf..591L}
+{Lissauer}, J.~J. \& {Stevenson}, D.~J. (2007).
+\newblock {Formation of Giant Planets}.
+\newblock In B. {Reipurth}, D. {Jewitt}, \& K. {Keil} (Eds.), {\em Protostars
+  and Planets V}  (pp.\ 591).
 
 \bibitem[{Low}, 1966]{low_1966}
 {Low}, F.~J. (1966).
