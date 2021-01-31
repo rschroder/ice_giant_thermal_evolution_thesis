@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JAN 2021 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 JAN 2021 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -342,160 +342,137 @@ Package caption Info: End \AtBeginDocument code.
  1.
 [1
 
-] [2] [3] [4] [5]
+] [2] [3] [4] [5] [6]
  2.
-[6
+[7
 
 ]
-<figures/structure_schematic/structure_schematic.001.jpeg, id=49, 1027.84pt x 7
+<figures/structure_schematic/structure_schematic.001.jpeg, id=52, 1027.84pt x 7
 70.88pt>
 File: figures/structure_schematic/structure_schematic.001.jpeg Graphic file (ty
 pe jpg)
 <use figures/structure_schematic/structure_schematic.001.jpeg>
 Package pdftex.def Info: figures/structure_schematic/structure_schematic.001.jp
-eg  used on input line 170.
+eg  used on input line 172.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
- [7] [8 <./figures/structure_schematic/structure_schematic.001.jpeg>]
-[9]
-<figures/structure_schematic/structure_schematic.002.jpeg, id=60, 1027.84pt x 7
+ [8] [9 <./figures/structure_schematic/structure_schematic.001.jpeg>]
+[10]
+<figures/structure_schematic/structure_schematic.002.jpeg, id=63, 1027.84pt x 7
 70.88pt>
 File: figures/structure_schematic/structure_schematic.002.jpeg Graphic file (ty
 pe jpg)
 <use figures/structure_schematic/structure_schematic.002.jpeg>
 Package pdftex.def Info: figures/structure_schematic/structure_schematic.002.jp
-eg  used on input line 211.
+eg  used on input line 213.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
-<figures/comparison_dry_vs_moist_lapse_rates.png, id=61, 746.79pt x 379.8993pt>
+<figures/comparison_dry_vs_moist_lapse_rates.png, id=64, 746.79pt x 379.8993pt>
 
 File: figures/comparison_dry_vs_moist_lapse_rates.png Graphic file (type png)
 <use figures/comparison_dry_vs_moist_lapse_rates.png>
 Package pdftex.def Info: figures/comparison_dry_vs_moist_lapse_rates.png  used 
-on input line 222.
+on input line 224.
 (pdftex.def)             Requested size: 469.75499pt x 238.96683pt.
- [10] [11 <./figures/structure_schematic/structure_schematic.002.jpeg>]
-Overfull \hbox (0.13297pt too wide) in paragraph at lines 237--237
+ [11] [12 <./figures/structure_schematic/structure_schematic.002.jpeg>]
+Overfull \hbox (0.13297pt too wide) in paragraph at lines 239--239
 []\OT1/cmr/bx/n/14.4 Temperature Jump Across the Wa-ter Con-den-sa-tion Zone 
  []
 
-[12 <./figures/comparison_dry_vs_moist_lapse_rates.png>] [13] [14] [15]
+[13 <./figures/comparison_dry_vs_moist_lapse_rates.png>] [14] [15] [16]
  3.
-[16
+[17
 
 ]
-<figures/convection_inhibited_2.png, id=88, 1317.4821pt x 1442.5092pt>
+<figures/convection_inhibited_2.png, id=91, 1317.4821pt x 1442.5092pt>
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
- 301.
+ 303.
 (pdftex.def)             Requested size: 474.2932pt x 519.30292pt.
+ [18]
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.309 ..., while sub-critical($q_{\rm deep = 0.05$
-                                                  ) and super-critical ($q_{...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.309 ... and super-critical ($q_{\rm deep = 0.05$
-                                                  ) models may appear identi...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[17]
-
-LaTeX Warning: Text page 18 contains only floats.
+LaTeX Warning: Text page 19 contains only floats.
 
 
 Overfull \vbox (3.00792pt too high) has occurred while \output is active []
 
 
-[18 <./figures/convection_inhibited_2.png>]
-<figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=96, 697.
+[19 <./figures/convection_inhibited_2.png>]
+<figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=99, 697.
 8873pt x 493.845pt>
 File: figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png Graphic
  file (type png)
 <use figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>
 Package pdftex.def Info: figures/thesis_static_radiative_layer_plot_diff_qdeep_
-overlay.png  used on input line 314.
+overlay.png  used on input line 316.
 (pdftex.def)             Requested size: 488.51778pt x 345.68913pt.
-<figures/thesis_static_radiative_layer_plots_without_grid_points.png, id=97, 12
-86.8878pt x 1442.5092pt>
+<figures/thesis_static_radiative_layer_plots_without_grid_points.png, id=100, 1
+286.8878pt x 1442.5092pt>
 File: figures/thesis_static_radiative_layer_plots_without_grid_points.png Graph
 ic file (type png)
 <use figures/thesis_static_radiative_layer_plots_without_grid_points.png>
 Package pdftex.def Info: figures/thesis_static_radiative_layer_plots_without_gr
-id_points.png  used on input line 325.
+id_points.png  used on input line 327.
 (pdftex.def)             Requested size: 489.02245pt x 548.1592pt.
 
 
-LaTeX Warning: Float too large for page by 76.8642pt on input line 329.
+LaTeX Warning: Float too large for page by 76.8642pt on input line 331.
 
-[19] [20 <./figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>]
-<figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=106, 
+[20] [21 <./figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>]
+<figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=109, 
 1092.2406pt x 896.6298pt>
 File: figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png Grap
 hic file (type png)
 <use figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>
 Package pdftex.def Info: figures/dry_moist_radiative_u_cooling_curves_adiabat_c
-omparisons.png  used on input line 340.
+omparisons.png  used on input line 342.
 (pdftex.def)             Requested size: 546.11897pt x 448.3138pt.
-<figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=107, 1092.2406pt x 896.62
+<figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=110, 1092.2406pt x 896.62
 98pt>
 File: figures/u_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/u_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 350.
+ on input line 352.
 (pdftex.def)             Requested size: 491.50374pt x 403.47968pt.
-<figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=108, 1092.2406pt x 896.62
+<figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=111, 1092.2406pt x 896.62
 98pt>
 File: figures/n_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/n_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/n_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 362.
+ on input line 364.
 (pdftex.def)             Requested size: 491.50374pt x 403.47968pt.
-<figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=109, 1060.9236pt x 4
+<figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=112, 1060.9236pt x 4
 06.3983pt>
 File: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png Graphic file (type 
 png)
 <use figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png 
- used on input line 374.
+ used on input line 376.
 (pdftex.def)             Requested size: 477.41121pt x 182.87755pt.
-<figures/n_cooling_radius_nz_4096_logx.png, id=110, 1073.4504pt x 406.3983pt>
+<figures/n_cooling_radius_nz_4096_logx.png, id=113, 1073.4504pt x 406.3983pt>
 File: figures/n_cooling_radius_nz_4096_logx.png Graphic file (type png)
 <use figures/n_cooling_radius_nz_4096_logx.png>
 Package pdftex.def Info: figures/n_cooling_radius_nz_4096_logx.png  used on inp
-ut line 384.
+ut line 386.
 (pdftex.def)             Requested size: 483.04822pt x 182.87755pt.
-[21] [22 <./figures/thesis_static_radiative_layer_plots_without_grid_points.png
->] [23 <./figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>
-] [24 <./figures/u_cooling_curves_nz_4096_more_qdeeps.png>] [25 <./figures/n_co
-oling_curves_nz_4096_more_qdeeps.png>] [26 <./figures/u_cooling_radius_nz_4096_
+[22] [23 <./figures/thesis_static_radiative_layer_plots_without_grid_points.png
+>] [24 <./figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>
+] [25 <./figures/u_cooling_curves_nz_4096_more_qdeeps.png>] [26 <./figures/n_co
+oling_curves_nz_4096_more_qdeeps.png>] [27 <./figures/u_cooling_radius_nz_4096_
 logx_more_qdeeps.png> <./figures/n_cooling_radius_nz_4096_logx.png>]
  4.
-[27
+[28
 
-] (./wcz_thesis.bbl [28] [29
+] (./wcz_thesis.bbl [29] [30
 
-] [30] [31]) [32] (./wcz_thesis.aux)
+] [31] [32]) [33] (./wcz_thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  5217 strings out of 480608
- 88854 string characters out of 5903631
- 476700 words of memory out of 5000000
+ 88878 string characters out of 5903631
+ 477700 words of memory out of 5000000
  21022 multiletter control sequences out of 15000+600000
  539926 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -516,10 +493,10 @@ ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020
 /texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (37 pages, 13841060 bytes).
+Output written on wcz_thesis.pdf (38 pages, 13842080 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 211 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
