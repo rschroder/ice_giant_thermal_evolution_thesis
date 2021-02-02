@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex wcz_thesis"] 1612205040 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1612205052
+["bibtex wcz_thesis"] 1612236372 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1612237066
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1242948958 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
   "wcz_bib.bib" 1612038642 17166 2db6cc60788fce207071473d49b9c0c8 ""
-  "wcz_thesis.aux" 1612205052 8315 2a7832f2771c61891ebea9972aae798a "pdflatex"
+  "wcz_thesis.aux" 1612237066 8533 922a82e82b9535fa82cdcd2feec1970b "pdflatex"
   (generated)
   "wcz_thesis.blg"
   "wcz_thesis.bbl"
-["pdflatex"] 1612205040 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1612205052
+["pdflatex"] 1612237054 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1612237066
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -97,14 +97,14 @@
   "figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png" 1607210500 356951 498008229a9fe9cf41e30e9296785673 ""
   "ucsct11.clo" 1592201124 18016 606282ce6ede0b76e96e80b7e990ee92 ""
   "ucscthesisbs.cls" 1592201124 44063 edae4ad1ea5924ebf0aac7d7232fb2de ""
-  "wcz_thesis.aux" 1612205052 8315 2a7832f2771c61891ebea9972aae798a "pdflatex"
-  "wcz_thesis.bbl" 1612205040 5875 f7f9b1a4c44ee02066735135b3e61fbe "bibtex wcz_thesis"
-  "wcz_thesis.lof" 1612205052 1268 d73fb2dcb19c429b946ceb0929c245a4 "pdflatex"
-  "wcz_thesis.tex" 1612205027 41571 c9b1eb00b97141122867277e425c9cd1 ""
-  "wcz_thesis.toc" 1612205052 1357 db982e2a37ed4936574a1a99f3de1e59 "pdflatex"
+  "wcz_thesis.aux" 1612237066 8533 922a82e82b9535fa82cdcd2feec1970b "pdflatex"
+  "wcz_thesis.bbl" 1612236372 5875 f7f9b1a4c44ee02066735135b3e61fbe "bibtex wcz_thesis"
+  "wcz_thesis.lof" 1612237066 1269 8bdaf2ea0f90d741e7452cf6200e17c7 "pdflatex"
+  "wcz_thesis.tex" 1612237053 42156 0a45d8f62a86fbaa0c22ed723dd444fa ""
+  "wcz_thesis.toc" 1612237066 1450 a73c5e5e2b4a5c56e8e6e8242f71b5a3 "pdflatex"
   (generated)
-  "wcz_thesis.pdf"
-  "wcz_thesis.log"
   "wcz_thesis.aux"
   "wcz_thesis.lof"
   "wcz_thesis.toc"
+  "wcz_thesis.log"
+  "wcz_thesis.pdf"
