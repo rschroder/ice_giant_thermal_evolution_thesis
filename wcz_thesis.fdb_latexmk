@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex wcz_thesis"] 1612242615 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1612242626
+["bibtex wcz_thesis"] 1612242615 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1612412906
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1242948958 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
   "wcz_bib.bib" 1612064763 17166 2db6cc60788fce207071473d49b9c0c8 ""
   "wcz_thesis.aux" 1612242626 8533 e12efc003897739e948049a492652f13 "pdflatex"
   (generated)
-  "wcz_thesis.blg"
   "wcz_thesis.bbl"
-["pdflatex"] 1612242615 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1612242626
+  "wcz_thesis.blg"
+["pdflatex"] 1612242615 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1612412906
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -84,7 +84,7 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "figures/comparison_dry_vs_moist_lapse_rates.png" 1609185378 258479 93863b35a660cdff2033e935cdcc6570 ""
+  "figures/comparison_dry_vs_moist_lapse_rates.png" 1612410918 258479 93863b35a660cdff2033e935cdcc6570 ""
   "figures/convection_inhibited_2.png" 1606287387 2457324 b83c482c8dc2d9baee0447239440f58f ""
   "figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png" 1609307512 581168 183a91639287ff87634f00694e9cee83 ""
   "figures/n_cooling_curves_nz_4096_more_qdeeps.png" 1609319766 1036564 a1e8c9d37e55f77676a8a1e6fcc23b60 ""
@@ -103,8 +103,8 @@
   "wcz_thesis.tex" 1612242601 42572 b9ae7942c0a902bfecc441582b4bdb19 ""
   "wcz_thesis.toc" 1612242626 1450 1b730755efeed6a76360f65c457e3bea "pdflatex"
   (generated)
-  "wcz_thesis.lof"
   "wcz_thesis.pdf"
-  "wcz_thesis.aux"
-  "wcz_thesis.log"
+  "wcz_thesis.lof"
   "wcz_thesis.toc"
+  "wcz_thesis.log"
+  "wcz_thesis.aux"
