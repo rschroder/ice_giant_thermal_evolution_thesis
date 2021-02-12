@@ -16,45 +16,45 @@ Warning--empty journal in sanchez_2011
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1266 of file apalike2.bst
 Warning--empty publisher in 2010eapp.book.....S
-You've used 27 entries,
+You've used 28 entries,
             2229 wiz_defined-function locations,
-            672 strings with 7883 characters,
-and the built_in function-call counts, 10266 in all, are:
-= -- 991
-> -- 337
-< -- 28
-+ -- 109
-- -- 107
-* -- 821
-:= -- 1763
-add.period$ -- 78
-call.type$ -- 27
-change.case$ -- 184
-chr.to.int$ -- 27
-cite$ -- 30
-duplicate$ -- 438
-empty$ -- 774
-format.name$ -- 148
-if$ -- 2070
+            676 strings with 7969 characters,
+and the built_in function-call counts, 10545 in all, are:
+= -- 1016
+> -- 344
+< -- 29
++ -- 113
+- -- 109
+* -- 838
+:= -- 1814
+add.period$ -- 81
+call.type$ -- 28
+change.case$ -- 189
+chr.to.int$ -- 28
+cite$ -- 31
+duplicate$ -- 452
+empty$ -- 797
+format.name$ -- 151
+if$ -- 2124
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 135
-num.names$ -- 83
-pop$ -- 156
+missing$ -- 32
+newline$ -- 140
+num.names$ -- 86
+pop$ -- 164
 preamble$ -- 1
-purify$ -- 187
+purify$ -- 193
 quote$ -- 0
-skip$ -- 351
+skip$ -- 361
 stack$ -- 0
-substring$ -- 725
-swap$ -- 76
+substring$ -- 739
+swap$ -- 77
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 156
+type$ -- 160
 warning$ -- 3
-while$ -- 80
+while$ -- 82
 width$ -- 0
-write$ -- 344
+write$ -- 356
 (There were 4 error messages)
