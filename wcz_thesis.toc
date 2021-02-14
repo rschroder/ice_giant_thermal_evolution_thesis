@@ -2,17 +2,20 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \contentsline {section}{\numberline {1.1}Relevant Thermodynamics}{2}%
 \contentsline {subsection}{\numberline {1.1.1}Temperatures}{2}%
-\contentsline {subsection}{\numberline {1.1.2}Means of Energy Transport and Gradients}{3}%
-\contentsline {subsubsection}{Dry Adiabatic Gradient}{3}%
-\contentsline {subsubsection}{Moist Adiabatic Gradient}{4}%
-\contentsline {subsubsection}{Radiative Gradient}{4}%
-\contentsline {subsection}{\numberline {1.1.3}Condensation in Hydrogen Dominated Atmospheres}{4}%
-\contentsline {section}{\numberline {1.2}Prior Work}{5}%
-\contentsline {chapter}{\numberline {2}Model}{8}%
-\contentsline {section}{\numberline {2.1}Basic Equations}{8}%
-\contentsline {section}{\numberline {2.2}Inclusion of Moist Adiabat Within Outer Envelope}{11}%
-\contentsline {section}{\numberline {2.3}Temperature Jump Across the Water Condensation Zone}{14}%
-\contentsline {section}{\numberline {2.4}Energy Conservation and Thermal Evolution of Model}{16}%
+\contentsline {subsection}{\numberline {1.1.2}Energy Transport}{3}%
+\contentsline {subsubsection}{Dry Convection}{3}%
+\contentsline {subsubsection}{Moist Convection}{4}%
+\contentsline {subsubsection}{Condensation in Hydrogen Dominated Atmospheres}{5}%
+\contentsline {section}{\numberline {1.2}Prior Work}{7}%
+\contentsline {chapter}{\numberline {2}Model}{9}%
+\contentsline {section}{\numberline {2.1}Differential Equations for Structure and Evolution}{9}%
+\contentsline {subsubsection}{Conservation of Mass}{9}%
+\contentsline {subsubsection}{Hydrostatic Equilibrium}{10}%
+\contentsline {subsubsection}{Conservation of Energy}{10}%
+\contentsline {section}{\numberline {2.2}Standard Interior Structure Model}{10}%
+\contentsline {section}{\numberline {2.3}Inclusion of Moist Adiabat Within Outer Envelope}{13}%
+\contentsline {section}{\numberline {2.4}Temperature Jump Across the Water Condensation Zone}{15}%
+\contentsline {section}{\numberline {2.5}Model Inputs}{16}%
 \contentsline {chapter}{\numberline {3}Results}{17}%
 \contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{17}%
 \contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{18}%
