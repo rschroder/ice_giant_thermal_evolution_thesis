@@ -3,7 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: wcz_thesis.aux
 The style file: apalike2.bst
 Database file #1: wcz_bib.bib
-Repeated entry---line 352 of file wcz_bib.bib
+Repeated entry---line 365 of file wcz_bib.bib
  : @article{graboske_1975
  :                       ,
 I'm skipping whatever remains of this entry
@@ -15,46 +15,47 @@ Warning--empty publisher in 2013apf..book.....A
 Warning--empty journal in sanchez_2011
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1266 of file apalike2.bst
+Warning--empty journal in seager_2010
 Warning--empty publisher in 2010eapp.book.....S
-You've used 28 entries,
+You've used 29 entries,
             2229 wiz_defined-function locations,
-            676 strings with 7969 characters,
-and the built_in function-call counts, 10545 in all, are:
-= -- 1016
-> -- 344
-< -- 29
-+ -- 113
-- -- 109
-* -- 838
-:= -- 1814
-add.period$ -- 81
-call.type$ -- 28
-change.case$ -- 189
-chr.to.int$ -- 28
-cite$ -- 31
-duplicate$ -- 452
-empty$ -- 797
-format.name$ -- 151
-if$ -- 2124
+            680 strings with 8039 characters,
+and the built_in function-call counts, 10809 in all, are:
+= -- 1040
+> -- 351
+< -- 30
++ -- 115
+- -- 111
+* -- 856
+:= -- 1864
+add.period$ -- 83
+call.type$ -- 29
+change.case$ -- 195
+chr.to.int$ -- 29
+cite$ -- 33
+duplicate$ -- 465
+empty$ -- 817
+format.name$ -- 154
+if$ -- 2173
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 140
-num.names$ -- 86
-pop$ -- 164
+missing$ -- 33
+newline$ -- 144
+num.names$ -- 89
+pop$ -- 171
 preamble$ -- 1
-purify$ -- 193
+purify$ -- 199
 quote$ -- 0
-skip$ -- 361
+skip$ -- 372
 stack$ -- 0
-substring$ -- 739
+substring$ -- 751
 swap$ -- 77
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 160
-warning$ -- 3
-while$ -- 82
+type$ -- 166
+warning$ -- 4
+while$ -- 84
 width$ -- 0
-write$ -- 356
+write$ -- 366
 (There were 4 error messages)
