@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex wcz_thesis"] 1613954676 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1613971822
+["bibtex wcz_thesis"] 1614053976 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1614054618
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1242948958 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
-  "wcz_bib.bib" 1613791979 17781 0a2a73b92a1459085c156cb2a6f6b6bc ""
-  "wcz_thesis.aux" 1613971822 9550 5dc788ec2ffccc1016e174d814a92dda "pdflatex"
+  "wcz_bib.bib" 1614053619 18440 b8ea21e34ebf45a87176df83a1a0d101 ""
+  "wcz_thesis.aux" 1614053986 9895 9dd00e1e474ad18daf10a287dd7fa429 "pdflatex"
   (generated)
   "wcz_thesis.bbl"
   "wcz_thesis.blg"
-["pdflatex"] 1613971810 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1613971822
+["pdflatex"] 1614053976 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1614054618
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -109,14 +109,14 @@
   "figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png" 1609319844 356951 498008229a9fe9cf41e30e9296785673 ""
   "ucsct11.clo" 1592201124 18016 606282ce6ede0b76e96e80b7e990ee92 ""
   "ucscthesisbs.cls" 1592201124 44063 edae4ad1ea5924ebf0aac7d7232fb2de ""
-  "wcz_thesis.aux" 1613971822 9550 5dc788ec2ffccc1016e174d814a92dda "pdflatex"
-  "wcz_thesis.bbl" 1613954676 6118 fa7af70b0d5999b58fcff56beb2bb124 "bibtex wcz_thesis"
-  "wcz_thesis.lof" 1613971822 1269 d1ac69fe15cc5b52b5f9214cd0c523fb "pdflatex"
-  "wcz_thesis.tex" 1613971802 47233 fe9d325718f5b785b4b626289c9af17a ""
-  "wcz_thesis.toc" 1613971822 1551 95ec476e85e27de105f7896e155958c8 "pdflatex"
+  "wcz_thesis.aux" 1614053986 9895 9dd00e1e474ad18daf10a287dd7fa429 "pdflatex"
+  "wcz_thesis.bbl" 1614053976 6335 45c3a11ead64abab1937ca83790f548d "bibtex wcz_thesis"
+  "wcz_thesis.lof" 1614053986 1269 d1ac69fe15cc5b52b5f9214cd0c523fb "pdflatex"
+  "wcz_thesis.tex" 1614053952 47927 d87add0cdb99e0382bfab7175ccebf96 ""
+  "wcz_thesis.toc" 1614053986 1551 95ec476e85e27de105f7896e155958c8 "pdflatex"
   (generated)
-  "wcz_thesis.log"
-  "wcz_thesis.toc"
   "wcz_thesis.lof"
   "wcz_thesis.pdf"
   "wcz_thesis.aux"
+  "wcz_thesis.log"
+  "wcz_thesis.toc"

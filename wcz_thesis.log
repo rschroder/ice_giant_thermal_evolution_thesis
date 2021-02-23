@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 FEB 2021 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  22 FEB 2021 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,7 +490,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 258.
 
 [12]
-<figures/structure_schematic/structure_schematic.001.jpeg, id=72, 1027.84pt x 7
+<figures/structure_schematic/structure_schematic.001.jpeg, id=73, 1027.84pt x 7
 70.88pt>
 File: figures/structure_schematic/structure_schematic.001.jpeg Graphic file (ty
 pe jpg)
@@ -499,7 +499,7 @@ Package pdftex.def Info: figures/structure_schematic/structure_schematic.001.jp
 eg  used on input line 299.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
  [13] [14 <./figures/structure_schematic/structure_schematic.001.jpeg>]
-<figures/structure_schematic/structure_schematic.002.jpeg, id=80, 1027.84pt x 7
+<figures/structure_schematic/structure_schematic.002.jpeg, id=81, 1027.84pt x 7
 70.88pt>
 File: figures/structure_schematic/structure_schematic.002.jpeg Graphic file (ty
 pe jpg)
@@ -507,7 +507,7 @@ pe jpg)
 Package pdftex.def Info: figures/structure_schematic/structure_schematic.002.jp
 eg  used on input line 313.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
-<figures/comparison_dry_vs_moist_lapse_rates.png, id=81, 746.79pt x 379.8993pt>
+<figures/comparison_dry_vs_moist_lapse_rates.png, id=82, 746.79pt x 379.8993pt>
 
 File: figures/comparison_dry_vs_moist_lapse_rates.png Graphic file (type png)
 <use figures/comparison_dry_vs_moist_lapse_rates.png>
@@ -609,13 +609,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6087 strings out of 480608
- 96769 string characters out of 5903631
- 476700 words of memory out of 5000000
- 21890 multiletter control sequences out of 15000+600000
+ 6090 strings out of 480608
+ 96850 string characters out of 5903631
+ 477700 words of memory out of 5000000
+ 21893 multiletter control sequences out of 15000+600000
  546203 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,10n,48p,2735b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,10n,48p,2715b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -635,7 +635,7 @@ e/2020/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (41 pages, 13847981 bytes).
+Output written on wcz_thesis.pdf (41 pages, 13850059 bytes).
 PDF statistics:
  232 PDF objects out of 1000 (max. 8388607)
  149 compressed objects within 2 object streams
