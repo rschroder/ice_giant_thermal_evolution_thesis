@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}%
 \contentsline {section}{\numberline {1.1}Relevant Thermodynamics}{2}%
 \contentsline {subsection}{\numberline {1.1.1}Temperatures}{2}%
-\contentsline {subsection}{\numberline {1.1.2}Energy Transport}{3}%
+\contentsline {subsection}{\numberline {1.1.2}Means of Energy Transport}{3}%
 \contentsline {section}{\numberline {1.2}Prior Work}{7}%
 \contentsline {chapter}{\numberline {2}Model}{10}%
 \contentsline {section}{\numberline {2.1}Differential Equations for Structure and Evolution}{10}%
@@ -15,9 +15,9 @@
 \contentsline {subsubsection}{Relative Mass Abundances Within Each Layer}{13}%
 \contentsline {subsubsection}{Model Atmosphere}{14}%
 \contentsline {section}{\numberline {2.3}Inclusion of Moist Adiabat Within Outer Envelope of Standard Model}{15}%
-\contentsline {subsubsection}{Temperature Jump Across the Water Condensation Zone}{17}%
+\contentsline {subsubsection}{Temperature Jump Across the Water Condensation Zone}{18}%
 \contentsline {chapter}{\numberline {3}Results}{20}%
 \contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{20}%
 \contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{21}%
-\contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{24}%
+\contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{23}%
 \contentsline {chapter}{\numberline {4}Discussion}{31}%

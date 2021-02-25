@@ -34,9 +34,16 @@
   evolution}.
 \newblock {\em \icarus}, 297, 160--178.
 
-\bibitem[{Graboske} et~al., 1975]{graboske_1975}
+\bibitem[{Graboske} et~al., 1975a]{graboske_1975}
 {Graboske}, H.~C., J., {Pollack}, J.~B., {Grossman}, A.~S., \& {Olness}, R.~J.
-  (1975).
+  (1975a).
+\newblock {The structure and evolution of Jupiter: the fluid contraction
+  stage.}
+\newblock {\em \apj}, 199, 265--281.
+
+\bibitem[{Graboske} et~al., 1975b]{1975ApJ...199..265G}
+{Graboske}, H.~C., J., {Pollack}, J.~B., {Grossman}, A.~S., \& {Olness}, R.~J.
+  (1975b).
 \newblock {The structure and evolution of Jupiter: the fluid contraction
   stage.}
 \newblock {\em \apj}, 199, 265--281.
