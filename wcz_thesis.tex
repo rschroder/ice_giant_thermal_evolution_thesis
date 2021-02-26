@@ -31,6 +31,8 @@
 \usepackage{amsmath}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{mathabx}
+\usepackage{stackengine}
+\newcommand\xrowht[2][0]{\addstackgap[.5\dimexpr#2\relax]{\vphantom{#1}}}
 
 
 
@@ -185,25 +187,25 @@ It is important to highlight that we have been discussing H$_{2}$O as the only c
 \section{Prior Work}
 In 1965, Frank Low measured Jupiter's intrinsic temperature \citep{low_1966}. To explain this observation, theorists \citep{hubbard_1968, smoluchowski_1967,hubbard_1977, hubbard_1977_2, podolak_1991} set out to expand on the seminal work by \citep{demarcus_1958} on the theory of interior structure of solar system giant planets. In 1968, it was Hubbard who showed that a convective interior would allow Jupiter's observed flux to be transported to the surface adiabatically. This analysis motivated the inclusion of dry adiabatic interiors in contemporary interior structure models for gas and ice giants.
 
-At the present time, most of the giant planets in our solar system: Saturn, Jupiter, and Neptune, all have an observed intrinsic flux. Uranus is the exception \citep{pearl_conrath_1991}. Measurements of Uranus's effective temperature are consistent with a planet that has no intrinsic flux, a planet in thermal equilibrium with the Sun, cooler than its more distant neighbor, Neptune, a planet of similar mass and composition. The observed effective temperatures and estimated equilibrium temperatures for the giant planets are listed in Table \ref{tab:planetary_temperatures}. 
+At the present time, most of the giant planets in our solar system: Saturn, Jupiter, and Neptune, all have an observed intrinsic flux. Uranus is the exception \citep{pearl_conrath_1991}. Measurements of Uranus's effective temperature are consistent with a planet that has no intrinsic flux, a planet in thermal equilibrium with the Sun, cooler than its more distant neighbor, Neptune, a planet of similar mass and composition. The observed $T_{\rm eff}$, $T_{\rm eq}$, and internal energy flux for the giant planets are listed in Table \ref{tab:planetary_temperatures}. 
 
 While thermal evolution models do currently reproduce $T_{\rm eff}$ for Jupiter and Neptune at 4.6 Gyr \citep{graboske_1975,fortney_2011}, they do not reproduce $T_{\rm eff}$ for Saturn and Uranus. Models for Saturn predict a cooler planet; however, plausible explanations have been offered to explain its current, warmer $T_{\rm eff}$. Among them, the rain-out of helium \citep{fortney_hubbard_2003, mankovich_2020}, or double-diffusive convection \citep{leconte_chabrier_2013}. 
 
 Meanwhile, for Uranus, the models have predicted a warmer effective temperature at present time \citep{fortney_2011, podolak_1991, hubbard_1995, scheibe_2019}. There have been various attempts to explain Uranus's luminosity anomaly. Early investigations posited that a stratified interior, stable against convection, would allow heat to be trapped deep within the the interior \citep{podolak_1991}. Later work investigated some of the other possible explanations for Uranus's cool temperature. \citep{guillot_1995} posited that condensates such as NH$_{3}$, CH$_{4}$, or H$_{2}$O when at critical abundance could interfere with convection, producing temperature profiles that would be superadiabatic. \citep{nettelmann_2016} looked at the inclusion of ad-hoc thermal boundary layers within a planet's interior and found that they could possibly explain Uranus's current $T_{\rm eff}$. \citep{friedson_2017,leconte_2017} explored the impact of condensates forming stable radiative layers. Both carried out linear stability analyses and reached similar findings, concluding that super-critical abundances of H$_{2}$O would result in a superadiabatic temperature gradient. All of these investigations showed that the presence of thermal boundary layers could possibly provide a mechanism to trap heat deep within the interior, allowing the envelope above to cool more rapidly.
 
+\renewcommand{\arraystretch}{1.5}
 \begin{table}[]
 \centering
-\begin{tabular}{ccc}
-Planet                        & Effective Temperature [K]            & Equilibrium Temperature [K] \\ \hline
-\multicolumn{1}{|c|}{Jupiter} & \multicolumn{1}{c|}{$124.4 \pm 0.3$} & \multicolumn{1}{c|}{$109$}  \\ \hline
-\multicolumn{1}{|c|}{Saturn}  & \multicolumn{1}{c|}{$95.0 \pm 0.4$}  & \multicolumn{1}{c|}{$80$}   \\ \hline
-\multicolumn{1}{|c|}{Uranus}  & \multicolumn{1}{c|}{$59.1 \pm 0.3$}  & \multicolumn{1}{c|}{$58$}   \\ \hline
-\multicolumn{1}{|c|}{Neptune} & \multicolumn{1}{c|}{$59.3 \pm 0.8$}  & \multicolumn{1}{c|}{$49$}   \\ \hline
+\begin{tabular}{lllll}
+Parameter                                                               & Jupiter                              & Saturn                               & Uranus                                 & Neptune                              \\ \hline
+\multicolumn{1}{|l|}{$T_{\rm eq} (K)$}                                  & \multicolumn{1}{l|}{$109.5 \pm 1.4$} & \multicolumn{1}{l|}{$82.4 \pm 0.9$}  & \multicolumn{1}{l|}{$58.2 \pm 1.0$}    & \multicolumn{1}{l|}{$46.2 \pm 0.6$}  \\ \hline
+\multicolumn{1}{|l|}{$T_{\rm eff} (K)$}                                 & \multicolumn{1}{l|}{$124.4 \pm 0.3$} & \multicolumn{1}{l|}{$95.0 \pm 0.4$}  & \multicolumn{1}{l|}{$59.1 \pm 0.3$}    & \multicolumn{1}{l|}{$59.1 \pm 2.0$}  \\ \hline
+\multicolumn{1}{|l|}{Internal Energy Flux $(10^{-4} \frac{W}{cm^{2}})$} & \multicolumn{1}{l|}{$5.44 \pm 0.43$} & \multicolumn{1}{l|}{$2.01 \pm 0.14$} & \multicolumn{1}{l|}{$0.042 \pm 0.047$} & \multicolumn{1}{l|}{$0.43 \pm 0.09$}  \\ \hline
 \end{tabular}
-\caption{Temperatures of Giant Planets [Adapted from \citep{seager_2010}]}
+\caption{Temperatures of giant planets. The internal energy flux of Uranus is effectively zero. Table adapted from \citep{pearl_conrath_1991}}
 \label{tab:planetary_temperatures}
 \end{table}
-
+\renewcommand{\arraystretch}{1}
 
 The work done by \citep{guillot_1995,friedson_2017,leconte_2017} examined under what conditions stable condensation zones would form in hydrogen dominated atmospheres. In this paper, we apply the same physical mechanisms for the formation of stable water condensation zones. However, we expand on this by placing these stable, radiative layers in the context of a more complete model of interior structure for solar system ice giants. Finally, we investigate how these stable layers impact the cooling of the planets over time. 
 
@@ -325,10 +327,7 @@ To get a sense for how moist convection, or the presence of a stable water conde
 {Comparison of thermal profiles. The panel on the left is a plot of pressure as a function of temperature. The panel on the right is a plot of pressure as a function of the vapor mole fraction. The solid red line is the pressure profile following moist adiabatic lapse rate. The solid black line is the pressure profile following the the dry adiabatic lapse rate. The dashed red line is the pressure profile following a moist adiabatic lapse rate with the inclusion of a stable radiative layer (water condensation zone).} 
 \label{fig:comparison_adiabatic_profiles}
 \end{figure}
-
-
 To determine when convection is interrupted, we rely on the parameter $\alpha$ \citep{friedson_2017}, which is derived from the Ledoux criterion, Equation \ref{eq:ledoux}. $\alpha$ is given by
-
 \begin{equation}
   \alpha = 1 + \xi (q_{s} L / R_{\rm vap} T_{0}) ,
   \label{eq:alpha}

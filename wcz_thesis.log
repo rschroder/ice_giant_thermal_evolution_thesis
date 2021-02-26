@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 FEB 2021 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  26 FEB 2021 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,41 +397,81 @@ LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 907.
 LaTeX Font Info:    Redeclaring math symbol \braceru on input line 909.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 944.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 946.
-))
-\GPT@outputbox=\box48
- (./wcz_thesis.aux
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/stackengine/stackengine.sty
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
+ways
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count273
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/listofitems/listofitems.tex
+\loi_cnt_foreach_nest=\count274
+\loi_nestcnt=\count275
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count276
+\calc@Bcount=\count277
+\calc@Adimen=\dimen163
+\calc@Bdimen=\dimen164
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count278
+\calc@Cskip=\skip61
+)
+\c@@stackindex=\count279
+\@boxshift=\skip62
+\stack@tmplength=\skip63
+\temp@stkl=\skip64
+\@stackedboxwidth=\skip65
+\@addedbox=\box48
+\@anchorbox=\box49
+\stackedbox=\box50
+\@centerbox=\box51
+\c@ROWcellindex@=\count280
+)
+\GPT@outputbox=\box52
+
+(./wcz_thesis.aux
 
 LaTeX Warning: Label `eq:effective_temp' multiply defined.
 
 )
 \openout1 = `wcz_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count273
-\scratchdimen=\dimen163
-\scratchbox=\box49
-\nofMPsegments=\count274
-\nofMParguments=\count275
+\scratchcounter=\count281
+\scratchdimen=\dimen165
+\scratchbox=\box53
+\nofMPsegments=\count282
+\nofMParguments=\count283
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count276
-\MPscratchDim=\dimen164
-\MPnumerator=\count277
-\makeMPintoPDFobject=\count278
+\MPscratchCnt=\count284
+\MPscratchDim=\dimen166
+\MPnumerator=\count285
+\makeMPintoPDFobject=\count286
 \everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -468,21 +508,21 @@ Package caption Info: End \AtBeginDocument code.
 ] [2] [3] [4] [5] [6] [7] [8]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 194.
+               Default added (so using `tbp') on input line 197.
 
 [9]
  2.
 [10
 
 ]
-Overfull \hbox (12.67966pt too wide) in paragraph at lines 227--229
+Overfull \hbox (12.67966pt too wide) in paragraph at lines 229--231
 []\OT1/cmr/m/n/10.95 Conservation of en-ergy im-plies that the planet's in-trin
 -sic lu-mi-nos-ity, $\OML/cmm/m/it/10.95 L \U/matha/m/n/10.95 ^^P \OT1/cmr/m/n/
 10.95 4\OML/cmm/m/it/10.95 ^^YR[]^^[[]T[]$\OT1/cmr/m/n/10.95 ,
  []
 
 
-Overfull \hbox (5.25252pt too wide) in paragraph at lines 241--242
+Overfull \hbox (5.25252pt too wide) in paragraph at lines 243--244
 []\OT1/cmr/m/n/10.95 We em-ploy a three-layer in-te-rior struc-ture, seen schem
 at-i-cally in Fig-ure 2.1[]. Broadly
  []
@@ -490,11 +530,11 @@ at-i-cally in Fig-ure 2.1[]. Broadly
 [11]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 245.
+               Default added (so using `tbp') on input line 247.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 257.
+               Default added (so using `tbp') on input line 259.
 
 [12]
 <figures/structure_schematic/structure_schematic.001.jpeg, id=73, 1027.84pt x 7
@@ -503,7 +543,7 @@ File: figures/structure_schematic/structure_schematic.001.jpeg Graphic file (ty
 pe jpg)
 <use figures/structure_schematic/structure_schematic.001.jpeg>
 Package pdftex.def Info: figures/structure_schematic/structure_schematic.001.jp
-eg  used on input line 299.
+eg  used on input line 301.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
  [13] [14 <./figures/structure_schematic/structure_schematic.001.jpeg>]
 <figures/structure_schematic/structure_schematic.002.jpeg, id=81, 1027.84pt x 7
@@ -512,7 +552,7 @@ File: figures/structure_schematic/structure_schematic.002.jpeg Graphic file (ty
 pe jpg)
 <use figures/structure_schematic/structure_schematic.002.jpeg>
 Package pdftex.def Info: figures/structure_schematic/structure_schematic.002.jp
-eg  used on input line 313.
+eg  used on input line 315.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
 
 [15]
@@ -521,7 +561,7 @@ eg  used on input line 313.
 File: figures/comparison_dry_vs_moist_lapse_rates.png Graphic file (type png)
 <use figures/comparison_dry_vs_moist_lapse_rates.png>
 Package pdftex.def Info: figures/comparison_dry_vs_moist_lapse_rates.png  used 
-on input line 323.
+on input line 325.
 (pdftex.def)             Requested size: 469.75499pt x 238.96683pt.
  [16 <./figures/structure_schematic/structure_schematic.002.jpeg>] [17 <./figur
 es/comparison_dry_vs_moist_lapse_rates.png>] [18] [19]
@@ -533,11 +573,11 @@ es/comparison_dry_vs_moist_lapse_rates.png>] [18] [19]
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
- 385.
+ 384.
 (pdftex.def)             Requested size: 539.89552pt x 576.99347pt.
 
 
-LaTeX Warning: Float too large for page by 57.69847pt on input line 389.
+LaTeX Warning: Float too large for page by 57.69847pt on input line 388.
 
 [21]
 <figures/uranus_thesis_static_radiative_layer_plots_without_grid_points_more_qd
@@ -547,11 +587,11 @@ re_qdeeps.png Graphic file (type png)
 <use figures/uranus_thesis_static_radiative_layer_plots_without_grid_points_mor
 e_qdeeps.png>
 Package pdftex.def Info: figures/uranus_thesis_static_radiative_layer_plots_wit
-hout_grid_points_more_qdeeps.png  used on input line 398.
+hout_grid_points_more_qdeeps.png  used on input line 397.
 (pdftex.def)             Requested size: 530.35605pt x 576.99347pt.
 
 
-LaTeX Warning: Float too large for page by 33.69847pt on input line 402.
+LaTeX Warning: Float too large for page by 33.69847pt on input line 401.
 
 <figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=109, 697
 .8873pt x 493.845pt>
@@ -559,7 +599,7 @@ File: figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png Graphic
  file (type png)
 <use figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>
 Package pdftex.def Info: figures/thesis_static_radiative_layer_plot_diff_qdeep_
-overlay.png  used on input line 407.
+overlay.png  used on input line 406.
 (pdftex.def)             Requested size: 418.73561pt x 296.30928pt.
 [22]
 <figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=113, 
@@ -568,25 +608,25 @@ File: figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png Grap
 hic file (type png)
 <use figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>
 Package pdftex.def Info: figures/dry_moist_radiative_u_cooling_curves_adiabat_c
-omparisons.png  used on input line 422.
+omparisons.png  used on input line 421.
 (pdftex.def)             Requested size: 546.11897pt x 448.3138pt.
 
 
-LaTeX Warning: Float too large for page by 1.0188pt on input line 426.
+LaTeX Warning: Float too large for page by 1.0188pt on input line 425.
 
 <figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=114, 1092.2406pt x 896.62
 98pt>
 File: figures/u_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/u_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 432.
+ on input line 431.
 (pdftex.def)             Requested size: 491.50374pt x 403.47968pt.
 <figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=115, 1092.7224pt x 896.62
 98pt>
 File: figures/n_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/n_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/n_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 444.
+ on input line 443.
 (pdftex.def)             Requested size: 491.72054pt x 403.47968pt.
 <figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=116, 1060.9236pt x 4
 06.3983pt>
@@ -594,13 +634,13 @@ File: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png Graphic file (type
 png)
 <use figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png 
- used on input line 456.
+ used on input line 455.
 (pdftex.def)             Requested size: 424.36192pt x 162.55644pt.
 <figures/n_cooling_radius_nz_4096_logx.png, id=117, 1073.4504pt x 406.3983pt>
 File: figures/n_cooling_radius_nz_4096_logx.png Graphic file (type png)
 <use figures/n_cooling_radius_nz_4096_logx.png>
 Package pdftex.def Info: figures/n_cooling_radius_nz_4096_logx.png  used on inp
-ut line 466.
+ut line 465.
 (pdftex.def)             Requested size: 429.37254pt x 162.55644pt.
 [23] [24 <./figures/convection_inhibited_2.png>] [25 <./figures/uranus_thesis_s
 tatic_radiative_layer_plots_without_grid_points_more_qdeeps.png>] [26 <./figure
@@ -620,13 +660,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6094 strings out of 480608
- 97060 string characters out of 5903631
+ 6764 strings out of 480608
+ 105929 string characters out of 5903631
  479700 words of memory out of 5000000
- 21897 multiletter control sequences out of 15000+600000
+ 22549 multiletter control sequences out of 15000+600000
  546203 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,10n,48p,2863b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,48p,2863b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -646,7 +686,7 @@ e/2020/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (41 pages, 13807674 bytes).
+Output written on wcz_thesis.pdf (41 pages, 13808663 bytes).
 PDF statistics:
  232 PDF objects out of 1000 (max. 8388607)
  149 compressed objects within 2 object streams

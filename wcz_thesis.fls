@@ -74,6 +74,15 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/mathabx/mathabx.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/mathabx/mathabx.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/mathabx/mathabx.dcl
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/stackengine/stackengine.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/stackengine/stackengine.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/listofitems/listofitems.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/listofitems/listofitems.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/listofitems/listofitems.tex
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 INPUT wcz_thesis.aux
 INPUT wcz_thesis.aux
 OUTPUT wcz_thesis.aux
