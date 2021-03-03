@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex wcz_thesis"] 1614650861 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1614650873
+["bibtex wcz_thesis"] 1614650861 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1614739081
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1242948958 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
   "wcz_bib.bib" 1614390539 19237 aea1ac516f68bda7283983018d4aa13f ""
   "wcz_thesis.aux" 1614650872 10160 e47859a68699a725c8c971a16c41ae6b "pdflatex"
   (generated)
   "wcz_thesis.blg"
   "wcz_thesis.bbl"
-["pdflatex"] 1614650861 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1614650873
+["pdflatex"] 1614650861 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1614739081
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -120,8 +120,8 @@
   "wcz_thesis.tex" 1614650849 50695 147c7cd56954f11c8c8dc9533780f315 ""
   "wcz_thesis.toc" 1614650872 1560 80725835910099a37cfc89324d2ef568 "pdflatex"
   (generated)
-  "wcz_thesis.toc"
   "wcz_thesis.aux"
-  "wcz_thesis.lof"
   "wcz_thesis.log"
+  "wcz_thesis.lof"
   "wcz_thesis.pdf"
+  "wcz_thesis.toc"
