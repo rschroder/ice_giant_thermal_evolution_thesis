@@ -12,37 +12,36 @@ while executing---line 1191 of file apalike2.bst
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1191 of file apalike2.bst
 Warning--empty publisher in 2013apf..book.....A
-Warning--empty journal in sanchez_2011
 Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
 while executing---line 1266 of file apalike2.bst
+Warning--empty journal in sanchez_2011
 Warning--empty journal in seager_2010
-Warning--empty publisher in 2010eapp.book.....S
 You've used 31 entries,
             2229 wiz_defined-function locations,
-            686 strings with 8145 characters,
-and the built_in function-call counts, 11870 in all, are:
-= -- 1157
+            685 strings with 8115 characters,
+and the built_in function-call counts, 11874 in all, are:
+= -- 1159
 > -- 381
 < -- 32
 + -- 126
 - -- 121
-* -- 918
-:= -- 2014
-add.period$ -- 89
+* -- 915
+:= -- 2016
+add.period$ -- 90
 call.type$ -- 31
 change.case$ -- 210
 chr.to.int$ -- 30
-cite$ -- 35
+cite$ -- 34
 duplicate$ -- 526
 empty$ -- 885
 format.name$ -- 166
-if$ -- 2414
+if$ -- 2416
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 35
-newline$ -- 154
+newline$ -- 155
 num.names$ -- 95
-pop$ -- 184
+pop$ -- 183
 preamble$ -- 1
 purify$ -- 214
 quote$ -- 0
@@ -54,8 +53,8 @@ text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 178
-warning$ -- 4
+warning$ -- 3
 while$ -- 90
 width$ -- 0
-write$ -- 392
+write$ -- 394
 (There were 4 error messages)

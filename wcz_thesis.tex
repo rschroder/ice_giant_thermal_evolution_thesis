@@ -98,12 +98,12 @@ According to core accretion theory, planets coalesce from matter contained withi
 
 \section{Relevant Thermodynamics}
 \subsection{Temperatures}
-There are several temperatures we are concerned with. Beginning with the effective temperature, $T_{\rm eff}$, which is defined in terms of the total flux, $F_{P}$, integrated over all frequencies, $\nu$, of a black body of the same size and shape as the planet \citep{2010eapp.book.....S}:
+There are several temperatures we are concerned with. Beginning with the effective temperature, $T_{\rm eff}$, which is defined in terms of the total power, $F_{P}$, leaving from each unit area of the surface of a blackbody \citep{pierrehumbert_2010}:
 \begin{equation}
-   F_{P} =  \int_{0}^{\infty} F_{P}(\nu)  d\nu = \pi \int_{0}^{\infty} B(T, \nu) d\nu = \sigma_{\rm B}T_{\rm eff}^{4},
+   F_{P} =  \pi \int_{0}^{\infty} B(\nu, T) d\nu = \sigma_{\rm B}T_{\rm eff}^{4},
   \label{eq:effective_temp_integral}
 \end{equation}  
-where $\sigma_{B}$ is the Stefan-Boltzmann constant. Solving for $T_{\rm eff}$ yields
+where $\sigma_{B}$ is the Stefan-Boltzmann constant, and $\nu$ is the frequency. Solving for $T_{\rm eff}$ yields
 \begin{equation}
     T_{\rm eff} = \bigg(\frac{F_{\rm P}}{\sigma_{\rm B}}\bigg)^{\frac{1}{4}}.
   \label{eq:effective_temp}
@@ -114,7 +114,7 @@ The equilibrium temperature, $T_{\rm eq}$, is the temperature the planet would h
     T_{\rm eq} = (T_{\rm eff\star})\bigg(\frac{R_{\star}}{a}\bigg)^{\frac{1}{2}}[f(1-A_{B})]^{\frac{1}{4}},
   \label{eq:equilibrium_temp}
 \end{equation} 
-where $T_{\rm eff\star}$ is the effective temperature of the parent star, $R_{\star}$ is the star's radius, and $a$ is the semi-major axis of the planet's orbit. The factor $(1 - A_{\rm B})$ is the the fraction of energy from the parent star absorbed by the planet's atmosphere, $A_{B}$, being the bond albedo, which represents the fraction of the parent star's incident energy that is reflected back into space. The factor $f$ accounts for the planet's distribution of the radiation it receives from its parent star. We make the assumption assumption that for Neptune and Uranus that the Sun's radiation is evenly distributed throughout, and thus $f = 1$. 
+where $T_{\rm eff\star}$ is the effective temperature of the parent star, $R_{\star}$ is the star's radius, and $a$ is the semi-major axis of the planet's orbit. The factor $(1 - A_{\rm B})$ is the the fraction of power from the parent star absorbed by the planet's atmosphere; here, the Bond albedo $A_{B}$ represents the fraction of the parent star's incident power that is reflected back into space. The factor $f$ accounts for the planet's distribution of the radiation it receives from its parent star. We make the assumption assumption that for Neptune and Uranus that the Sun's radiation is evenly distributed throughout, and thus $f = 1$. 
 
 Finally, the intrinsic temperature, $T_{\rm int}$, is the temperature that defines the flux from the planet's interior and is defined by the relation
 
@@ -130,15 +130,15 @@ How energy flows throughout a planet's interior impacts its actual vertical temp
 \end{equation}
 where $T$ is temperature and $P$ is pressure. In this section, we'll review the relevant modes of energy transport within a giant planet's interior and discuss the criteria for convection and condensation to occur.
 
-Convection is a common form of energy transport within the interior of giant planets. In convecting regions, the interior is treated as parcels of compressible gases or fluids. A parcel will compress or expand without exchanging heat with its surroundings. When there is no heat exchange, the process is said to be 'adiabatic'. As a parcel of gas rises, its temperature decreases while its volume increases. This process is known as adiabatic expansion. Conversely, if the parcel sinks, it gets warmer as its volume decreases. This process is known as adiabatic compression. These processes assume constant entropy. It is said that the temperature-pressure profile follows a dry adiabatic gradient, or dry lapse rate \citep{kippenhahn_2012}, given by
+Convection is a common mode of energy transport in giant planet interiors. In this process, large-scale vertical temperature gradients drive kinetic fluid motions that carry heat toward the planet's surface. In the limit that parcels of the convective fluid do not exchange heat with their surroundings as they move, we describe the fluid motions as `adiabatic'. In this limit, the temperature profile follows a dry adiabatic gradient, or lapse rate \citep{kippenhahn_2012} given by
 \begin{equation}
   \nabla_{\rm ad} = \left( \frac{\partial \ln T}{\partial \ln P} \right)_{\rm s},
 \end{equation}
-where $s$ is entropy. The vertical temperature structure can also be expressed in terms of temperature and altitude \citep{sanchez-lavega} as
+where $s$ is entropy. In the atmosphere, where the ideal gas law is valid, the vertical temperature structure can also be expressed in terms of temperature and altitude \citep{sanchez-lavega} as
 \begin{equation}
   \frac{dT}{dz} = \frac{-g}{C_{P}} = \Gamma_{\rm dry},
 \end{equation}
-where z is the altitude, and $C_{P}$ is specific heat. To determine whether a layer is dynamically unstable in a region of homogeneous chemical composition, we use the Schwarzschild \& Harm criterion \citep{kippenhahn_2012} as the criterion for convection, defined as
+where $z$ is the altitude, and $C_{P}$ is specific heat at constant pressure. To determine whether a layer is dynamically unstable in a region of homogeneous chemical composition, we use the Schwarzschild \& Harm criterion \citep{kippenhahn_2012} as the criterion for convection, defined as
  \begin{equation}
   \nabla_{T} > \nabla_{\rm ad}.
 \end{equation}
@@ -153,11 +153,11 @@ In a region that does not have a homogeneous chemical composition, but rather al
 \end{equation}
 where
 \begin{equation}
-  \rho = \bigg(\frac{\partial \ln \rho}{\partial \ln \mu}\bigg)_{\rm P,T}
+  \rho = \bigg(\frac{\partial \ln \rho}{\partial \ln \mu}\bigg)_{P,T}
 \end{equation}
 and
 \begin{equation}
- \delta = -\bigg(\frac{\partial \ln \rho}{\partial \ln T}\bigg)_{\rm P,\mu}.
+ \delta = -\bigg(\frac{\partial \ln \rho}{\partial \ln T}\bigg)_{P,\mu}.
 \end{equation}
 
 
@@ -166,22 +166,18 @@ Condensation can also have a large impact on a planet's energy balance. For exam
   P_{\rm sat}(T) = P_{\rm sat}(T_{\rm 0})e^{-\frac{L + C_{\rm p}T_{\rm 0}}{R_{\rm vap}}(\frac{1}{T} - \frac{1}{T_{\rm 0}}) -\frac{C_{\rm p}}{R_{\rm vap}}\ln{\frac{T}{T_{\rm 0}}}}
   \label{eq:saturation_vapor_pressure}
 \end{equation}
-where $T_{\rm 0} = 273.16K$, and $R_{\rm vap}$ is the gas constant for the condensible species, and $L$ is the latent heat of vaporization for the condensate. When the partial pressure of a gas, $P_{\rm gas}$, is less than $P_{\rm sat}$, the parcel of gas is 'subsaturated'. When $P_{\rm gas} = P_{\rm sat}$, the gas is 'saturated'. And, when $P_{\rm gas} > P_{\rm sat}$, the parcel is 'supersaturated'. Every condensible species has its own saturation vapor pressure. We define the moist adiabat as \citep{sanchez_2011} 
+where $T_{\rm 0} = 273.16$ K, and $R_{\rm vap}$ is the gas constant for the condensible species, and $L$ is the latent heat of vaporization for the condensate. When the partial pressure of a gas, $P_{\rm gas}$, is less than $P_{\rm sat}$, the parcel of gas is 'subsaturated'. When $P_{\rm gas} = P_{\rm sat}$, the gas is 'saturated'. And, when $P_{\rm gas} > P_{\rm sat}$, the parcel is 'supersaturated'. Every condensible species has its own saturation vapor pressure. We assume a single condensible species and calculate the moist adiabat as \citep{sanchez_2011} 
 \begin{equation}
-  \nabla_{\rm moist} = \bigg(1 + \frac{\frac{x_{\rm vap} L}{R_{\rm vap}T}}{\nabla_{ad} + \frac{L^2}{R_{\rm vap}^2 T^2}} \bigg)
+  \nabla_{\rm moist} = 1 + \frac{\frac{x_{\rm vap} L}{R_{\rm vap}T}}{\nabla_{\rm ad} + \frac{L^2}{R_{\rm vap}^2 T^2}}.
 \end{equation}
-where $x_{\rm vap}$ is the vapor mole fraction defined as
-\begin{equation}
-x_{\rm vap} =\frac{P_{\rm sat}}{P}.
-\end{equation}
-Within the condensation zone, the vapor mole fraction, $x_{\rm vap}$, is equal to the saturated vapor mole fraction:
+We assume that the condensation zones are at saturation so that the vapor mole fraction, $x_{\rm vap}$, is equal to the saturation vapor mole fraction:
 \begin{equation}
 x_{\rm vap} = x_{\rm vap}^{\rm sat} = \frac{P_{\rm sat}}{P}, \qquad P_{\rm top} < P < P_{\rm base}.
 \end{equation}
 
-Condensation on Earth is notably different from condensation that occurs in hydrogen dominated atmospheres. On Earth, as a parcel of air is lifted, it cools until it gets cold enough that water vapor condenses out, releasing latent heat of condensation which further boosts convection. This release of energy alters the temperature-pressure profile of the atmosphere, which now follows a moist adiabat.  In addition to altering the temperature gradient, condensation may also create a gradient in mean molecular weight. For example, on Earth, moist air is lighter than dry air. H$_{2}$O vapor (molecular mass = 18 g/mol), the primary condensate in Earth's atmosphere, is lighter (not by much) than the background air which is composed primarily of N$_{2}$ (molecular mass = 28 g/mol). When H$_{2}$O vapor abundance exceeds the saturation vapor pressure, the vapor condenses out of the atmosphere, resulting in a small vertical gradient in mean molecular weight. In Earth's atmosphere, this small gradient does not impose a significant barrier to convection. By contrast, in hydrogen dominated atmospheres such as Neptune and Uranus, the background gas is much lighter than the condensates. In this hydrogen-rich environment, when H$_{2}$O condenses out of the atmosphere, a strong vertical gradient in mean molecular weight can be established, resulting in a negative buoyancy for the convecting parcel of gas, overwhelming the positive buoyancy effects of latent heat release. This can create a situation where the zone in which water condenses is stable against convection \citep{guillot_1995,friedson_2017,leconte_2017}. This situation can arise because as a parcel rises along a moist adiabat, it's temperature will be higher than the surrounding gas. On Earth, this would result in the parcel having a lower density than its surroundings. But, in hydrogen dominated atmospheres, this vapor in the parcel is at a higher temperature and is capable of retaining more of the condensible species. This potentially results in a situation where the parcel has a larger mean molecular weight than the surrounding gas \citep{leconte_2017}.
+Condensation on Earth is notably different from condensation that occurs in hydrogen dominated atmospheres. On Earth, as a parcel of air is lifted, it cools until it gets cold enough that water vapor condenses out, releasing latent heat of condensation which further boosts convection. This release of energy alters the temperature-pressure profile of the atmosphere, which now follows a moist adiabat.  In addition to altering the temperature gradient, condensation creates a gradient in mean molecular weight. For example, on Earth, moist air is lighter than dry air. H$_{2}$O vapor (molecular mass = 18 g/mol), the primary condensate in Earth's atmosphere, is lighter (not by much) than the background air which is composed primarily of N$_{2}$ (molecular mass = 28 g/mol). When H$_{2}$O vapor abundance exceeds the saturation vapor pressure, the excess vapor condenses out of the atmosphere, resulting in a small vertical gradient in mean molecular weight. In Earth's atmosphere, this small gradient does not impose a significant barrier to convection. By contrast, in hydrogen dominated atmospheres such as Neptune and Uranus, the background gas is much lighter than the condensates. In this hydrogen-rich environment, when H$_{2}$O condenses out of the atmosphere, a strong vertical gradient in mean molecular weight can be established, resulting in a negative buoyancy for the convecting parcel of gas, overwhelming the positive buoyancy effects of latent heat release. This can create a situation where the zone in which water condenses is stable against convection \citep{guillot_1995,friedson_2017,leconte_2017}. This situation can arise because as a parcel rises along a moist adiabat, its temperature will be higher than the surrounding gas. On Earth, this would result in the parcel having a lower density than its surroundings. But, in hydrogen dominated atmospheres, this vapor in the parcel is at a higher temperature and is capable of retaining more of the condensible species. This potentially results in a situation where the parcel has a larger mean molecular weight than the surrounding gas \citep{leconte_2017}.
 
-It is important to highlight that we have been discussing H$_{2}$O as the only condensate. However, other condensates such as NH$_{3}$ and CH$_{4}$ may impact convection as well. In this study, we only consider H$_{2}$O as the primary condensate because oxygen is the most plentiful atomic species following H and He \citep{leconte_2017}. As pointed out by \citep{guillot_1995}, an oxygen abundance greater than ten times solar would be sufficient to inhibit convection on Jupiter, Saturn, Uranus, and Neptune. This abundance is possibly an order of magnitude smaller than the expected enrichment for Uranus and Neptune. If H$_{2}$O's abundance is supercritical, it results in a larger superadiabicity (larger temperature gradient) than would be provided by either NH$_{3}$ or CH$_{4}$ \citep{guillot_1995}. That is not to say that the presence of other condensates should be ignored. 
+It is important to highlight that we have been discussing H$_{2}$O as the only condensate. However, other condensates such as NH$_{3}$ and CH$_{4}$ may impact convection as well. In this study, we only consider H$_{2}$O as the primary condensate because oxygen is the most plentiful atomic species following H and He \citep{leconte_2017}. As pointed out by \citep{guillot_1995}, an oxygen abundance greater than ten times solar would be sufficient to inhibit convection on Jupiter, Saturn, Uranus, and Neptune. This abundance is possibly an order of magnitude smaller than the expected enrichment for Uranus and Neptune. If H$_{2}$O's abundance is supercritical, it results in a larger superadiabicity (larger temperature gradient) than would be provided by either NH$_{3}$ or CH$_{4}$ \citep{guillot_1995}. We therefore prioritize H$_{2}$O condensation for this work and leave the effect of other condensates for future study. 
 
 
 \section{Prior Work}
@@ -189,7 +185,7 @@ In 1965, Frank Low measured Jupiter's intrinsic temperature \citep{low_1966}. To
 
 At the present time, most of the giant planets in our solar system: Saturn, Jupiter, and Neptune, all have an observed intrinsic flux. Uranus is the exception \citep{pearl_conrath_1991}. Measurements of Uranus's effective temperature are consistent with a planet that has no intrinsic flux, a planet in thermal equilibrium with the Sun, cooler than its more distant neighbor, Neptune, a planet of similar mass and composition. The observed $T_{\rm eff}$, $T_{\rm eq}$, and internal energy flux for the giant planets are listed in Table \ref{tab:planetary_temperatures}. 
 
-While thermal evolution models do currently reproduce $T_{\rm eff}$ for Jupiter and Neptune at 4.6 Gyr \citep{graboske_1975,fortney_2011}, they do not reproduce $T_{\rm eff}$ for Saturn and Uranus. Models for Saturn predict a cooler planet; however, plausible explanations have been offered to explain its current, warmer $T_{\rm eff}$. Among them, the rain-out of helium \citep{fortney_hubbard_2003, mankovich_2020}, or double-diffusive convection \citep{leconte_chabrier_2013}. 
+While thermal evolution models do currently reproduce $T_{\rm eff}$ for Jupiter and Neptune at 4.6 Gyr \citep{graboske_1975,fortney_2011}, they do not reproduce $T_{\rm eff}$ for Saturn and Uranus. Models for Saturn predict a cooler planet; however, plausible explanations have been offered to explain its current, warmer $T_{\rm eff}$. Among them are the rain-out of helium \citep{fortney_hubbard_2003, mankovich_2020}, or double-diffusive convection \citep{leconte_chabrier_2013}. 
 
 Meanwhile, for Uranus, the models have predicted a warmer effective temperature at present time \citep{fortney_2011, podolak_1991, hubbard_1995, scheibe_2019}. There have been various attempts to explain Uranus's luminosity anomaly. Early investigations posited that a stratified interior, stable against convection, would allow heat to be trapped deep within the the interior \citep{podolak_1991}. Later work investigated some of the other possible explanations for Uranus's cool temperature. \citep{guillot_1995} posited that condensates such as NH$_{3}$, CH$_{4}$, or H$_{2}$O when at critical abundance could interfere with convection, producing temperature profiles that would be superadiabatic. \citep{nettelmann_2016} looked at the inclusion of ad-hoc thermal boundary layers within a planet's interior and found that they could possibly explain Uranus's current $T_{\rm eff}$. \citep{friedson_2017,leconte_2017} explored the impact of condensates forming stable radiative layers. Both carried out linear stability analyses and reached similar findings, concluding that super-critical abundances of H$_{2}$O would result in a superadiabatic temperature gradient. All of these investigations showed that the presence of thermal boundary layers could possibly provide a mechanism to trap heat deep within the interior, allowing the envelope above to cool more rapidly.
 

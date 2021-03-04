@@ -86,10 +86,6 @@ L.~Scheibe, N~Nettelmann, R.~R. (2019).
 \newblock Thermal evolution of uranus and neptune: Adiabatic models.
 \newblock {\em Astronomy and Astrophysics}, A70, 632.
 
-\bibitem[Lavega, 2011]{sanchez_2011}
-Lavega, A.~S. (2011).
-\newblock Introduction to planetary atmospheres.
-
 \bibitem[{Leconte} \& {Chabrier}, 2013]{leconte_chabrier_2013}
 {Leconte}, J. \& {Chabrier}, G. (2013).
 \newblock {Layered convection as the origin of Saturn's luminosity anomaly}.
@@ -138,6 +134,11 @@ M.~Podolak, W.B.~Hubbard, D.~S. (1991).
   determined from Voyager data}.
 \newblock {\em \jgr}, 96, 18921--18930.
 
+\bibitem[Pierrehumbert, 2010]{pierrehumbert_2010}
+Pierrehumbert, R. (2010).
+\newblock {\em Principles of Planetary Climate}.
+\newblock Springer.
+
 \bibitem[R.~Kippenhahn, 2012]{kippenhahn_2012}
 R.~Kippenhahn, A.~Weigert, A.~W. (2012).
 \newblock {\em Stellar Structure and Evolution}.
@@ -154,13 +155,13 @@ Sanchez-Lavega, A. (2010).
 \newblock {\em An Introduction to Planetary Atmospheres}.
 \newblock CRC Press.
 
+\bibitem[Sanchez-Lavega, 2011]{sanchez_2011}
+Sanchez-Lavega, A. (2011).
+\newblock Introduction to planetary atmospheres.
+
 \bibitem[Seager, 2010]{seager_2010}
 Seager, S. (2010).
 \newblock Exoplanet atmospheres.
-
-\bibitem[{Seager}, 2010]{2010eapp.book.....S}
-{Seager}, S. (2010).
-\newblock {\em {Exoplanet Atmospheres: Physical Processes}}.
 
 \bibitem[{Smoluchowski}, 1967]{smoluchowski_1967}
 {Smoluchowski}, R. (1967).
