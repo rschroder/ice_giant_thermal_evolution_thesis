@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 MAR 2021 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 MAR 2021 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,7 +562,7 @@ File: figures/comparison_dry_vs_moist_lapse_rates.png Graphic file (type png)
 <use figures/comparison_dry_vs_moist_lapse_rates.png>
 Package pdftex.def Info: figures/comparison_dry_vs_moist_lapse_rates.png  used 
 on input line 317.
-(pdftex.def)             Requested size: 469.75499pt x 238.96683pt.
+(pdftex.def)             Requested size: 433.62pt x 220.5852pt.
  [16 <./figures/structure_schematic/structure_schematic.002.jpeg>] [17 <./figur
 es/comparison_dry_vs_moist_lapse_rates.png>] [18] [19]
  3.
@@ -586,12 +586,8 @@ re_qdeeps.png Graphic file (type png)
 e_qdeeps.png>
 Package pdftex.def Info: figures/uranus_thesis_static_radiative_layer_plots_wit
 hout_grid_points_more_qdeeps.png  used on input line 390.
-(pdftex.def)             Requested size: 530.35605pt x 576.99347pt.
-
-
-LaTeX Warning: Float too large for page by 33.69847pt on input line 394.
-
-[21]
+(pdftex.def)             Requested size: 433.62pt x 471.73738pt.
+ [21]
 <figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=109, 697
 .8873pt x 493.845pt>
 File: figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png Graphic
@@ -599,7 +595,7 @@ File: figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png Graphic
 <use figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>
 Package pdftex.def Info: figures/thesis_static_radiative_layer_plot_diff_qdeep_
 overlay.png  used on input line 401.
-(pdftex.def)             Requested size: 418.73561pt x 296.30928pt.
+(pdftex.def)             Requested size: 433.62pt x 306.84384pt.
  [22]
 <figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=113, 
 1092.2406pt x 896.6298pt>
@@ -608,25 +604,21 @@ hic file (type png)
 <use figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>
 Package pdftex.def Info: figures/dry_moist_radiative_u_cooling_curves_adiabat_c
 omparisons.png  used on input line 417.
-(pdftex.def)             Requested size: 546.11897pt x 448.3138pt.
-
-
-LaTeX Warning: Float too large for page by 1.0188pt on input line 421.
-
+(pdftex.def)             Requested size: 433.62pt x 355.964pt.
 <figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=114, 1092.2406pt x 896.62
 98pt>
 File: figures/u_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/u_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_curves_nz_4096_more_qdeeps.png  used
  on input line 427.
-(pdftex.def)             Requested size: 491.50374pt x 403.47968pt.
+(pdftex.def)             Requested size: 433.62pt x 355.964pt.
 <figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=115, 1092.7224pt x 896.62
 98pt>
 File: figures/n_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/n_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/n_cooling_curves_nz_4096_more_qdeeps.png  used
  on input line 439.
-(pdftex.def)             Requested size: 491.72054pt x 403.47968pt.
+(pdftex.def)             Requested size: 433.62pt x 355.79982pt.
 <figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=116, 1060.9236pt x 4
 06.3983pt>
 File: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png Graphic file (type 
@@ -634,20 +626,20 @@ png)
 <use figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png 
  used on input line 451.
-(pdftex.def)             Requested size: 424.36192pt x 162.55644pt.
+(pdftex.def)             Requested size: 433.62pt x 166.10349pt.
 <figures/n_cooling_radius_nz_4096_logx.png, id=117, 1073.4504pt x 406.3983pt>
 File: figures/n_cooling_radius_nz_4096_logx.png Graphic file (type png)
 <use figures/n_cooling_radius_nz_4096_logx.png>
 Package pdftex.def Info: figures/n_cooling_radius_nz_4096_logx.png  used on inp
 ut line 461.
-(pdftex.def)             Requested size: 429.37254pt x 162.55644pt.
-[23] [24 <./figures/convection_inhibited_2.png>] [25 <./figures/uranus_thesis_s
-tatic_radiative_layer_plots_without_grid_points_more_qdeeps.png>] [26 <./figure
-s/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>] [27 <./figures/dr
-y_moist_radiative_u_cooling_curves_adiabat_comparisons.png>] [28 <./figures/u_c
-ooling_curves_nz_4096_more_qdeeps.png>] [29 <./figures/n_cooling_curves_nz_4096
-_more_qdeeps.png>] [30 <./figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png
-> <./figures/n_cooling_radius_nz_4096_logx.png>]
+(pdftex.def)             Requested size: 433.62pt x 164.16252pt.
+ [23] [24 <./figures/convection_inhibited_2.png>] [25 <./figures/uranus_thesis_
+static_radiative_layer_plots_without_grid_points_more_qdeeps.png>] [26 <./figur
+es/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>]
+[27 <./figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>]
+[28 <./figures/u_cooling_curves_nz_4096_more_qdeeps.png>] [29 <./figures/n_cool
+ing_curves_nz_4096_more_qdeeps.png>] [30 <./figures/u_cooling_radius_nz_4096_lo
+gx_more_qdeeps.png> <./figures/n_cooling_radius_nz_4096_logx.png>]
  4.
 
 Package natbib Warning: Citation `scheibe_2019' on page 31 undefined on input l
@@ -669,7 +661,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  6764 strings out of 480608
  105962 string characters out of 5903631
- 479700 words of memory out of 5000000
+ 478700 words of memory out of 5000000
  22549 multiletter control sequences out of 15000+600000
  546203 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -693,7 +685,7 @@ e/2020/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (41 pages, 13806258 bytes).
+Output written on wcz_thesis.pdf (41 pages, 13806236 bytes).
 PDF statistics:
  232 PDF objects out of 1000 (max. 8388607)
  149 compressed objects within 2 object streams
