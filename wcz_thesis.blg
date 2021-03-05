@@ -3,58 +3,55 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: wcz_thesis.aux
 The style file: apalike2.bst
 Database file #1: wcz_bib.bib
-Repeated entry---line 399 of file wcz_bib.bib
+Repeated entry---line 438 of file wcz_bib.bib
  : @article{graboske_1975
  :                       ,
 I'm skipping whatever remains of this entry
-Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
-while executing---line 1191 of file apalike2.bst
-Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
-while executing---line 1191 of file apalike2.bst
+Warning--I didn't find a database entry for "scheibe_2019"
 Warning--empty publisher in 2013apf..book.....A
-Name 1 in "S. Mazevet, A. Licari, G. Chabrier, and A. Y. Potekhin" has a comma at the end for entry mazevet_2019
-while executing---line 1266 of file apalike2.bst
+Warning--can't use both author and editor fields in podolak_1991
+Warning--empty publisher in podolak_1991
 Warning--empty journal in sanchez_2011
 Warning--empty journal in seager_2010
 You've used 31 entries,
             2229 wiz_defined-function locations,
-            685 strings with 8115 characters,
-and the built_in function-call counts, 11874 in all, are:
-= -- 1159
-> -- 381
-< -- 32
-+ -- 126
-- -- 121
-* -- 915
-:= -- 2016
-add.period$ -- 90
+            686 strings with 8210 characters,
+and the built_in function-call counts, 12132 in all, are:
+= -- 1173
+> -- 424
+< -- 26
++ -- 140
+- -- 137
+* -- 966
+:= -- 2066
+add.period$ -- 89
 call.type$ -- 31
-change.case$ -- 210
+change.case$ -- 217
 chr.to.int$ -- 30
-cite$ -- 34
-duplicate$ -- 526
-empty$ -- 885
-format.name$ -- 166
-if$ -- 2416
+cite$ -- 36
+duplicate$ -- 520
+empty$ -- 895
+format.name$ -- 180
+if$ -- 2454
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 155
+missing$ -- 36
+newline$ -- 154
 num.names$ -- 95
-pop$ -- 183
+pop$ -- 197
 preamble$ -- 1
-purify$ -- 214
+purify$ -- 222
 quote$ -- 0
-skip$ -- 439
+skip$ -- 425
 stack$ -- 0
-substring$ -- 828
-swap$ -- 112
-text.length$ -- 7
+substring$ -- 843
+swap$ -- 105
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 178
-warning$ -- 3
-while$ -- 90
+type$ -- 176
+warning$ -- 5
+while$ -- 91
 width$ -- 0
-write$ -- 394
-(There were 4 error messages)
+write$ -- 391
+(There was 1 error message)

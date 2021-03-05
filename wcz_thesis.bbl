@@ -81,10 +81,10 @@
 \newblock {Comparative thermal evolution of Uranus and Neptune}.
 \newblock {\em \icarus}, 35(2), 177--181.
 
-\bibitem[L.~Scheibe, 2019]{scheibe_2019}
-L.~Scheibe, N~Nettelmann, R.~R. (2019).
-\newblock Thermal evolution of uranus and neptune: Adiabatic models.
-\newblock {\em Astronomy and Astrophysics}, A70, 632.
+\bibitem[{Hubbard} et~al., 1995]{hubbard_1995}
+{Hubbard}, W.~B., {Podolak}, M., \& {Stevenson}, D.~J. (1995).
+\newblock {The interior of Neptune.}
+\newblock In {\em Neptune and Triton}  (pp.\ 109--138).
 
 \bibitem[{Leconte} \& {Chabrier}, 2013]{leconte_chabrier_2013}
 {Leconte}, J. \& {Chabrier}, G. (2013).
@@ -110,17 +110,17 @@ L.~Scheibe, N~Nettelmann, R.~R. (2019).
   {\ensuremath{\lambda}}20 {\ensuremath{\mu}}.}
 \newblock {\em \aj}, 71, 391.
 
-\bibitem[M.~Podolak, 1991]{podolak_1991}
-M.~Podolak, W.B.~Hubbard, D.~S. (1991).
-\newblock Models of uranus' interior and magnetic field.
-\newblock {\em Uranus, Editors: J.T. Bergstralh, E.D. Miner, M. Shapely
-  Matthews}, (pp.\~29).
-
-\bibitem[{Mankovich} \& {Fortney}, 2019]{mankovich_2020}
-{Mankovich}, C. \& {Fortney}, J.~J. (2019).
+\bibitem[{Mankovich} \& {Fortney}, 2020]{2020ApJ...889...51M}
+{Mankovich}, C.~R. \& {Fortney}, J.~J. (2020).
 \newblock {Evidence for a Dichotomy in the Interior Structures of Jupiter and
   Saturn from Helium Phase Separation}.
-\newblock In {\em AGU Fall Meeting Abstracts}, volume 2019  (pp.\ P24B--02).
+\newblock {\em \apj}, 889(1), 51.
+
+\bibitem[{Mazevet} et~al., 2019]{mazevet_2019}
+{Mazevet}, S., {Licari}, A., {Chabrier}, G., \& {Potekhin}, A.~Y. (2019).
+\newblock {Ab initio based equation of state of dense water for planetary and
+  exoplanetary modeling}.
+\newblock {\em \aap}, 621, A128.
 
 \bibitem[{Nettelmann} et~al., 2016]{nettelmann_2016}
 {Nettelmann}, N., {Wang}, K., {Fortney}, J.~J., {Hamel}, S., {Yellamilli}, S.,
@@ -139,16 +139,15 @@ Pierrehumbert, R. (2010).
 \newblock {\em Principles of Planetary Climate}.
 \newblock Springer.
 
+\bibitem[{Podolak} et~al., 1991]{podolak_1991}
+{Podolak}, M., {Hubbard}, W.~B., \& {Stevenson}, D.~J. (1991).
+\newblock {\em {Models of Uranus' interior and magnetic field.}}, (pp.\
+  29--61).
+
 \bibitem[R.~Kippenhahn, 2012]{kippenhahn_2012}
 R.~Kippenhahn, A.~Weigert, A.~W. (2012).
 \newblock {\em Stellar Structure and Evolution}.
 \newblock Springer.
-
-\bibitem[S.~Mazevet \& Potekhin, 2019]{mazevet_2019}
-S.~Mazevet, A.~Licari, G.~C. \& Potekhin, A.~Y. (2019).
-\newblock Ab initio based equation of state of dense water for planetary and
-  exoplanetary modeling.
-\newblock {\em Astronomy \& Astrophysics}, A128, 621.
 
 \bibitem[Sanchez-Lavega, 2010]{sanchez-lavega}
 Sanchez-Lavega, A. (2010).
@@ -159,6 +158,11 @@ Sanchez-Lavega, A. (2010).
 Sanchez-Lavega, A. (2011).
 \newblock Introduction to planetary atmospheres.
 
+\bibitem[{Scheibe} et~al., 2019]{2019A&A...632A..70S}
+{Scheibe}, L., {Nettelmann}, N., \& {Redmer}, R. (2019).
+\newblock {Thermal evolution of Uranus and Neptune. I. Adiabatic models}.
+\newblock {\em \aap}, 632, A70.
+
 \bibitem[Seager, 2010]{seager_2010}
 Seager, S. (2010).
 \newblock Exoplanet atmospheres.
@@ -167,10 +171,5 @@ Seager, S. (2010).
 {Smoluchowski}, R. (1967).
 \newblock {Internal Structure and Energy Emission of Jupiter}.
 \newblock {\em \nat}, 215(5102), 691--695.
-
-\bibitem[W.B.~Hubbard, 1995]{hubbard_1995}
-W.B.~Hubbard, D.~S. (1995).
-\newblock The interior of neptune.
-\newblock {\em Neptune and Triton, Editor: D.P. Kruikshank}, (pp.\ 109).
 
 \end{thebibliography}
