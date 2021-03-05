@@ -289,7 +289,8 @@ Internal energy, $u$, is given by
 where $\rho_{\rm H}$ and $u_{\rm H}$ are the density and internal energy per gram of pure hydrogen at a given $P$, $T$. Quantities are defined similarly for helium and water.
 \begin{figure}[ht!]
  \centerline{
-  \includegraphics[width=\columnwidth]{figures/structure_schematic/structure_schematic.001.jpeg}
+  %\includegraphics[width=\columnwidth]{figures/structure_schematic/structure_schematic.001.jpeg}
+  \includegraphics[width=\columnwidth]{figures/onion.pdf}
  }
 \caption[A Standard Interior Structure Model]
 {A conventional interior structure: In this model, the inner and outer envelopes are assumed to be well mixed, fully convective, and following a dry adiabat. The core is composed of water ice. The inner envelope is water dominated, with uniform concentrations of hydrogen, helium, and water; whereas, the outer envelope is hydrogen and helium dominated with trace amounts of water. The atmosphere extends beyond 1 bar, but pressures down to 1 bar are sufficient to capture the formation and impact of the water condensation zones investigated here.}
@@ -355,10 +356,10 @@ x_{\rm vap}(P, T) &= x_{\rm vap}^{\rm sat}(P, T) = \frac{P_{\rm sat}(T)}{P}, \qq
 \end{align}
 The base of the condensation zone is set by the condition that $x_{\rm vap}$ has reached the deep water value $x_{\rm vap}^{\rm deep}$:
 \begin{align}
-x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) &= \frac{P_{\rm sat}(T_{\rm base})}{P_{\rm base}}=x_{\rm vap}^{\rm deep}.
+x_{\rm vap}^{\rm sat}(P_{\rm base}, T_{\rm base}) &= \frac{P_{\rm sat}(T_{\rm base})}{P_{\rm base}}=x_{\rm vap}^{\rm deep},
 \label{eq:cloud_base}
 \end{align}
-Below the water condensation zone, the region is subsaturated and hence no condensation occurs. Temperatures below the water condensation zone are obtained by integrating the dry adiabat $\nabla_{\rm ad}$:
+and at deeper levels, the region is subsaturated and hence no condensation occurs. Temperatures below the water condensation zone are obtained by integrating the dry adiabat $\nabla_{\rm ad}$:
 \begin{align}
 T(P) &= T_{\rm base} + \int_{P_{\rm base}}^P\left(\frac{dT}{dP}\right)_{\rm ad}\,d P, \qquad  P>P_{\rm base} .
 \label{eq:dry_adiabat_integration}
@@ -374,7 +375,7 @@ In Figure~\ref{fig:convection_inhibited}, we show the results of our initial exp
   \includegraphics[width=\columnwidth]{figures/convection_inhibited_2.png}
  }
 \caption[Inhibition of convection on Uranus]
-{Moist adiabatic profiles for Uranus as a function of  $q_{\rm deep}$. Each row represents a different value for $q_{\rm deep}$. For $q_{\rm deep} = 0.05$, no stable condensation zone forms. For $q_{\rm deep} = 0.15$ and $q_{\rm deep} = 0.25$, convection is inhibited by condensation. The shaded regions show the extent of when $\alpha$ is negative.}
+{Moist adiabatic profiles for Uranus as a function of  $q_{\rm deep}$. Each row represents a different value for $q_{\rm deep}$. For $q_{\rm deep} = 0.05$, no stable condensation zone forms. For $q_{\rm deep} = 0.15$ and $q_{\rm deep} = 0.25$, convection is inhibited by condensation. The shaded regions indicate where $\alpha$ is negative.}
 \label{fig:convection_inhibited}
 \end{figure}
 These static models are run for a variety of $T_{10}$, the planet's temperature at $P=10$ bars. Larger $T_{10}$ represents a warmer episodes in the planet's past, while smaller $T_{10}$ represents cooler, more recent episodes in the planet's history.  It is important to highlight that the bulk water abundance for Uranus and Neptune is unconstrained \citep{guillot_1995}. Therefore, these model runs use three different values of $q_{\rm deep}$, searching for deep water abundances and evolutionary phases for which convection is inhibited by water condensation. In these exploratory models, we only consider the model Uranus. We find that for $q_{\rm deep} = 0.05$, convection is not interrupted. In other words, $\alpha$ (Eqn.~\ref{eq:alpha})  never takes on negative values with this concentration of water vapor, hence the condition for stability is never met. However, for larger values of $q_{\rm deep}$, we find that $\alpha$ does take{} on negative values (see rows 2 and 3 in Figure ~\ref{fig:convection_inhibited}). These findings are in agreement with \citep{friedson_2017,leconte_2017} who both found a critical water abundance, $q_{\rm deep}$, of approximately $8\%$. The shaded regions of the plots indicate the pressure-space over which $\alpha$ is negative. It is important to note that with these exploratory models, we neglect the stable water condensation zone's impact on the interior's thermal structure. More specifically, these profiles describe a scenario in which moist convection occurs throughout. As such, the shaded regions appear extended, when in reality the top of the shaded region indicates where the top of where the stable water condensation zone would form. As we will see in Section 2.3, self-consistent models that account for the formation of a stable zone, with a critical $q_{\rm deep}$, will show pressure-temperature profiles with an abrupt temperature increase at the location of the radiative layer. Looking at the plots for $q_{\rm deep} = 0.15$ and $q_{\rm deep} = 0.25$, we can see that convection is interrupted roughly when $T_{10} = 335$ K. With regard to the vapor mole fraction panels on the right of Figure~\ref{fig:convection_inhibited}, we can see that for a hot model Uranus, $x_{\rm vap}$ profiles are vertical, taking on a constant value as expected. For cooler Uranus models, we see that as water condenses out, $x_{\rm vap}$ decreases. In the temperature-pressure profiles, we can see a kink in the graphs, corresponding to $x_{\rm vap}$ taking on a constant value. In other words, the region has become sub-saturated and from that point, the profile follows a dry adiabat. Finally, we can see that as the planet cools, the condensation zones descend deeper into the interior.
@@ -409,8 +410,7 @@ From this plot, one can see that the presence of a radiative zone creates a temp
 \section{Thermal Evolution of Uranus and Neptune}
 
 % cooling camparisons of dry adiabat, moist adiabat, and moist adiabat with radiative layer
-In Figure~\ref{fig:evolve_adiabats}, we display the results of evolutionary tracks that consider separately the evolution of a dry adiabat, a moist adiabat with condensation but no stable radiative zone, and a moist adiabat with condensation containing stable radiative zones. For all of these evolutionary tracks, we assume $q_{\rm deep} = 0.25$. The coolest scenario at present time, is a moist adiabat that is never stable against convection. The moist adiabat that allows for the formation of stable condensation zones has the warmest outcome at present time. In Figure~\ref{fig:evolve_uranus_qdeeps} (Uranus) and Figure~\ref{fig:evolve_neptune_qdeeps} (Neptune), we consider the impact of different concentrations of $q_{\rm deep}$ on the thermal evolution of Uranus and Neptune. As the planets cool, their radiative zones descend deeper into the interior, as we saw in Figure~\ref{fig:radiative}. This behavior is also noticeable in the thermal evolution plots. Looking at $T_{\rm eff}$ at ~$7 \times 10^7$ Gyr, the onset of condensation-inhibited convection is clearly visible, resulting in a discontinuous temperature drop. The same behavior is seen in the $T_{10}$ plots for both planets, however, by this time the radiative zone has descended deeper, later in time at around ~$7 \times 10^8$ Gyr. Larger deep water concentrations result in warmer Uranus and Neptune at present time. We also look at the impact of $q_{\rm deep}$ on the evolution of planetary radius in Figure \ref{fig:evolve_uranus_radius} (Uranus) and Figure \ref{fig:evolve_neptune_radius} (Neptune) and find that larger deep water concentrations tend to converge more closely toward the presently observed radius for both Uranus and Neptune in these simulations. 
-
+In Figure~\ref{fig:evolve_adiabats}, we display the results of evolutionary tracks that consider separately the evolution of a dry adiabat, a moist adiabat with condensation but no stable radiative zone, and a moist adiabat with condensation containing stable radiative zones. For all of these evolutionary tracks, we assume $q_{\rm deep} = 0.25$. 
 \begin{figure}[ht]
  \centerline{
   \includegraphics[width=\columnwidth]{figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png}
@@ -419,7 +419,7 @@ In Figure~\ref{fig:evolve_adiabats}, we display the results of evolutionary trac
 {Thermal evolution of Uranus comparing the impact of dry convection, moist convection, and moist convection allowing for formation of stable condensation zone. The black line represents the thermal evolution for a dry adiabat. The dark red line represents the thermal evolution for a moist adiabat that does not allow for the formation of a stable radiative layer. The light red line represents the thermal evolution of a moist adiabat that does allow for the formation of a stable radiative zone. The fuchsia dot on the lower plot represent the currently observed effective temperature of Uranus with error range. }
 \label{fig:evolve_adiabats}
 \end{figure}
-
+The coolest scenario at present time, is a moist adiabat that is never stable against convection. The moist adiabat that allows for the formation of stable condensation zones has the warmest outcome at present time. In Figure~\ref{fig:evolve_uranus_qdeeps} (Uranus) 
 % cooling uranus
 \begin{figure}[ht]
  \centerline{
@@ -429,10 +429,8 @@ In Figure~\ref{fig:evolve_adiabats}, we display the results of evolutionary trac
 {Thermal evolution of Uranus as a function of deep water abundance. The curves in these plots represent thermal evolution tracks for different values of $q_{\rm deep}$. Dark blue is the largest concentration of water vapor, at $q_{\rm deep} = 0.55$ and the light blue line is the least concentration of water vapor at $q_{\rm deep} = 0.05$. The insets zoom in on periods of rapid cooling (the initial onset of condensation-inhibited convection). The vertical fuchsia line represents the current $T_{\rm eff}$ with error range.}
 \label{fig:evolve_uranus_qdeeps}
 \end{figure}
-
+and Figure~\ref{fig:evolve_neptune_qdeeps} (Neptune), we consider the impact of different concentrations of $q_{\rm deep}$ on the thermal evolution of Uranus and Neptune. As the planets cool, their radiative zones descend deeper into the interior, as we saw in Figure~\ref{fig:radiative}. This behavior is also noticeable in the thermal evolution plots. Looking at $T_{\rm eff}$ at ~$7 \times 10^7$ Gyr, the onset of condensation-inhibited convection is clearly visible, resulting in a discontinuous temperature drop. The same behavior is seen in the $T_{10}$ plots for both planets, however, by this time the radiative zone has descended deeper, later in time at around ~$7 \times 10^8$ Gyr. Larger deep water concentrations result in warmer Uranus and Neptune at present time. We also look at the impact of $q_{\rm deep}$ on the evolution of planetary radius in Figure \ref{fig:evolve_uranus_radius} (Uranus) and Figure \ref{fig:evolve_neptune_radius} (Neptune) and find that larger deep water concentrations tend to converge more closely toward the presently observed radius for both Uranus and Neptune in these simulations. 
 %  cooling neptune
- 
-
 \begin{figure}[ht]
  \centerline{
   \includegraphics[width=\columnwidth]{figures/n_cooling_curves_nz_4096_more_qdeeps.png}
@@ -441,9 +439,6 @@ In Figure~\ref{fig:evolve_adiabats}, we display the results of evolutionary trac
 {Thermal evolution of Neptune as a function of deep water abundance. The curves in these plots represent thermal evolution tracks for different values of $q_{\rm deep}$. Dark blue is the largest concentration of water vapor, at $q_{\rm deep} = 0.55$ and the light blue line is the least concentration of water vapor at $q_{\rm deep} = 0.05$. The insets zoom in on periods of rapid cooling (the initial onset of condensation-inhibited convection). The vertical fuchsia line represents the current $T_{\rm eff}$ with error range.}
 \label{fig:evolve_neptune_qdeeps}
 \end{figure}
-
-
-
 %  cooling radius curves
 \begin{figure}[ht]
  \centerline{

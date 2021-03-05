@@ -142,9 +142,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/mathb5.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
-INPUT figures/structure_schematic/structure_schematic.001.jpeg
-INPUT ./figures/structure_schematic/structure_schematic.001.jpeg
-INPUT ./figures/structure_schematic/structure_schematic.001.jpeg
+INPUT figures/onion.pdf
+INPUT ./figures/onion.pdf
+INPUT ./figures/onion.pdf
 INPUT figures/structure_schematic/structure_schematic.002.jpeg
 INPUT ./figures/structure_schematic/structure_schematic.002.jpeg
 INPUT ./figures/structure_schematic/structure_schematic.002.jpeg
