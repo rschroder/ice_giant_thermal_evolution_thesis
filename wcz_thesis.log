@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 MAR 2021 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 MAR 2021 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,12 +505,7 @@ Package caption Info: End \AtBeginDocument code.
  1.
 [1
 
-] [2] [3] [4] [5] [6] [7]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 193.
-
-[8] [9]
+] [2] [3] [4] [5] [6] [7] [8] [9]
  2.
 [10
 
@@ -521,52 +516,34 @@ Overfull \hbox (12.67966pt too wide) in paragraph at lines 225--227
 10.95 4\OML/cmm/m/it/10.95 ^^YR[]^^[[]T[]$\OT1/cmr/m/n/10.95 ,
  []
 
-
-Overfull \hbox (5.25252pt too wide) in paragraph at lines 239--240
-[]\OT1/cmr/m/n/10.95 We em-ploy a three-layer in-te-rior struc-ture, seen schem
-at-i-cally in Fig-ure 2.1[]. Broadly
- []
-
-[11]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 243.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 255.
-
-[12]
-<figures/onion.pdf, id=73, 1027.84pt x 770.88pt>
+<figures/onion.pdf, id=65, 1027.84pt x 770.88pt>
 File: figures/onion.pdf Graphic file (type pdf)
 <use figures/onion.pdf>
-Package pdftex.def Info: figures/onion.pdf  used on input line 294.
+Package pdftex.def Info: figures/onion.pdf  used on input line 243.
 (pdftex.def)             Requested size: 433.62pt x 325.2142pt.
- [13] [14 <./figures/onion.pdf>]
-<figures/structure_schematic/structure_schematic.002.jpeg, id=102, 1027.84pt x 
-770.88pt>
-File: figures/structure_schematic/structure_schematic.002.jpeg Graphic file (ty
-pe jpg)
-<use figures/structure_schematic/structure_schematic.002.jpeg>
-Package pdftex.def Info: figures/structure_schematic/structure_schematic.002.jp
-eg  used on input line 308.
-(pdftex.def)             Requested size: 433.62pt x 325.2142pt.
- [15]
-<figures/comparison_dry_vs_moist_lapse_rates.png, id=106, 746.79pt x 379.8993pt
+[11]
+
+LaTeX Warning: Text page 12 contains only floats.
+
+
+Overfull \vbox (0.9192pt too high) has occurred while \output is active []
+
+
+[12 <./figures/onion.pdf>] [13] [14]
+<figures/comparison_dry_vs_moist_lapse_rates.png, id=102, 746.79pt x 379.8993pt
 >
 File: figures/comparison_dry_vs_moist_lapse_rates.png Graphic file (type png)
 <use figures/comparison_dry_vs_moist_lapse_rates.png>
 Package pdftex.def Info: figures/comparison_dry_vs_moist_lapse_rates.png  used 
-on input line 318.
+on input line 303.
 (pdftex.def)             Requested size: 433.62pt x 220.5852pt.
- [16 <./figures/structure_schematic/structure_schematic.002.jpeg>] [17 <./figur
-es/comparison_dry_vs_moist_lapse_rates.png>] [18] [19]
+ [15] [16 <./figures/comparison_dry_vs_moist_lapse_rates.png>] [17] [18] [19]
  3.
-<figures/convection_inhibited_2.png, id=121, 1349.7627pt x 1442.5092pt>
+<figures/convection_inhibited_2.png, id=120, 1349.7627pt x 1442.5092pt>
 File: figures/convection_inhibited_2.png Graphic file (type png)
 <use figures/convection_inhibited_2.png>
 Package pdftex.def Info: figures/convection_inhibited_2.png  used on input line
- 376.
+ 397.
 (pdftex.def)             Requested size: 433.62pt x 463.41727pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -575,93 +552,105 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 <figures/uranus_thesis_static_radiative_layer_plots_without_grid_points_more_qd
-eeps.png, id=126, 1325.9136pt x 1442.5092pt>
+eeps.png, id=125, 1325.9136pt x 1442.5092pt>
 File: figures/uranus_thesis_static_radiative_layer_plots_without_grid_points_mo
 re_qdeeps.png Graphic file (type png)
 <use figures/uranus_thesis_static_radiative_layer_plots_without_grid_points_mor
 e_qdeeps.png>
 Package pdftex.def Info: figures/uranus_thesis_static_radiative_layer_plots_wit
-hout_grid_points_more_qdeeps.png  used on input line 391.
+hout_grid_points_more_qdeeps.png  used on input line 412.
 (pdftex.def)             Requested size: 433.62pt x 471.73738pt.
  [21]
-<figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=130, 697
+<figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png, id=129, 697
 .8873pt x 493.845pt>
 File: figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png Graphic
  file (type png)
 <use figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>
 Package pdftex.def Info: figures/thesis_static_radiative_layer_plot_diff_qdeep_
-overlay.png  used on input line 402.
+overlay.png  used on input line 423.
 (pdftex.def)             Requested size: 433.62pt x 306.84384pt.
-<figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=131, 
-1092.2406pt x 896.6298pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png, id=130, 
+1089.8316pt x 896.6298pt>
 File: figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png Grap
 hic file (type png)
 <use figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>
 Package pdftex.def Info: figures/dry_moist_radiative_u_cooling_curves_adiabat_c
-omparisons.png  used on input line 417.
-(pdftex.def)             Requested size: 433.62pt x 355.964pt.
-<figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=132, 1092.2406pt x 896.62
+omparisons.png  used on input line 438.
+(pdftex.def)             Requested size: 433.62pt x 356.74384pt.
+[22]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/u_cooling_curves_nz_4096_more_qdeeps.png, id=134, 1089.8316pt x 896.62
 98pt>
 File: figures/u_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/u_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 427.
-(pdftex.def)             Requested size: 433.62pt x 355.964pt.
-<figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=133, 1092.7224pt x 896.62
+ on input line 450.
+(pdftex.def)             Requested size: 433.62pt x 356.74384pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/n_cooling_curves_nz_4096_more_qdeeps.png, id=135, 1092.7224pt x 896.62
 98pt>
 File: figures/n_cooling_curves_nz_4096_more_qdeeps.png Graphic file (type png)
 <use figures/n_cooling_curves_nz_4096_more_qdeeps.png>
 Package pdftex.def Info: figures/n_cooling_curves_nz_4096_more_qdeeps.png  used
- on input line 437.
+ on input line 464.
 (pdftex.def)             Requested size: 433.62pt x 355.79982pt.
-<figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=134, 1060.9236pt x 4
+<figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png, id=136, 1060.9236pt x 4
 06.3983pt>
 File: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png Graphic file (type 
 png)
 <use figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png>
 Package pdftex.def Info: figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png 
- used on input line 446.
+ used on input line 473.
 (pdftex.def)             Requested size: 433.62pt x 166.10349pt.
- [22]
-<figures/n_cooling_radius_nz_4096_logx.png, id=138, 1073.4504pt x 406.3983pt>
+[23]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/n_cooling_radius_nz_4096_logx.png, id=140, 1073.4504pt x 406.3983pt>
 File: figures/n_cooling_radius_nz_4096_logx.png Graphic file (type png)
 <use figures/n_cooling_radius_nz_4096_logx.png>
 Package pdftex.def Info: figures/n_cooling_radius_nz_4096_logx.png  used on inp
-ut line 456.
+ut line 483.
 (pdftex.def)             Requested size: 433.62pt x 164.16252pt.
- [23] [24 <./figures/convection_inhibited_2.png>] [25 <./figures/uranus_thesis_
-static_radiative_layer_plots_without_grid_points_more_qdeeps.png>] [26 <./figur
-es/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>]
-[27 <./figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png>]
-[28 <./figures/u_cooling_curves_nz_4096_more_qdeeps.png>] [29 <./figures/n_cool
-ing_curves_nz_4096_more_qdeeps.png>] [30 <./figures/u_cooling_radius_nz_4096_lo
-gx_more_qdeeps.png> <./figures/n_cooling_radius_nz_4096_logx.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24] [25 <./figures/convection_inhibited_2.png>] [26 <./figures/uranus_thesis_s
+tatic_radiative_layer_plots_without_grid_points_more_qdeeps.png>] [27 <./figure
+s/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png>] [28 <./figures/dr
+y_moist_radiative_u_cooling_curves_adiabat_comparisons.png>] [29 <./figures/u_c
+ooling_curves_nz_4096_more_qdeeps.png>] [30 <./figures/n_cooling_curves_nz_4096
+_more_qdeeps.png>] [31 <./figures/u_cooling_radius_nz_4096_logx_more_qdeeps.png
+> <./figures/n_cooling_radius_nz_4096_logx.png>]
  4.
+[32
 
-Package natbib Warning: Citation `scheibe_2019' on page 31 undefined on input l
-ine 465.
+] [33] (./wcz_thesis.bbl [34] [35
 
-[31
-
-] (./wcz_thesis.bbl [32] [33
-
-] [34] [35])
-
-Package natbib Warning: There were undefined citations.
-
-[36] (./wcz_thesis.aux)
+] [36] [37]) [38] (./wcz_thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6764 strings out of 480608
- 105773 string characters out of 5903631
- 480700 words of memory out of 5000000
- 22549 multiletter control sequences out of 15000+600000
+ 6773 strings out of 480608
+ 105811 string characters out of 5903631
+ 479700 words of memory out of 5000000
+ 22561 multiletter control sequences out of 15000+600000
  546203 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,11n,48p,2783b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,48p,2778b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -681,10 +670,10 @@ e/2020/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on wcz_thesis.pdf (41 pages, 13683104 bytes).
+Output written on wcz_thesis.pdf (43 pages, 13443676 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 259 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

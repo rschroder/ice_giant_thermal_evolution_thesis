@@ -4,6 +4,17 @@
 {Armitage}, P.~J. (2013).
 \newblock {\em {Astrophysics of Planet Formation}}.
 
+\bibitem[{Atreya} et~al., 2016]{2016arXiv160604510A}
+{Atreya}, S.~K., {Crida}, A., {Guillot}, T., {Lunine}, J.~I., {Madhusudhan},
+  N., \& {Mousis}, O. (2016).
+\newblock {The Origin and Evolution of Saturn, with Exoplanet Perspective}.
+\newblock {\em arXiv e-prints}, (pp.\ arXiv:1606.04510).
+
+\bibitem[{Bailey} \& {Stevenson}, 2020]{2020arXiv201204166B}
+{Bailey}, E. \& {Stevenson}, D.~J. (2020).
+\newblock {Thermodynamically Governed Interior Models of Uranus and Neptune}.
+\newblock {\em arXiv e-prints}, (pp.\ arXiv:2012.04166).
+
 \bibitem[{Chabrier} et~al., 2019]{chabrier_eos}
 {Chabrier}, G., {Mazevet}, S., \& {Soubiran}, F. (2019).
 \newblock {A New Equation of State for Dense Hydrogen-Helium Mixtures}.
@@ -98,6 +109,12 @@
   Jupiter, Saturn, Uranus, and Neptune}.
 \newblock {\em \aap}, 598, A98.
 
+\bibitem[{Lindal}, 1992]{1992AJ....103..967L}
+{Lindal}, G.~F. (1992).
+\newblock {The Atmosphere of Neptune: an Analysis of Radio Occultation Data
+  Acquired with Voyager 2}.
+\newblock {\em \aj}, 103, 967.
+
 \bibitem[{Lissauer} \& {Stevenson}, 2007]{2007prpl.conf..591L}
 {Lissauer}, J.~J. \& {Stevenson}, D.~J. (2007).
 \newblock {Formation of Giant Planets}.
@@ -171,5 +188,10 @@ Seager, S. (2010).
 {Smoluchowski}, R. (1967).
 \newblock {Internal Structure and Energy Emission of Jupiter}.
 \newblock {\em \nat}, 215(5102), 691--695.
+
+\bibitem[{Valencia} et~al., 2013]{2013ApJ...775...10V}
+{Valencia}, D., {Guillot}, T., {Parmentier}, V., \& {Freedman}, R.~S. (2013).
+\newblock {Bulk Composition of GJ 1214b and Other Sub-Neptune Exoplanets}.
+\newblock {\em \apj}, 775(1), 10.
 
 \end{thebibliography}

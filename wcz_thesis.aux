@@ -16,20 +16,24 @@
 \citation{sanchez-lavega}
 \newlabel{eq:effective_temp}{{1.4}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}Means of Energy Transport}{3}\protected@file@percent }
+\newlabel{eq:dry_lapse_rate}{{1.6}{3}}
 \citation{kippenhahn_2012}
 \citation{kippenhahn_2012}
 \citation{sanchez_2011}
 \newlabel{eq:ledoux}{{1.10}{4}}
 \citation{sanchez_2011}
+\newlabel{eq:saturation_vapor_pressure}{{1.13}{5}}
+\newlabel{eq:moist_lapse_rate}{{1.14}{5}}
 \citation{guillot_1995,friedson_2017,leconte_2017}
 \citation{leconte_2017}
-\newlabel{eq:saturation_vapor_pressure}{{1.13}{5}}
-\citation{leconte_2017}
 \citation{guillot_1995}
+\citation{2016arXiv160604510A}
 \citation{guillot_1995}
 \citation{low_1966}
 \citation{hubbard_1968,smoluchowski_1967,hubbard_1977,hubbard_1977_2,podolak_1991}
 \citation{demarcus_1958}
+\citation{pearl_conrath_1991}
+\citation{pearl_conrath_1991}
 \citation{pearl_conrath_1991}
 \citation{graboske_1975,fortney_2011}
 \citation{fortney_hubbard_2003,2020ApJ...889...51M}
@@ -40,12 +44,10 @@
 \citation{guillot_1995}
 \citation{nettelmann_2016}
 \citation{friedson_2017,leconte_2017}
-\citation{pearl_conrath_1991}
-\citation{pearl_conrath_1991}
-\citation{guillot_1995,friedson_2017,leconte_2017}
-\@writefile{lot}{\contentsline {table}{\numberline {1.1}{\ignorespaces Temperatures of giant planets. The internal energy flux of Uranus is consistent with zero within the observational uncertainty. Table adapted from \citep  {pearl_conrath_1991}\relax }}{9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1.1}{\ignorespaces Temperatures of giant planets. The internal energy flux of Uranus is consistent with zero within the observational uncertainty. Table adapted from \citep  {pearl_conrath_1991}\relax }}{8}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{tab:planetary_temperatures}{{1.1}{9}}
+\newlabel{tab:planetary_temperatures}{{1.1}{8}}
+\citation{guillot_1995,friedson_2017,leconte_2017}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Model}{10}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -59,95 +61,108 @@
 \newlabel{eq:timestep}{{2.4}{11}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Standard Interior Structure Model}{11}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Inputs}{11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces A Standard Interior Structure Model}}{12}\protected@file@percent }
+\newlabel{fig:standard_dry_interior}{{2.1}{12}}
 \citation{chabrier_eos}
 \citation{mazevet_2019}
-\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Model inputs for the core and inner envelope. $m_{\rm  core}$ is the core mass in units of Earth masses. $m_{\rm  12}$ is the mass coordinate for the boundary between the inner and outer envelope. $X_{2}$, $Y_{2}$, and $Z_{2}$ are the mass fractions for H, He, and H$_{2}$O, respectively.\relax }}{12}\protected@file@percent }
-\newlabel{tab:core_mass_and_inner_envelope_mass_fractions}{{2.1}{12}}
-\@writefile{lot}{\contentsline {table}{\numberline {2.2}{\ignorespaces Model inputs for the outer envelope. $q_{\rm  deep}$ is the deep water concentration. $X_{1}$ and $Y_{1}$ are the H and He mass fractions.\relax }}{12}\protected@file@percent }
-\newlabel{tab:outer_envelope_mass_fractions}{{2.2}{12}}
-\@writefile{toc}{\contentsline {subsubsection}{Equations of State}{12}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Relative Mass Abundances Within Each Layer}{13}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Model inputs for the core and inner envelope. $m_{\rm  core}$ is the core mass in units of Earth masses. $m_{\rm  12}$ is the mass coordinate for the boundary between the inner and outer envelope. $Y_{2}$ and $Z_{2}$ are the mass fractions for He and H$_{2}$O, respectively. The hydrogen mass fraction is found from $X_{2} = 1 - Y_{2} - Z_{2}$\relax }}{13}\protected@file@percent }
+\newlabel{tab:core_mass_and_inner_envelope_mass_fractions}{{2.1}{13}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.2}{\ignorespaces Model inputs for the outer envelope. $q_{\rm  deep}$ is the deep water concentration. $Y_{1}$ is the He mass fraction. $q_{\rm  deep} = Z_{1}$ and with the inner envelope mass fractions, $X_{1} = 1 - Y_{1} - Z_{1}$ \relax }}{13}\protected@file@percent }
+\newlabel{tab:outer_envelope_mass_fractions}{{2.2}{13}}
+\@writefile{toc}{\contentsline {subsubsection}{Equations of State}{13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Relative Mass Abundances Within Each Layer}{14}\protected@file@percent }
 \citation{1975ApJ...199..265G,fortney_2011}
 \citation{fortney_2011}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces A Standard Interior Structure Model}}{14}\protected@file@percent }
-\newlabel{fig:standard_dry_interior}{{2.1}{14}}
 \@writefile{toc}{\contentsline {subsubsection}{Atmospheric Boundary Condition}{15}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Inclusion of Moist Adiabat Within Outer Envelope of Standard Model}{15}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces A Standard Interior Structure Model}}{16}\protected@file@percent }
+\newlabel{fig:comparison_adiabatic_profiles}{{2.2}{16}}
 \citation{friedson_2017}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Interior Structure for Moist Adiabat}}{16}\protected@file@percent }
-\newlabel{fig:moist_interior}{{2.2}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces A Standard Interior Structure Model}}{17}\protected@file@percent }
-\newlabel{fig:comparison_adiabatic_profiles}{{2.3}{17}}
-\newlabel{eq:alpha}{{2.9}{17}}
 \citation{friedson_2017,leconte_2017}
 \citation{kippenhahn_2012}
-\@writefile{toc}{\contentsline {subsubsection}{Temperature Jump Across the Water Condensation Zone}{18}\protected@file@percent }
-\newlabel{eq:radiative_gradient}{{2.10}{18}}
-\newlabel{eq:temp_integral_over_radiative_layer}{{2.11}{18}}
-\newlabel{eq:temperature_profile_over_radiative_layer_simplification}{{2.12}{18}}
-\newlabel{eq:delta_P_over_radiative_layer}{{2.13}{19}}
-\newlabel{eq:vapor_mole_fraction_within_condensation_zone}{{2.14}{19}}
-\newlabel{eq:cloud_base}{{2.15}{19}}
-\newlabel{eq:dry_adiabat_integration}{{2.16}{19}}
+\citation{2013ApJ...775...10V}
+\newlabel{eq:alpha}{{2.9}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{Temperature Jump Across the Water Condensation Zone}{17}\protected@file@percent }
+\newlabel{eq:radiative_gradient}{{2.10}{17}}
+\newlabel{eq:kappa1}{{2.11}{17}}
+\citation{2013ApJ...775...10V}
+\citation{2013ApJ...775...10V}
+\newlabel{eq:kappalow}{{2.12}{18}}
+\newlabel{eq:kappahigh}{{2.13}{18}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.3}{\ignorespaces Coefficients for Equations 2.12\hbox {} and 2.13\hbox {}. Table adapted from \citep  {2013ApJ...775...10V}\relax }}{18}\protected@file@percent }
+\newlabel{tab:kappa_tab}{{2.3}{18}}
+\newlabel{eq:temp_integral_over_radiative_layer}{{2.14}{18}}
+\newlabel{eq:temperature_profile_over_radiative_layer_simplification}{{2.15}{19}}
+\newlabel{eq:delta_P_over_radiative_layer}{{2.16}{19}}
+\newlabel{eq:vapor_mole_fraction_within_condensation_zone}{{2.17}{19}}
+\newlabel{eq:cloud_base}{{2.18}{19}}
+\newlabel{eq:dry_adiabat_integration}{{2.19}{19}}
 \citation{guillot_1995}
 \citation{friedson_2017,leconte_2017}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Results}{20}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{20}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{21}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{21}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{23}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Inhibition of convection on Uranus}}{24}\protected@file@percent }
-\newlabel{fig:convection_inhibited}{{3.1}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Formation of Radiative Zone}}{25}\protected@file@percent }
-\newlabel{fig:radiative}{{3.2}{25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Impact of Radiative Layer on $T_{10}$}}{26}\protected@file@percent }
-\newlabel{fig:overlay}{{3.3}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Thermal Evolution Curves for Uranus - Adiabat Comparisons}}{27}\protected@file@percent }
-\newlabel{fig:evolve_adiabats}{{3.4}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Thermal Evolution Curves for Uranus - Water Vapor Concentration Comparisons}}{28}\protected@file@percent }
-\newlabel{fig:evolve_uranus_qdeeps}{{3.5}{28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Thermal Evolution Curves for Neptune - Water Vapor Concentration Comparisons}}{29}\protected@file@percent }
-\newlabel{fig:evolve_neptune_qdeeps}{{3.6}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Thermal Evolution Curves for Uranus - Radius}}{30}\protected@file@percent }
-\newlabel{fig:evolve_uranus_radius}{{3.7}{30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Thermal Evolution Curves for Neptune - Radius}}{30}\protected@file@percent }
-\newlabel{fig:evolve_neptune_radius}{{3.8}{30}}
-\citation{nettelmann_2016,friedson_2017,leconte_2017,podolak_1991,scheibe_2019}
-\citation{guillot_2019}
-\citation{friedson_2017,2019arXiv190802092G}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Discussion}{31}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Inhibition of convection on Uranus}}{25}\protected@file@percent }
+\newlabel{fig:convection_inhibited}{{3.1}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Formation of Radiative Layer}}{26}\protected@file@percent }
+\newlabel{fig:radiative}{{3.2}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Impact of Radiative Layer on $T_{10}$}}{27}\protected@file@percent }
+\newlabel{fig:overlay}{{3.3}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Thermal Evolution Curves for Uranus - Adiabat Comparisons}}{28}\protected@file@percent }
+\newlabel{fig:evolve_adiabats}{{3.4}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Thermal Evolution Curves for Uranus - Water Vapor Concentration Comparisons}}{29}\protected@file@percent }
+\newlabel{fig:evolve_uranus_qdeeps}{{3.5}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Thermal Evolution Curves for Neptune - Water Vapor Concentration Comparisons}}{30}\protected@file@percent }
+\newlabel{fig:evolve_neptune_qdeeps}{{3.6}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Thermal Evolution Curves for Uranus - Radius}}{31}\protected@file@percent }
+\newlabel{fig:evolve_uranus_radius}{{3.7}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Thermal Evolution Curves for Neptune - Radius}}{31}\protected@file@percent }
+\newlabel{fig:evolve_neptune_radius}{{3.8}{31}}
+\citation{nettelmann_2016,friedson_2017,leconte_2017,podolak_1991,2019A&A...632A..70S}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Discussion}{32}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\citation{guillot_2019}
+\citation{friedson_2017,2019arXiv190802092G}
+\citation{1992AJ....103..967L}
+\citation{2019arXiv190802092G}
+\citation{2020arXiv201204166B}
 \bibdata{wcz_bib}
 \bibcite{2013apf..book.....A}{{1}{2013}{{Armitage}}{{}}}
-\bibcite{chabrier_eos}{{2}{2019}{{{Chabrier} et~al.}}{{}}}
-\bibcite{demarcus_1958}{{3}{1958}{{Demarcus}}{{}}}
-\bibcite{fortney_hubbard_2003}{{4}{2003}{{{Fortney} \& {Hubbard}}}{{}}}
-\bibcite{fortney_2011}{{5}{2011}{{{Fortney} et~al.}}{{}}}
-\bibcite{friedson_2017}{{6}{2017}{{{Friedson} \& {Gonzales}}}{{}}}
-\bibcite{graboske_1975}{{7}{1975a}{{{Graboske} et~al.}}{{}}}
-\bibcite{1975ApJ...199..265G}{{8}{1975b}{{{Graboske} et~al.}}{{}}}
-\bibcite{guillot_1995}{{9}{1995}{{Guillot}}{{}}}
-\bibcite{2019arXiv190802092G}{{10}{2019}{{Guillot}}{{}}}
-\bibcite{guillot_2019}{{11}{2020}{{Guillot}}{{}}}
-\bibcite{hubbard_1968}{{12}{1968}{{Hubbard}}{{}}}
-\bibcite{hubbard_1977}{{13}{1977}{{Hubbard}}{{}}}
-\bibcite{hubbard_1977_2}{{14}{1978}{{Hubbard}}{{}}}
-\bibcite{hubbard_1995}{{15}{1995}{{{Hubbard} et~al.}}{{}}}
-\bibcite{leconte_chabrier_2013}{{16}{2013}{{{Leconte} \& {Chabrier}}}{{}}}
-\bibcite{leconte_2017}{{17}{2017}{{{Leconte} et~al.}}{{}}}
-\bibcite{2007prpl.conf..591L}{{18}{2007}{{{Lissauer} \& {Stevenson}}}{{}}}
-\bibcite{low_1966}{{19}{1966}{{Low}}{{}}}
-\bibcite{2020ApJ...889...51M}{{20}{2020}{{{Mankovich} \& {Fortney}}}{{}}}
-\bibcite{mazevet_2019}{{21}{2019}{{{Mazevet} et~al.}}{{}}}
-\bibcite{nettelmann_2016}{{22}{2016}{{{Nettelmann} et~al.}}{{}}}
-\bibcite{pearl_conrath_1991}{{23}{1991}{{{Pearl} \& {Conrath}}}{{}}}
-\bibcite{pierrehumbert_2010}{{24}{2010}{{Pierrehumbert}}{{}}}
-\bibcite{podolak_1991}{{25}{1991}{{{Podolak} et~al.}}{{}}}
-\bibcite{kippenhahn_2012}{{26}{2012}{{R.~Kippenhahn}}{{}}}
-\bibcite{sanchez-lavega}{{27}{2010}{{Sanchez-Lavega}}{{}}}
-\bibcite{sanchez_2011}{{28}{2011}{{Sanchez-Lavega}}{{}}}
-\bibcite{2019A&A...632A..70S}{{29}{2019}{{{Scheibe} et~al.}}{{}}}
-\bibcite{seager_2010}{{30}{2010}{{Seager}}{{}}}
-\bibcite{smoluchowski_1967}{{31}{1967}{{Smoluchowski}}{{}}}
+\bibcite{2016arXiv160604510A}{{2}{2016}{{{Atreya} et~al.}}{{}}}
+\bibcite{2020arXiv201204166B}{{3}{2020}{{{Bailey} \& {Stevenson}}}{{}}}
+\bibcite{chabrier_eos}{{4}{2019}{{{Chabrier} et~al.}}{{}}}
+\bibcite{demarcus_1958}{{5}{1958}{{Demarcus}}{{}}}
+\bibcite{fortney_hubbard_2003}{{6}{2003}{{{Fortney} \& {Hubbard}}}{{}}}
+\bibcite{fortney_2011}{{7}{2011}{{{Fortney} et~al.}}{{}}}
+\bibcite{friedson_2017}{{8}{2017}{{{Friedson} \& {Gonzales}}}{{}}}
+\bibcite{graboske_1975}{{9}{1975a}{{{Graboske} et~al.}}{{}}}
+\bibcite{1975ApJ...199..265G}{{10}{1975b}{{{Graboske} et~al.}}{{}}}
+\bibcite{guillot_1995}{{11}{1995}{{Guillot}}{{}}}
+\bibcite{2019arXiv190802092G}{{12}{2019}{{Guillot}}{{}}}
+\bibcite{guillot_2019}{{13}{2020}{{Guillot}}{{}}}
+\bibcite{hubbard_1968}{{14}{1968}{{Hubbard}}{{}}}
+\bibcite{hubbard_1977}{{15}{1977}{{Hubbard}}{{}}}
+\bibcite{hubbard_1977_2}{{16}{1978}{{Hubbard}}{{}}}
+\bibcite{hubbard_1995}{{17}{1995}{{{Hubbard} et~al.}}{{}}}
+\bibcite{leconte_chabrier_2013}{{18}{2013}{{{Leconte} \& {Chabrier}}}{{}}}
+\bibcite{leconte_2017}{{19}{2017}{{{Leconte} et~al.}}{{}}}
+\bibcite{1992AJ....103..967L}{{20}{1992}{{Lindal}}{{}}}
+\bibcite{2007prpl.conf..591L}{{21}{2007}{{{Lissauer} \& {Stevenson}}}{{}}}
+\bibcite{low_1966}{{22}{1966}{{Low}}{{}}}
+\bibcite{2020ApJ...889...51M}{{23}{2020}{{{Mankovich} \& {Fortney}}}{{}}}
+\bibcite{mazevet_2019}{{24}{2019}{{{Mazevet} et~al.}}{{}}}
+\bibcite{nettelmann_2016}{{25}{2016}{{{Nettelmann} et~al.}}{{}}}
+\bibcite{pearl_conrath_1991}{{26}{1991}{{{Pearl} \& {Conrath}}}{{}}}
+\bibcite{pierrehumbert_2010}{{27}{2010}{{Pierrehumbert}}{{}}}
+\bibcite{podolak_1991}{{28}{1991}{{{Podolak} et~al.}}{{}}}
+\bibcite{kippenhahn_2012}{{29}{2012}{{R.~Kippenhahn}}{{}}}
+\bibcite{sanchez-lavega}{{30}{2010}{{Sanchez-Lavega}}{{}}}
+\bibcite{sanchez_2011}{{31}{2011}{{Sanchez-Lavega}}{{}}}
+\bibcite{2019A&A...632A..70S}{{32}{2019}{{{Scheibe} et~al.}}{{}}}
+\bibcite{seager_2010}{{33}{2010}{{Seager}}{{}}}
+\bibcite{smoluchowski_1967}{{34}{1967}{{Smoluchowski}}{{}}}
+\bibcite{2013ApJ...775...10V}{{35}{2013}{{{Valencia} et~al.}}{{}}}

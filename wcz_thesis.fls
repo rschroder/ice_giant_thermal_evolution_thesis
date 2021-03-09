@@ -131,6 +131,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT figures/onion.pdf
+INPUT ./figures/onion.pdf
+INPUT ./figures/onion.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/matha10.tfm
@@ -142,12 +145,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/mathb5.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
-INPUT figures/onion.pdf
-INPUT ./figures/onion.pdf
-INPUT ./figures/onion.pdf
-INPUT figures/structure_schematic/structure_schematic.002.jpeg
-INPUT ./figures/structure_schematic/structure_schematic.002.jpeg
-INPUT ./figures/structure_schematic/structure_schematic.002.jpeg
 INPUT figures/comparison_dry_vs_moist_lapse_rates.png
 INPUT ./figures/comparison_dry_vs_moist_lapse_rates.png
 INPUT ./figures/comparison_dry_vs_moist_lapse_rates.png

@@ -11,13 +11,13 @@
 \contentsline {subsubsection}{Conservation of Energy}{11}%
 \contentsline {section}{\numberline {2.2}Standard Interior Structure Model}{11}%
 \contentsline {subsubsection}{Inputs}{11}%
-\contentsline {subsubsection}{Equations of State}{12}%
-\contentsline {subsubsection}{Relative Mass Abundances Within Each Layer}{13}%
+\contentsline {subsubsection}{Equations of State}{13}%
+\contentsline {subsubsection}{Relative Mass Abundances Within Each Layer}{14}%
 \contentsline {subsubsection}{Atmospheric Boundary Condition}{15}%
 \contentsline {section}{\numberline {2.3}Inclusion of Moist Adiabat Within Outer Envelope of Standard Model}{15}%
-\contentsline {subsubsection}{Temperature Jump Across the Water Condensation Zone}{18}%
+\contentsline {subsubsection}{Temperature Jump Across the Water Condensation Zone}{17}%
 \contentsline {chapter}{\numberline {3}Results}{20}%
 \contentsline {section}{\numberline {3.1}Condensation-inhibited Convection}{20}%
-\contentsline {section}{\numberline {3.2}Formation of Radiative Zone}{21}%
+\contentsline {section}{\numberline {3.2}Formation of Radiative Layer}{21}%
 \contentsline {section}{\numberline {3.3}Thermal Evolution of Uranus and Neptune}{23}%
-\contentsline {chapter}{\numberline {4}Discussion}{31}%
+\contentsline {chapter}{\numberline {4}Discussion}{32}%
