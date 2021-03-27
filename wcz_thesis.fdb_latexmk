@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex wcz_thesis"] 1615240974 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1616086960
+["bibtex wcz_thesis"] 1615240974 "wcz_thesis.aux" "wcz_thesis.bbl" "wcz_thesis" 1616873541
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1242948958 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
   "wcz_bib.bib" 1615174909 26901 2a1df96cb30c6553412813f70fbcdc24 ""
-  "wcz_thesis.aux" 1616086960 11112 80c592d90ea3d34e8cf391137c4a2c4c "pdflatex"
+  "wcz_thesis.aux" 1616873540 11112 80c592d90ea3d34e8cf391137c4a2c4c "pdflatex"
   (generated)
-  "wcz_thesis.blg"
   "wcz_thesis.bbl"
-["pdflatex"] 1616086949 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1616086960
+  "wcz_thesis.blg"
+["pdflatex"] 1616873530 "wcz_thesis.tex" "wcz_thesis.pdf" "wcz_thesis" 1616873541
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -105,7 +105,7 @@
   "figures/convection_inhibited_2.png" 1614390539 2506231 574677258321beabfb4df0c846939fd6 ""
   "figures/dry_moist_radiative_u_cooling_curves_adiabat_comparisons.png" 1615164107 580390 e39e0f6540ab4007e07d1ce9801b0f7d ""
   "figures/n_cooling_curves_nz_4096_more_qdeeps.png" 1615164509 1063642 6419199d5f8e5c38d0adf9f898953937 ""
-  "figures/n_cooling_radius_nz_4096_logx.png" 1615091200 361323 d65825fc2a88ca343bc3e519d6f90843 ""
+  "figures/n_cooling_radius_nz_4096_logx.png" 1616821376 395331 8b1291849edf527b7dc55defb34a0973 ""
   "figures/onion.pdf" 1614993392 29873 326c16e609f86354d830cf2d0fd7beca ""
   "figures/thesis_static_radiative_layer_plot_diff_qdeep_overlay.png" 1606287947 1139460 b7cf7ccf1627d9cbc71d5bdcad1876da ""
   "figures/u_cooling_curves_nz_4096_more_qdeeps.png" 1615163735 1054508 8d3a8d510f9aad3af60dbc597b9d3311 ""
@@ -113,14 +113,14 @@
   "figures/uranus_thesis_static_radiative_layer_plots_without_grid_points_more_qdeeps.png" 1614390539 10172713 6a5e752209b82b7bcdda108cb9513370 ""
   "ucsct11.clo" 1592201124 18016 606282ce6ede0b76e96e80b7e990ee92 ""
   "ucscthesisbs.cls" 1592201124 44063 edae4ad1ea5924ebf0aac7d7232fb2de ""
-  "wcz_thesis.aux" 1616086960 11112 80c592d90ea3d34e8cf391137c4a2c4c "pdflatex"
+  "wcz_thesis.aux" 1616873540 11112 80c592d90ea3d34e8cf391137c4a2c4c "pdflatex"
   "wcz_thesis.bbl" 1615240974 7571 4760d2b05fb1d7671e06f3f103620d8e "bibtex wcz_thesis"
-  "wcz_thesis.lof" 1616086960 1176 ca9e3ef893aaaf3201ae64fa2bcd40ad "pdflatex"
-  "wcz_thesis.tex" 1616086948 55159 7eed069ffd9ef2b7e866358c96b1f1e4 ""
-  "wcz_thesis.toc" 1616086960 1575 662977c500f90bd423c1a425afe036fb "pdflatex"
+  "wcz_thesis.lof" 1616873541 1176 ca9e3ef893aaaf3201ae64fa2bcd40ad "pdflatex"
+  "wcz_thesis.tex" 1616873528 55919 1134df6d0f8c711aaa83698391fd2953 ""
+  "wcz_thesis.toc" 1616873541 1575 662977c500f90bd423c1a425afe036fb "pdflatex"
   (generated)
-  "wcz_thesis.lof"
   "wcz_thesis.log"
+  "wcz_thesis.aux"
+  "wcz_thesis.lof"
   "wcz_thesis.toc"
   "wcz_thesis.pdf"
-  "wcz_thesis.aux"
