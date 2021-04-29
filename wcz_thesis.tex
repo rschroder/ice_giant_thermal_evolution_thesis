@@ -34,7 +34,7 @@
 \usepackage{stackengine}
 \newcommand\xrowht[2][0]{\addstackgap[.5\dimexpr#2\relax]{\vphantom{#1}}}
 
-
+  
 
 % \pagecolor{darkgray}
 % \color{white}
@@ -135,7 +135,7 @@ Convection is a common mode of energy transport in giant planet interiors. In th
   \nabla_{\rm ad} = \left( \frac{\partial \ln T}{\partial \ln P} \right)_{\rm s},
   \label{eq:dry_lapse_rate}
 \end{equation}
-where $s$ is entropy. In the atmosphere, where the ideal gas law is valid, the vertical temperature structure can also be expressed in terms of temperature and altitude \citep{sanchez-lavega} as
+where $s$ is entropy. In the atmosphere, where the ideal gas law is valid, the vertical temperature structure can also be expressed in terms of temperature and altitude \citep{sanchez_2011} as
 \begin{equation}
   \frac{dT}{dz} = \frac{-g}{C_{P}} = \Gamma_{\rm dry},
 \end{equation}
@@ -204,7 +204,7 @@ While thermal evolution models do currently reproduce $T_{\rm eff}$ for Jupiter 
 Meanwhile, for Uranus, contemporary models have predicted a warmer effective temperature at present time \citep{fortney_2011, podolak_1991, hubbard_1995, 2019A&A...632A..70S}. There have been various attempts to explain Uranus's luminosity anomaly. Early investigations posited that a stratified interior, stable against convection, would allow heat to be trapped deep within the interior \citep{podolak_1991}. Later work investigated some other possible explanations for Uranus's cool temperature. \citep{guillot_1995} posited that condensates such as NH$_{3}$, CH$_{4}$, or H$_{2}$O when at critical abundance could interfere with convection, producing temperature profiles that would be superadiabatic. \citep{nettelmann_2016} looked at the inclusion of ad-hoc thermal boundary layers within a planet's interior and found that they could possibly explain Uranus's current $T_{\rm eff}$. \citep{friedson_2017,leconte_2017} explored the impact of condensates forming stable radiative layers. Both carried out linear stability analyses and reached similar findings, concluding that super-critical abundances of H$_{2}$O would result in a superadiabatic temperature gradient. All of these investigations showed that the presence of thermal boundary layers could possibly provide a mechanism to trap heat deep within the interior, allowing the envelope above to cool more rapidly.
 
 The work done by \citep{guillot_1995,friedson_2017,leconte_2017} examined under what conditions stable condensation zones would form in hydrogen dominated atmospheres. In this paper, we apply the same physical mechanisms for the formation of stable water condensation zones. However, we expand on this by placing these stable, radiative layers in the context of a more complete model of interior structure for solar system ice giants. Finally, we investigate how these stable layers impact the cooling of the planets over time. 
-
+ 
 
 \chapter{Model}
 
@@ -293,7 +293,7 @@ Internal energy, $u$, is given by
 where $\rho_{\rm H}$ and $u_{\rm H}$ are the density and internal energy per gram of pure hydrogen at a given $P$, $T$. Quantities are defined similarly for helium and water.
 
 \subsubsection{Atmospheric Boundary Condition}
-Since atmospheres regulate how quickly the energy within a planet's interior can radiate into space, it is important to include a realistic atmospheric boundary condition as part of the interior structure model, as it provides key inputs that impact cooling times for the interior structure model and its evolution \citep{1975ApJ...199..265G,fortney_2011}. Specifically, the atmospheric boundary condition allows us to link the planet's $T_{\rm int}$ and $T_{\rm eff}$ to the model's surface gravity, $g$, and its $T_{1}$ (temperature at $P = 1$ bar) or $T_{10}$ (temperature at $P = 10$ bar). Our work utilizes the \citep{fortney_2011} model atmosphere which utilizes properties specific to solar system giants such as chemical abundance within the atmosphere, and incident flux as a function of the age of the solar system. 
+Since atmospheres regulate how quickly the energy within a planet's interior can radiate into space, it is important to include a realistic atmospheric boundary condition as part of the interior structure model, as it provides key inputs that impact cooling times for the interior structure model and its evolution \citep{graboske_1975,fortney_2011}. Specifically, the atmospheric boundary condition allows us to link the planet's $T_{\rm int}$ and $T_{\rm eff}$ to the model's surface gravity, $g$, and its $T_{1}$ (temperature at $P = 1$ bar) or $T_{10}$ (temperature at $P = 10$ bar). Our work utilizes the \citep{fortney_2011} model atmosphere which utilizes properties specific to solar system giants such as chemical abundance within the atmosphere, and incident flux as a function of the age of the solar system. 
 
 \section{Inclusion of Moist Adiabat Within Outer Envelope of Standard Model}
 Our interior structure model modifies the conventional structure described in Section \ref{Three-layer Model with Dry Adiabat} by allowing for moist convection within the outer envelope, as seen in the right-hand diagram in Figure \ref{fig:standard_dry_interior}. Under favorable conditions, the model allows for condensation of H$_{2}$O, and possibly the formation of a stable radiative layer that inhibits large-scale convection. To get a sense for how moist convection, or the presence of a stable radiative layer can alter the vertical temperature structure of a planet's interior, we refer to Figure \ref{fig:comparison_adiabatic_profiles}. 
@@ -493,7 +493,7 @@ We have investigated the impact of condensation and the formation of stable wate
 
 While our analysis suggests that moist-adiabatic interiors have a significant impact on the heat flow and thermal evolution of ice giants, making a case for their inclusion in contemporary interior structure models, our findings are nonetheless inconclusive with regard to Uranus's luminosity anomaly. We do find that incorporating a simple moist adiabat, not allowing for the formation of a stable radiative layer, into our interior structure model results in a cooler model Uranus and Neptune than would otherwise be seen with a purely dry model. However, when we allow for the formation of stable radiative layers within the interior, we find in the planet's past a period of rapid cooling within the outer envelope above the radiative layer resulting in a cooler effective temperature at around $7 \times 10^7$ yr. But, the formation of a radiative layer at depth effectively traps heat in the interior, prolonging the the cooling of the deeper interior as we saw previously in Figure \ref{fig:overlay}. As a consequence, both model Uranus and model Neptune eventually become warmer at present time than predicted by either dry or simple moist adiabatic models. 
 
-It is quite possible that reality resembles something in between the binary choice of an atmosphere with a moist adiabat containing a stable thermal boundary layer or an atmosphere with a moist adiabat containing no thermal boundary layer \citep{guillot_2019}. Our assumption of a stable shell of water condensation assumes that there are no other dynamics at play, such as upwelling or entrainment pressure \citep{friedson_2017,2019arXiv190802092G} eroding and punching holes in the stable radiative layer. Such a scenario could plausibly allow for more mixing of the warm gases below and cooler gases above the porous radiative layer. Additionally, if entrainment pressure were to destabilize the radiative layers at earlier, warmer periods in the planet's past, but allowing for stable radiative layers to exist in later, cooler phases, then we might see a period of rapid cooling, similar to those seen in Figures \ref{fig:evolve_uranus_qdeeps} and \ref{fig:evolve_neptune_qdeeps}, but later in time. It is unclear if this would result in a cooler Uranus at present. Efforts are currently underway to determine how long the stable radiative layers exist before being eroded by entrainment pressure, and what impact this may have on thermal evolution.
+It is quite possible that reality resembles something in between the binary choice of an atmosphere with a moist adiabat containing a stable thermal boundary layer or an atmosphere with a moist adiabat containing no thermal boundary layer \citep{2019arXiv190802092G}. Our assumption of a stable shell of water condensation assumes that there are no other dynamics at play, such as upwelling or entrainment pressure \citep{friedson_2017,2019arXiv190802092G} eroding and punching holes in the stable radiative layer. Such a scenario could plausibly allow for more mixing of the warm gases below and cooler gases above the porous radiative layer. Additionally, if entrainment pressure were to destabilize the radiative layers at earlier, warmer periods in the planet's past, but allowing for stable radiative layers to exist in later, cooler phases, then we might see a period of rapid cooling, similar to those seen in Figures \ref{fig:evolve_uranus_qdeeps} and \ref{fig:evolve_neptune_qdeeps}, but later in time. It is unclear if this would result in a cooler Uranus at present. Efforts are currently underway to determine how long the stable radiative layers exist before being eroded by entrainment pressure, and what impact this may have on thermal evolution.
 
 There are myriad possible actors that influence the cooling trajectories of the ice giants. Radio-occultation measurements from Voyager 2 show that condensation of CH$_{4}$ likely occurs at $ P \approx  1.5$ bar at $T \approx 80$ K \citep{1992AJ....103..967L}. For both ice giants, methane accounts for $15\%$ to $30 \%$ of the atmosphere. Both CH$_{4}$ and NH$_{3}$ exist in abundances that are well above those needed for inhibition of convection \citep{2019arXiv190802092G}. \citep{2020arXiv201204166B} explore possible evidence for composition gradients created by H$_{2}$-H$_{2}$O immiscibility that could inhibit convection. 
 
@@ -504,6 +504,6 @@ While water condensation certainly plays a role in the thermal structure and evo
 
 \newcommand{\newblock}{}
 \bibliography{wcz_bib}
- 
+  
 
 \end{document}
